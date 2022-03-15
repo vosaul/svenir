@@ -7,6 +7,7 @@ card_text: WeHomies are getting ready. Watch the trailer
 card_image: /assets/images/angel.png
 cta_text: DIVE INTO THE SVENIR DAO
 cta_link: /dive/
+cta_description: and BE PART OF THE SOUVENIR REVOLUTION!
 ---
 
 <div class="page__wrapper">
@@ -26,8 +27,16 @@ cta_link: /dive/
       <div class="card__text">
         {{page.card_text}}
       </div>
-
     </div>
+  </div>
+  <div class="page__button">
+    <div class="btn__decoration">
+      <img src="/assets/images/piramid.png" alt="">
+    </div>
+    <a class="btn" href="{{page.cta_link}}">{{page.cta_text}}</a>
+    <div class="btn__description">
+      * {{page.cta_description}}
+    </div>
+  </div>
 
-    <a class="page__btn" href="{{page.cta_link}}">{{page.cta_text}}</a>
 </div>
