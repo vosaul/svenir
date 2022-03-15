@@ -1,18 +1,41 @@
-.footer__wrapper {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-.footer__text {
-    font-size: 14px;
-    text-align: center;
+footer{
+    margin-top: 6%;
+    margin-bottom: 20%;
 
-}
-.footer__social {
-    margin: 0 auto;
-}
-.like {
-}
-.instagram {
-}
-.youtube {
+
+    .footer__wrapper {
+        max-width: 1080px;
+        margin: 0 auto;
+        text-align: center;
+
+        .footer__decoration{
+            border-top: 1px solid #000;
+            margin-bottom: 30px;
+        }
+        .footer__text {
+            max-width: 31%;
+            font-size: 12px;
+            font-weight: 900;
+            margin: 0 auto;
+            line-height: 1.2;
+            font-style: italic;  
+
+        }
+        .footer__social {
+            margin-top: 15px;
+            img{
+                padding-right: 5px;
+            }
+        
+            .like {
+                max-width: 2.5%;
+            }
+            .instagram {
+                max-width: 3%;
+            }
+            .youtube {
+                max-width: 3%;
+            }
+        }
+    }
 }

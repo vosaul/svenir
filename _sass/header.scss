@@ -1,28 +1,29 @@
 header{
     max-width: 1440px;
     margin: 0 auto;
-}
 
-.header__wrapper {
-    display: flex;
-    justify-content: space-between;
-}
 
-.header__logo {
-    img{
-        max-width: 10%;
+    .header__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin-bottom: 10%;
+
+        .header__logo {
+            img{
+                max-width: 12%;
+            }
+        }
+        .header__btn {
+            margin-top: 47px;
+            border: 1px solid #000;
+            border-radius: 50px;
+            text-transform: uppercase; 
+        }
+
+        .btn {
+            font-size: 25px;
+            padding: 20px 40px;
+        }
     }
-}
-
-.header__btn {
-    margin-top: 47px;
-    border: 1px solid #000;
-    border-radius: 50px;
-    text-transform: uppercase;
-    
-}
-
-.btn {
-    font-size: 25px;
-    padding: 20px 40px;
 }
