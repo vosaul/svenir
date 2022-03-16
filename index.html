@@ -11,19 +11,23 @@ cta_description: and BE PART OF THE SOUVENIR REVOLUTION!
 ---
 
 <div class="page__wrapper">
-  <div class="page__row">
+  <div class="page__row" >
     <div class="page__content">
+      <div class="page__line">
+        <img class="page__arrow" src="/assets/images/line.png" alt="arrow">
+      </div>
       <h1>{{page.title}}</h1>
       <h2>{{page.subtitle}}</h2>
       <p>{{page.descr}}</p>
     </div>
-    <img src="/assets/images/circle.png" alt="circle decoration">
+    <img class="page__circle" src="/assets/images/circle.png" alt="circle decoration">
 
   </div>
 
   <div class="page__card">
     <div class="card__row">
       <img class="card__img" src="{{page.card_image}}" alt="angel">
+      <div class="shadow"></div>
       <div class="card__text">
         {{page.card_text}}
       </div>
