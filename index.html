@@ -9,38 +9,41 @@ cta_text: DIVE INTO THE SVENIR DAO
 cta_link: /dive/
 cta_description: and BE PART OF THE SOUVENIR REVOLUTION!
 ---
-
-<div class="frontpage__wrapper">
-  <div class="frontpage__row" >
-    <div class="frontpage__content">
-      <div class="frontpage__line">
-        <img class="frontpage__arrow" src="/assets/images/line.png" alt="arrow">
+<div class="frontpage">
+  {%- include header.html -%}
+  <div class="frontpage__wrapper">
+    <div class="frontpage__row" >
+      <div class="frontpage__content">
+        <div class="frontpage__line">
+          <img class="frontpage__arrow" src="/assets/images/line.png" alt="arrow">
+        </div>
+        <h1>{{page.title}}</h1>
+        <h2>{{page.subtitle}}</h2>
+        <p>{{page.descr}}</p>
       </div>
-      <h1>{{page.title}}</h1>
-      <h2>{{page.subtitle}}</h2>
-      <p>{{page.descr}}</p>
+      <img class="frontpage__circle" src="/assets/images/circle.png" alt="circle decoration">
+
     </div>
-    <img class="frontpage__circle" src="/assets/images/circle.png" alt="circle decoration">
 
-  </div>
-
-  <div class="frontpage__card">
-    <div class="card__row">
-      <img class="card__img" src="{{page.card_image}}" alt="angel">
-      <div class="shadow"></div>
-      <div class="card__text">
-        {{page.card_text}}
+    <div class="frontpage__card">
+      <div class="card__row">
+        <img class="card__img" src="{{page.card_image}}" alt="angel">
+        <div class="shadow"></div>
+        <div class="card__text">
+          {{page.card_text}}
+        </div>
       </div>
     </div>
-  </div>
-  <div class="frontpage__button">
-    <div class="btn__decoration">
-      <img src="/assets/images/piramid.png" alt="">
+    <div class="frontpage__button">
+      <div class="btn__decoration">
+        <img src="/assets/images/piramid.png" alt="">
+      </div>
+      <a class="btn" href="{{page.cta_link}}">{{page.cta_text}}</a>
+      <div class="btn__description">
+        * {{page.cta_description}}
+      </div>
     </div>
-    <a class="btn" href="{{page.cta_link}}">{{page.cta_text}}</a>
-    <div class="btn__description">
-      * {{page.cta_description}}
-    </div>
-  </div>
 
+  </div>
+  {%- include footer.html -%}
 </div>

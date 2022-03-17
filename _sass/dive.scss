@@ -2,18 +2,18 @@
     background-image: url(/assets/images/background3.png);
     background-repeat: repeat-y;
     background-size: 160%;
-    background-position: -1100px -50px;
+    background-position: -1100px -100px;
 
     .dive__wrapper{
         max-width: 1440px;
-        margin: 0 auto;
+        margin: 50px auto;
 
         
         .menu {
             display: grid;
             grid-template-columns: 100px 130px 200px 1010px;
             column-gap: 85px;
-            margin-top: 80px;
+
             
             .menu_item {
                 p{

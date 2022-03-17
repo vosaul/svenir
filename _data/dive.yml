@@ -75,7 +75,7 @@ sections:
 
 cards:
 - name: BIG ZEUS 
-  image:"/assets/images/cocky_little_boy.png" 
+  image: "/assets/images/cocky_little_boy.png" 
 - name: NICE GUY
   image: "/assets/images/tiger.png"
 - name: CLEO 
