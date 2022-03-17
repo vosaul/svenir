@@ -32,9 +32,9 @@ sections:
     label: READ WHITE PAPER 
     link: "#"
     text: 
-  image: "#"
+  image: "/assets/images/svenir_black.png"
 -
-  intro: GET TO NKOW OUR UNIQUE AND HUMAN
+  intro: GET TO KNOW OUR UNIQUE AND HUMAN
   title: Vision
   text: |
     Svenir has been created with the
@@ -48,7 +48,7 @@ sections:
     mother nature is, and how
     important is to fight for its
     permanence and wellbeing.**
-  image: "#"
+  image: "/assets/images/woman.png"
 -
   intro: TAKE A LOOK TO OUR
   title: Mission
@@ -71,15 +71,16 @@ sections:
     together **with the fundamental goal of
     creating knowledge spillovers that help
     saving humanity and mother nature.**"
+  image: "/assets/images/boy.png"  
 
 cards:
 - name: BIG ZEUS 
-  image: 
-- name: BIG ZEUS 
-  image: 
-- name: BIG ZEUS 
-  image: 
-- name: BIG ZEUS 
-  image: 
-- name: BIG ZEUS 
-  image: 
+  image:"/assets/images/cocky_little_boy.png" 
+- name: NICE GUY
+  image: "/assets/images/tiger.png"
+- name: CLEO 
+  image: "/assets/images/girl.png"
+- name: TEKNOPUSH 
+  image: "/assets/images/boy_with_sunglasses.png"
+- name: CHICA LA TYRANA 
+  image: "/assets/images/dinosaur.png"

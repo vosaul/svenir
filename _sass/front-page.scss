@@ -1,13 +1,13 @@
-.page__wrapper {
+.frontpage__wrapper {
     max-width: 1440px;
     margin: 0 auto;
 
-    .page__row{
+    .frontpage__row{
         position: relative;
-        .page__arrow{
+        .frontpage__arrow{
             width: 50%;
         }
-        .page__content {
+        .frontpage__content {
             position: absolute;
             padding-left: 5%;
             z-index: 100;
@@ -37,7 +37,7 @@
                 font-size: 25px;
             }
         }
-        .page__circle{
+        .frontpage__circle{
             transform: translate(-213px, -261px);
             z-index: -1000;
             position: relative;
@@ -54,7 +54,7 @@
     }
 
 
-    .page__card {
+    .frontpage__card {
         max-width: 1440px;
         margin: 0 auto;
         text-align: center;
@@ -93,7 +93,7 @@
         }
 
     }
-    .page__button{
+    .frontpage__button{
         text-align: center;
         margin-top: -80px;
         position: relative;
