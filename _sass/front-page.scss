@@ -47,15 +47,6 @@
         .frontpage__circle{
             transform: translate(-213px, -261px);
             z-index: -1000;
-            position: relative;
-
-            &::before{
-                content:"";
-                position: relative;
-                background-image: url(/assets/images/white_cube.png);
-                width: 20px;
-                height: 20px;
-            }
         }
 
     }
