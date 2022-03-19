@@ -87,27 +87,26 @@ cards:
 - image: "/assets/images/about.png"
 
 roadmap:
--
+  title: lorem ipsum
   description: |
     Svenir is just getting started. 
     **We will launch in the top 10 most crypto 
     friendly cities in the world.**These cities 
     deserve to be the first to showcase their local 
     culture, biodiversity and innovation
--
-  content: |
-    Svenir NFT protocol smart contract.
-    Svenir Website.
-    Chore development team.
-    Svenir White Paper.
-    First Svenir NFTs collection of  NYC, San Francisco and Toronto.
-    Svenir token creation and audit.
-    Svenir Web App is under development.
-    Svenir seed round is undergoing.
-    Svenir first marketing campaign is waiting to get started.
-    Svenir strategy to build community of followers and users in social media is under development.
-    Svenir strategy to launch in NYC, San Francisco and Toronto.
-    Svenir official launch in NYC, San Francisco and Toronto in June 2022.
-    Svenir's board of advisors.
-    Svenir's network of high profile influencers. (KEY ELEMENT).
-    More developments and milestones of the roadmap will be updated along the way.
+  content: 
+  - Svenir NFT protocol smart contract.
+  - Svenir Website.
+  - Chore development team.
+  - Svenir White Paper.
+  - First Svenir NFTs collection of  NYC, San Francisco and Toronto.
+  - Svenir token creation and audit.
+  - Svenir Web App is under development.
+  - Svenir seed round is undergoing.
+  - Svenir first marketing campaign is waiting to get started.
+  - Svenir strategy to build community of followers and users in social media is under development.
+  - Svenir strategy to launch in NYC, San Francisco and Toronto.
+  - Svenir official launch in NYC, San Francisco and Toronto in June 2022.
+  - Svenir's board of advisors.
+  - Svenir's network of high profile influencers. (KEY ELEMENT).
+  - More developments and milestones of the roadmap will be updated along the way.
