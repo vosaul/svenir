@@ -48,7 +48,10 @@ sections:
     mother nature is, and how
     important is to fight for its
     permanence and wellbeing.**
+  img-desc:  
+    THE FIRST NFT SOUVENIR DAO
   image: "/assets/images/woman.png"
+ 
 -
   intro: TAKE A LOOK TO OUR
   title: Mission
@@ -62,16 +65,14 @@ sections:
 
     By following The We homies adventures,
     you can collect good looking and happy
-    NFTs.
-
-    **Think of SVRN as a new ecosystem** with
+    NFTs. **Think of SVRN as a new ecosystem** with
     features from Wikipedia, OpenSea,
     Travel Advisor, Instagram, Airbnb, Bored
     Ape Yacht Club and Bitcoin that come
     together **with the fundamental goal of
     creating knowledge spillovers that help
     saving humanity and mother nature.**"
-  image: "/assets/images/boy.png"  
+  image: "/assets/images/boy.png" 
 
 cards:
 - name: BIG ZEUS 
@@ -87,7 +88,7 @@ cards:
 - image: "/assets/images/about.png"
 
 roadmap:
-  title: lorem ipsum
+  title: Svenir Dao Roadmap
   description: |
     Svenir is just getting started. 
     **We will launch in the top 10 most crypto 

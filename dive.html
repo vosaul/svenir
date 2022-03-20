@@ -7,6 +7,7 @@ title: EVERLASTING MEMORIES BUILT WITH PEACE AND WONDER
 
 <div class="page__dive">
   <div class="dive__wrapper">
+
     <div class="menu">
       {%- for i in d.menu -%}
         <div class="menu_item">
@@ -16,6 +17,7 @@ title: EVERLASTING MEMORIES BUILT WITH PEACE AND WONDER
       {%- endfor -%}
       <a href="{{d.menu_cta.link}}" class="cta">{{d.menu_cta.label}}</a>
     </div>
+
     <div class="dive__svenir-img">
       <img src="/assets/images/transparent_text_svenir.png" alt="svenir">
     </div>
@@ -24,11 +26,11 @@ title: EVERLASTING MEMORIES BUILT WITH PEACE AND WONDER
     
     {%- for s in d.sections -%}
       <div class="section b-{{forloop.index}}">
-        <div class="info">
+        <div class="info i-{{forloop.index}}">
           <div class="subtitle s-{{forloop.index}}">{{s.intro}}</div>
-          <h2>{{s.title}}</h2>
+          <h2 class="h-{{forloop.index}}">{{s.title}}</h2>
           {%- if s.text -%}
-          <div class="text">
+          <div class="text t-{{forloop.index}}">
             {{s.text | markdownify }}
           </div>
           {%- endif -%}
@@ -36,14 +38,24 @@ title: EVERLASTING MEMORIES BUILT WITH PEACE AND WONDER
             <a class="cta__info" href="{{s.cta.link}}">{{s.cta.label}}</a>
           {%- endif -%}
         </div>
-        <div class="image">
+        <div class="image img-{{forloop.index}}">
           <img src="{{s.image}}" alt="{{s.title}}">
         </div>
+        {%- if s.img-desc -%}
+        <div class="img-desc">
+          {{s.img-desc | markdownify }}
+        </div>
+        {%- endif -%}
       </div>
     {%- endfor -%}
+    <div class="background__decoration">
+      <img src="/assets/images/bg_decoration.png" alt="decoration">
+    </div>
+
     <div class="dive__spesial-text">
       <img src="/assets/images/special_text.png" alt="special text">
     </div>
+
     <div class="cards_grid">
         {%- for c in d.cards -%}
           <div class="card_item">
@@ -52,13 +64,57 @@ title: EVERLASTING MEMORIES BUILT WITH PEACE AND WONDER
           </div>
         {%- endfor -%}
     </div>
-    <h2>{{d.roadmap.title}}</h2>
-    {{d.roadmap.description | markdownify }}
-    <div class="roadmap_container">
+    
+    <div class="roadmap__container">
+      <div class="roadmap__grid">
+        <div class="roadmap__header">
+          <h2 class="roadmap__title">{{d.roadmap.title}}</h2>
+          <div class="roadmap__description">
+            {{d.roadmap.description | markdownify }}
+          </div>
+          <div class="roadmap__arrow">
+            <img src="/assets/images/roadmap_arrow.png" alt="arrow">
+          </div>
+        </div>
+        <div class="roadmap__img">
+          <img src="/assets/images/molecule.png" alt="molecule">
+        </div>
+      </div>
         {%- for c in d.roadmap.content -%}
-          <ul class="roadmap_list">
+          <ul class="roadmap__list">
             <li>{{c}}</li>
           </ul>
         {%- endfor -%}
     </div>
+
+    <div class="join-channel__container">
+      <div class="join-channel__btn">
+        <a href="#">Join our Discord channel now</a>
+      </div>
+      <div class="join-channel__img">
+        <img src="/assets/images/group_of_images.png" alt="piramid with decorations">
+      </div>
+    </div>
+  </div>
+  <div class="dive__footer">
+    <div class="footer__container">
+      <div class="footer__text">
+          <p>SVENIR is the first souvenir DAO in the world; Be part of the
+              WEhomies adventures trought Highly curated digital assets in the
+              real world & in the metaverse.</p>
+      </div>
+      <div class="footer__social">
+          <a href="#">
+              <img src="/assets/images/like_white.png" alt="like" class="like">
+          </a>
+          <a href="#">
+              <img class="instagram" src="/assets/images/white_instagram.png" alt="instagram">
+          </a>
+          <a href="#">
+              <img src="/assets/images/white_youtube.png" alt="youtube" class="youtube">
+          </a>
+      </div>
+    </div>
+  </div>
+</div>
 
