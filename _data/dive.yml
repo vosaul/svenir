@@ -48,10 +48,7 @@ sections:
     mother nature is, and how
     important is to fight for its
     permanence and wellbeing.**
-  img-desc:  
-    THE FIRST NFT SOUVENIR DAO
   image: "/assets/images/woman.png"
- 
 -
   intro: TAKE A LOOK TO OUR
   title: Mission
@@ -65,30 +62,51 @@ sections:
 
     By following The We homies adventures,
     you can collect good looking and happy
-    NFTs. **Think of SVRN as a new ecosystem** with
+    NFTs.
+
+    **Think of SVRN as a new ecosystem** with
     features from Wikipedia, OpenSea,
     Travel Advisor, Instagram, Airbnb, Bored
     Ape Yacht Club and Bitcoin that come
     together **with the fundamental goal of
     creating knowledge spillovers that help
     saving humanity and mother nature.**"
-  image: "/assets/images/boy.png" 
+  image: "/assets/images/boy.png"  
 
 cards:
 - name: BIG ZEUS 
   image: "/assets/images/cocky_little_boy.png" 
+  text: |
+    **He showcases Entrepreneurship, Innovation, Finance, Economics, Luxury. He is looking after how the world will mobilise resources towards innovations that will make the world a more sustainable place.**
+
+    He is an entrepreneur who made a BIG BIG fortune with one of his start ups. He grew up in a middle class family besides being the famous God of the sky. 
 - name: NICE GUY
   image: "/assets/images/tiger.png"
+  text: |
+    He showcases nature, music and the local espiritual vibes. He is in the pursue of understanding the emotions of the people and animals of the places he goes to.
+
+    Noble polar bear with rastas.  He loves nature, adventure, and urban music. Really spiritual and moral guy. Also, a real Don Juan. He is Zeus best friend and also good friends with Cleo. 
+
 - name: CLEO 
   image: "/assets/images/girl.png"
+  text: |
+    She showcases culture, art, social needs and she is also looking everywhere to what is it that people are doing to stop human ageing.
+
+    Besides being the famous Egyptian Queen and the lover of Julius Caesar,  she is now a big empowered girl. Concerned but not insecure about her beauty. 
 - name: TEKNOPUSH 
   image: "/assets/images/boy_with_sunglasses.png"
+  text: |
+    He showcases night life and entertainment of the places. He is looking to understand how music and fashion reflect the culture and the history of a society and how that helps people to be more motivated and happy in life.
+
+
+    There are no rules for him: just to live under his own terms. 
+
 - name: CHICA LA TYRANA 
   image: "/assets/images/dinosaur.png"
 - image: "/assets/images/about.png"
 
 roadmap:
-  title: Svenir Dao Roadmap
+  title: lorem ipsum
   description: |
     Svenir is just getting started. 
     **We will launch in the top 10 most crypto 
