@@ -50,6 +50,13 @@
     font-style: normal;
   }
 
+  @font-face {
+    font-family: "Montserrat";
+    src: url(/assets/fonts/Montserrat-Light.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+
 
 body{
     max-width: 100%;
