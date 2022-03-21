@@ -131,9 +131,10 @@ cards:
     loves adrenaline and sports.  She usually wears: sun glasses, 
     shorts, flip flops, funny hats and she is into the funniest gadgets.</span>
      
-  about: WE HOMIES.
-  descr: |
-    A group of friends joined together by their love for 
+- 
+  title: WE HOMIES.
+  text: |
+    <span> A group of friends joined together by their love for 
     culture, society, art, humanity and mother earth. 
 
     join us in their adventures trought the entire 
@@ -141,7 +142,7 @@ cards:
     city and every beach…  
 
     buy **SVENIR PACKAGES** and get acces 
-    to exclusive **WEHOMIES** adventures & NFTs.
+    to exclusive **WEHOMIES** adventures & NFTs. 
 
 roadmap:
   title: lorem ipsum

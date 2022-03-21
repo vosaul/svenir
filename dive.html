@@ -58,9 +58,9 @@ title: EVERLASTING MEMORIES BUILT WITH PEACE AND WONDER
 
     <div class="cards__grid">
       <div class="flip-card">
-        {%- for c in d.cards -%}
+        {%- for c in d.cards  -%}
           <div class="flip-card-inner">
-            <div class="flip-card-front p-{{forloop.index}}">
+            <div class="flip-card-front p-{{forloop.index}} limit:5">
               <img class="i-{{forloop.index}}"  src="{{c.image}}" alt="{{c.name}}" style="width: 558px; height: 602px;">
               <div class="name n-{{forloop.index}}">{{c.name}}</div>
             </div>
@@ -71,20 +71,30 @@ title: EVERLASTING MEMORIES BUILT WITH PEACE AND WONDER
                   {{c.text | markdownify }}
                 </div>
               {%- endif -%}
-          <!--<div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="card_item flip-card-front">
-                <img src="{{c.image}}" alt="{{c.name}}">
-                <caption>{{c.name}}</caption>
-              </div>
-              <div class="flip-card-back">
-                <h2>{{c.name}}</h2>
-                {{c.text | markdownify }}
-              </div>-->
+                <!--<div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="card_item flip-card-front">
+                    <img src="{{c.image}}" alt="{{c.name}}">
+                    <caption>{{c.name}}</caption>
+                  </div>
+                  <div class="flip-card-back">
+                    <h2>{{c.name}}</h2>
+                    {{c.text | markdownify }}
+                  </div>-->
             </div>
-          </div>
-        {%- endfor -%}
 
+            <!--<div class="card__about">
+              <h2>{{c.about}}</h2>
+              {%- if c.about -%}
+                <div class="about__descr">
+                  {{c.descr | markdownify }}
+                </div>
+              {%- endif -%}
+            </div>-->
+          </div>
+
+
+        {%- endfor -%}
       </div>
     </div>
 
