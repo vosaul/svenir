@@ -11,24 +11,27 @@
     .frontpage__row{
         position: relative;
         .frontpage__arrow{
-            width: 100%;
+        width: 94%;
+        margin-top: -95px;
         }
         .frontpage__content {
-            
             position: absolute;
-            padding-left: 10%;
+            padding-left: 30px;
             z-index: 100;
-            margin-top: -7%;
-}
+            margin-top: -27px;
+        }
 
             h1{
                 width: 687px;
-                font-family: 'DelaGothicOne';
+                font-family: 'Dela Gothic One';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 82px;
                 line-height: 80px;
-                letter-spacing: 2.5625px;
+                margin-top: -165px;
+                span{
+                    color: #E73030;
+                }
                 @media (max-width: 768px) {
                     font-size: 65px;
                     line-height: 70px;
@@ -42,7 +45,7 @@
                     position: absolute;
                     width: 50px;
                     height: 50px;
-                    transform: translate(585px, -125px);
+                    transform: translate(261px, -185px);
                     @media (max-width: 1024px) {
                         transform: translate(430px, -125px);
                         
@@ -69,10 +72,11 @@
                 font-size: 20px;
                 line-height: 24px;
                 letter-spacing: 0.625px;
+                margin-top: 20px;
             }
         }
         .frontpage__circle{
-            transform: translate(-213px, -261px);
+            transform: translate(-275px, -228px);
             z-index: -1000;
             margin-top: 3%;
             
@@ -93,11 +97,9 @@
         max-width: 1440px;
         margin: 0 auto;
         text-align: center;
-        position: absolute;
-        top: 90%;
+
         @media (max-width:768px) {
-            top: 65%;
-            margin-top: 75px;
+
             
         }
 
@@ -180,7 +182,7 @@
             line-height: 35px;
             text-align: center;
             letter-spacing: 0.90625px;
-            border: 1px solid black;
+            background-color: rgba(255, 102, 0, 0.6);
             box-shadow: (3px 0px 4px rgba(0, 0, 0, 0.2));;
             border-radius: 12px;
             padding: 2px 135px;
