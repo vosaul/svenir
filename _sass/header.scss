@@ -1,6 +1,7 @@
 header{
     max-width: 1080px;
     margin: 0 auto;
+    padding: 0 20px;
 
 
     .header__wrapper {
@@ -22,7 +23,12 @@ header{
             border-radius: 62px;
             text-transform: uppercase; 
             
-
+            @media (max-width: 768px) {
+                margin-top: 18px;
+                width: 269px;
+                height: 46px;
+                
+            }
 
         }
 
@@ -34,7 +40,10 @@ header{
             letter-spacing: 0.625px;
             text-align: center;
             padding-top: 15px;
-
+            @media (max-width: 768px){
+                font-size: 16px;
+                padding-top: 10px;
+            }
         }
     }
 }

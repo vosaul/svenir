@@ -4,13 +4,19 @@ footer{
 
 
     .footer__wrapper {
-        max-width: 1080px;
+        max-width: 1040px;
         margin: 0 auto;
         text-align: center;
 
         .footer__decoration{
-            border-top: 1px solid #000;
+            width: 972px;
+            border-top: 1px solid #161616;
             margin-bottom: 30px;
+            margin: 20px auto 30px;
+            @media (max-width: 768px) {
+                width: 600px;
+                
+            }
         }
         .footer__text {
             max-width: 31%;
@@ -19,22 +25,30 @@ footer{
             margin: 0 auto;
             line-height: 1.2;
             font-style: italic;  
+            @media (max-width: 768px) {
+                font-size: 10px;
+                
+            }
 
         }
         .footer__social {
             margin-top: 15px;
             img{
                 padding-right: 15px;
+                @media (max-width: 768px) {
+                    padding-right: 10px;
+                    
+                }
             }
         
             .like {
-                max-width: 3.5%;
+                width: 31px;
             }
             .instagram {
-                max-width: 3.5%;
+                width: 29px;
             }
             .youtube {
-                max-width: 3.5%;
+                width: 29px;
             }
         }
     }

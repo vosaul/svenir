@@ -1,0 +1,153 @@
+.roadmap__container {
+    margin-top: 347px;
+    .roadmap__grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        @media (max-width: 768px) {
+            display: block;
+            
+        }
+    }
+    
+    .roadmap__title {
+        width: 384px;
+        font-family: 'Lobster';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 69px;
+        line-height: 78px;
+        letter-spacing: 2.15625px;
+        @media (max-width: 768px) {
+            width: 100%;
+            font-size: 50px;   
+        }
+        &::before{
+            content: "";
+            background-image: url(/assets/images/small__cube.png);
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            transform: translate(122px, -242px);
+        }
+        &::after{
+            content: "";
+            background-image: url(/assets/images/star.png);
+            background-repeat: no-repeat;
+            background-size: 103%;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            transform: translate(199px, -47px);
+            @media (max-width: 768px) {
+                background-size: 80%;
+                transform: translate(96px, 52px);
+            }
+
+        }
+    }
+    .roadmap__description {
+        width: 558px;
+        font-family: 'Montserrat';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: 0.78125px;
+        margin-top: 37px;
+        @media (max-width: 768px) {
+            width: 458px;
+            font-size: 20px;   
+        }
+        &::after{
+            content: "";
+            height: 128px;
+            width: 128px;
+            border: 1px solid black;
+            border-radius: 50%;
+            position: absolute;
+            transform: translate(858px, -510px);
+            @media (max-width: 768px) {
+                transform: translate(600px, 180px);
+                height: 80px;
+                width: 80px;
+            }
+        }
+    }
+    
+    .roadmap__arrow{
+        width: 348px;
+        margin: 45px 0 100px 0;
+    }
+
+    .roadmap__img{
+        &::before{
+            content:"";
+            background-image: url(/assets/images/grey_p.png);
+            width: 65px;
+            height: 65px;
+            position: absolute;
+            transform: translate(408px, 173px);
+            @media (max-width:1024px) {
+                transform: translate(349px, 117px);
+                
+            }
+            @media (max-width: 768px) {
+                transform: translate(491px, -151px);
+                
+            }
+        }
+        img{
+        max-width: 80%;
+        transform: translate(0, 205px);
+        @media (max-width: 1024px) {
+            max-width: 100%;
+            transform: translate(-5px, 143px);     
+        }
+        @media (max-width: 768px) {
+            transform: translate(-5px, -85px);
+            
+        }
+        
+    }
+    }
+    .roadmap__catalog{
+        @media (max-width: 768px) {
+            margin-top: -70px;
+            
+        }
+        .roadmap__list {
+            font-family: 'Montserrat';
+            font-style: italic;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 50px;
+            letter-spacing: 0.78125px;
+            @media (max-width: 768px) {
+                font-size: 20px;
+                line-height: 30px; 
+            }
+            li{
+                margin-left: 100px;
+                @media (max-width: 768px) {
+                    margin-left: 50px;   
+                }
+            }
+            li::before{
+                content: "";
+                background-image: url(/assets/images/list-decoration.png);
+                background-repeat: no-repeat;
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                margin-left: -100px;
+                @media (max-width: 768px) {
+                    background-size: 60%;
+                    margin-left: -43px;
+                    margin-top: 8px;
+                
+                    
+                }
+            }
+        }
+    }
+}

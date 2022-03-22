@@ -25,7 +25,7 @@ title: EVERLASTING MEMORIES BUILT WITH PEACE AND WONDER
     <h1>{{page.title}}</h1>
     
     {%- for s in d.sections -%}
-      <div class="section b-{{forloop.index}}">
+      <div class="section-info b-{{forloop.index}}">
         <div class="info i-{{forloop.index}}">
           <div class="subtitle s-{{forloop.index}}">{{s.intro}}</div>
           <h2 class="h-{{forloop.index}}">{{s.title}}</h2>
@@ -39,7 +39,7 @@ title: EVERLASTING MEMORIES BUILT WITH PEACE AND WONDER
           {%- endif -%}
         </div>
         <div class="image img-{{forloop.index}}">
-          <img src="{{s.image}}" alt="{{s.title}}">
+          <img src="{{s.image}}" style="max-width:100%" alt="{{s.title}}">
         </div>
         {%- if s.img-desc -%}
         <div class="img-desc">
@@ -61,7 +61,7 @@ title: EVERLASTING MEMORIES BUILT WITH PEACE AND WONDER
         {%- for c in d.cards  -%}
           <div class="flip-card-inner">
             <div class="flip-card-front p-{{forloop.index}} limit:5">
-              <img class="i-{{forloop.index}}"  src="{{c.image}}" alt="{{c.name}}" style="width: 558px; height: 602px;">
+              <img class="i-{{forloop.index}}"  src="{{c.image}}" alt="{{c.name}}" >
               <div class="name n-{{forloop.index}}">{{c.name}}</div>
             </div>
             <div class="flip-card-back">
@@ -114,11 +114,13 @@ title: EVERLASTING MEMORIES BUILT WITH PEACE AND WONDER
           <img src="/assets/images/molecule.png" alt="molecule">
         </div>
       </div>
+      <div class="roadmap__catalog">
         {%- for c in d.roadmap.content -%}
           <ul class="roadmap__list">
             <li>{{c}}</li>
           </ul>
         {%- endfor -%}
+      </div>
     </div>
 
     <div class="join-channel__container">
