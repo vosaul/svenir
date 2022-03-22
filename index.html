@@ -9,6 +9,7 @@ card_image: /assets/images/angel_video.png
 cta_text: DIVE INTO THE SVENIR DAO
 cta_link: /dive/
 cta_description: and BE PART OF THE SOUVENIR REVOLUTION!
+
 ---
 <div class="frontpage">
   {%- include header.html -%}
@@ -23,9 +24,7 @@ cta_description: and BE PART OF THE SOUVENIR REVOLUTION!
         <p>{{page.descr}}</p>
       </div>
       <img class="frontpage__circle" src="/assets/images/circle.png" alt="circle decoration">
-
     </div>
-
     <div class="frontpage__card">
       <div class="card__row">
         <img class="card__img" src="{{page.card_image}}" alt="angel">
@@ -36,6 +35,9 @@ cta_description: and BE PART OF THE SOUVENIR REVOLUTION!
         </div>
       </div>
     </div>
+
+    {%- include frontpage-wehomies.html -%}
+
     <div class="frontpage__button">
       <div class="btn__decoration">
         <img src="/assets/images/piramid.png" alt="">

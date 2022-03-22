@@ -2,13 +2,23 @@ header{
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
+    margin-bottom: 10%;
+    .header__text{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: right;
+        margin-right: 75px;
+    }
 
 
     .header__wrapper {
         display: flex;
         justify-content: space-between;
         align-content: center;
-        margin-bottom: 10%;
+
 
         .header__logo {
             img{
@@ -46,4 +56,5 @@ header{
             }
         }
     }
+    
 }

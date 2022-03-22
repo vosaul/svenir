@@ -8,12 +8,13 @@
     max-width: 1000px;
     margin: 0 auto;
     position: relative;
+    padding: 0 20px;
 
     .frontpage__row{
         position: relative;
         .frontpage__arrow{
             position: relative;
-        width: 94%;
+        width: 96%;
         margin-top: -95px;
         }
         .frontpage__content {
@@ -37,8 +38,7 @@
                     color: #E73030;
                 }
                 @media (max-width: 768px) {
-                    font-size: 65px;
-                    line-height: 70px;
+
                     
                 }
                 &::after{
@@ -51,11 +51,11 @@
                     height: 80px;
                     transform: translate(253px, -185px);
                     @media (max-width: 1024px) {
-                        transform: translate(430px, -125px);
+
                         
                     }
                     @media (max-width: 768px){
-                        transform: translate(329px, -92px);
+
                     }
                 }
             }
@@ -85,12 +85,11 @@
             margin-top: 3%;
             
             @media (max-width: 1024px) {
-                max-width: 100%;
-                transform: translate(-166px, -220px);
+
                 
             }
             @media (max-width: 768px) {
-                transform: translate(-113px, -165px);
+
                 
             }
         }
@@ -136,33 +135,97 @@
                     margin-bottom: 92px;
                 }
                 @media (max-width: 1024px) {
-                    left: 3%;
-                    font-size: 60px;
+
                     
                 }
                 @media (max-width:768px) {
-                    width: 600px;
-                    left: 10%;
-                    font-size: 45px;
-                    line-height: 55px;
+
                     
                 }
-
             }
+        }
+    }
+
+    .wehomies__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 27px;
+
+        .wehomies__content {
+        }
+        .wehomies__title {
+            font-family: 'Dela Gothic One';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 35px;
+            line-height: 47px;
 
         }
-
+        .wehomies__text {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 24px;
+            padding: 20px 0;
+        }
+        .wehomies__list {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 27px;;
+        }
+        .wehomies__subtitle {
+            font-family: 'Dela Gothic One';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 23px;
+            line-height: 33px;
+            margin: 80px 0 20px;
+        }
+        .wehomies__subtext {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 24px;
+            span{
+                font-weight: 700;
+                margin-bottom: 20px;
+                display: inline-block;
+            }
+        }
+        .wehomies__sublist {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 27px;
+            margin: 20px 0;
+        }
+        .wehomies__else {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 24px;
+        }
+        .wehomies__img {
+            padding-top: 10px;
+        }
     }
+
     .frontpage__button{
         text-align: center;
-        margin-top: 20px;
+        margin-top: 250px;
         position: relative;
         @media (max-width: 1024px) {
-            margin-top: 20px;
+
             
         }
         @media (max-width:768px) {
-            margin-top: 80px;
+
             
         }
 
@@ -171,7 +234,7 @@
             margin-left: 10px;
             opacity: 70%;
             @media (max-width: 1024px) {
-                margin-left: 82px;
+
                 
             }
             @media (max-width:768px) {
@@ -199,8 +262,7 @@
             margin-top: 100px;
             position: relative;
             @media (max-width:768px) {
-                padding: 2px 66px;
-                font-size: 22px;
+
 
                 
             }
@@ -217,12 +279,11 @@
             margin-top: 17px;
             text-align: left;
             @media (max-width: 1024px) {
-                margin-left: 150px;
+
                 
             }
             @media (max-width:768px) {
-                margin-top: 10px;
-                font-size: 8px;
+
 
                 
             }
