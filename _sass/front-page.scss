@@ -5,12 +5,14 @@
 }
 
 .frontpage__wrapper {
-    max-width: 1140px;
+    max-width: 1000px;
     margin: 0 auto;
+    position: relative;
 
     .frontpage__row{
         position: relative;
         .frontpage__arrow{
+            position: relative;
         width: 94%;
         margin-top: -95px;
         }
@@ -22,6 +24,8 @@
         }
 
             h1{
+                position: absolute;
+                z-index: -1;
                 width: 687px;
                 font-family: 'Dela Gothic One';
                 font-style: normal;
@@ -38,14 +42,14 @@
                     
                 }
                 &::after{
-                    content:"";
+                    content: "";
                     background-image: url(/assets/images/grey__cube.png);
                     background-repeat: no-repeat;
-                    background-size: 50px;
+                    background-size: 100%;
                     position: absolute;
-                    width: 50px;
-                    height: 50px;
-                    transform: translate(261px, -185px);
+                    width: 80px;
+                    height: 80px;
+                    transform: translate(253px, -185px);
                     @media (max-width: 1024px) {
                         transform: translate(430px, -125px);
                         
@@ -72,7 +76,7 @@
                 font-size: 20px;
                 line-height: 24px;
                 letter-spacing: 0.625px;
-                margin-top: 20px;
+                margin-top: 180px;
             }
         }
         .frontpage__circle{
@@ -94,16 +98,12 @@
 
 
     .frontpage__card {
-        max-width: 1440px;
+        max-width: 1000px;
         margin: 0 auto;
         text-align: center;
 
-        @media (max-width:768px) {
-
-            
-        }
-
         .card__row{
+            margin-top: -721px;
 
             .card__img {
                 position: relative;
@@ -145,7 +145,7 @@
     }
     .frontpage__button{
         text-align: center;
-        margin-top: -80px;
+        margin-top: 20px;
         position: relative;
         @media (max-width: 1024px) {
             margin-top: 20px;
