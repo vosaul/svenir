@@ -57,6 +57,13 @@
     font-style: normal;
   }
 
+  @font-face {
+    font-family: "Montserrat";
+    src: url(/assets/fonts/Montserrat-BlackItalic.ttf) format("truetype");
+    font-weight: 900;
+    font-style: italic;
+  }
+
 
 body{
     max-width: 100%;
