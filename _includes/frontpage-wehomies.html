@@ -1,17 +1,16 @@
+{%- assign wh = site.data.frontpage-section -%}
 <div class="wehomies__container">
 
     <div class="wehomies__content">
 
-      <h2 class="wehomies__title"> But who the f* are the <br> WeHomies ?? </h2>
+      <h2 class="wehomies__title"> {{wh.title}} </h2>
       <div class="wehomies__text">
         WeHomies is  a group of five 3D animated characters located in the metaverse:
       </div>
       <div class="wehomies__list">
-        <p class="wehomies__item">Zeus</p>
-        <p class="wehomies__item">Cleopatra</p>
-        <p class="wehomies__item">Chyca la Tyrana</p>
-        <p class="wehomies__item">Teknopush</p>
-        <p class="wehomies__item">& Nice Guy </p>
+        {%- for i in wh.list1 -%}
+          <p class="wehomies__item">{{i}}</p>
+        {%- endfor -%}
       </div>
       <div class="wehomies__text">Five friends who will showcase the awesomeness of every city 
         on the planet earth in unique and awesome adventures.

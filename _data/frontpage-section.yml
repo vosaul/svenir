@@ -1,29 +1,27 @@
-wehomies:
-
-  title: But who the f* are the <br> WeHomies ?? 
-  text1: |
-    WeHomies is  a group of five 3D animated characters located in the metaverse: 
-  list1:
-    -Zeus
-    -Cleopatra
-    -Chyca la Tyrana
-    -Teknopush 
-    -& Nice Guy 
-  text2: |
-    Five friends who will showcase the awesomeness of every city on the planet earth in unique and awesome adventures.
-  subtitle: How?
-  text3: |
-    <span> *Through the Svenir NFTs, souvenirs*</span>
-    Generated from their adventures related to:
-  list2:
-    -Local food
-    -Culture 
-    -Innovations
-    -Sports 
-    -Hobbies
-    -Famous people
-    -Animals 
-    -& Plants
-  little: of every city we visit....     
+title: But who the f* are the <br> WeHomies ?? 
+text1: |
+  WeHomies is  a group of five 3D animated characters located in the metaverse: 
+list1:
+  - Zeus
+  - Cleopatra
+  - Chyca la Tyrana
+  - Teknopush 
+  - "& Nice Guy" 
+text2: |
+  Five friends who will showcase the awesomeness of every city on the planet earth in unique and awesome adventures.
+subtitle: How?
+text3: |
+  <span> *Through the Svenir NFTs, souvenirs*</span>
+  Generated from their adventures related to:
+list2:
+  - Local food
+  - Culture 
+  - Innovations
+  - Sports 
+  - Hobbies
+  - Famous people
+  - Animals 
+  - "& Plants"
+little: of every city we visit....     
 
 
