@@ -15,22 +15,17 @@
       <div class="wehomies__text">Five friends who will showcase the awesomeness of every city 
         on the planet earth in unique and awesome adventures.
       </div>
-      <h3 class="wehomies__subtitle">How?</h3>
-      <div class="wehomies__subtext"> <span> *Through the Svenir NFTs, souvenirs*</span>
-        Generated from their adventures related to:
+      <h3 class="wehomies__subtitle">{{wh.subtitle}}</h3>
+      <div class="wehomies__subtext"> 
+        {{wh.text3}}
       </div>
       <div class="wehomies__sublist">
-        <p class="wehomies__point">Local food</p>
-        <p class="wehomies__point">Culture </p>
-        <p class="wehomies__point">Innovations</p>
-        <p class="wehomies__point">Sports </p>
-        <p class="wehomies__point">Hobbies</p>
-        <p class="wehomies__point">Famous people</p>
-        <p class="wehomies__point">Animals </p>
-        <p class="wehomies__point">& Plants </p>
+        {%- for i in wh.list2 -%}
+        <p class="wehomies__point">{{i}}</p>
+        {%- endfor -%}
       </div>
       <div class="wehomies__else">
-        of every city we visit....    
+        {{wh.little}}    
       </div>
       
     </div>

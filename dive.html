@@ -71,11 +71,11 @@ title: EVERLASTING MEMORIES BUILT WITH PEACE AND WONDER
         </div>
         {%- else -%}
           <div class="flip-card-inner">
-            <div class="flip-card-front p-{{forloop.index}} limit:5">
+            <div class="flip-card-front p-{{forloop.index}}">
               <img class="i-{{forloop.index}}"  src="{{c.image}}" alt="{{c.name}}" >
               <div class="name n-{{forloop.index}}">{{c.name}}</div>
             </div>
-            <div class="flip-card-back">
+            <div class="flip-card-back fb-{{forloop.index}}">
               <h2 class="t-{{forloop.index}}">{{c.title}}</h2> 
               {%- if c.text -%}
                 <div class="cards__content">

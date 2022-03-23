@@ -96,7 +96,7 @@
                 @media (max-width: 1180px){
                     width: 550px;
                 }
-                @media (max-width: 1080px){
+                @media (max-width: 1024px){
                     width: 480px;
                 }
 
@@ -123,7 +123,7 @@
                     width: 500px;
                     height: 560px;
                 }
-                @media (max-width: 1080px){
+                @media (max-width: 1024px){
                     width: 480px;
                     height: 540px;
                 }
@@ -164,6 +164,17 @@
         padding: 58px 63px 42px 62px;
         transform: rotateY(180deg);
         box-shadow: 6px 8px 20px rgba(0, 0, 0, 0.5);
+        @media (max-width: 425px) {
+            padding: 20px 15px 20px 20px;
+        }
+             &.fb-5{
+                @media (max-width: 1024px) {
+                    padding: 35px 63px 42px 51px;
+                }
+                @media (max-width: 425px) {
+                    padding: 10px 15px 20px 20px;
+                }
+             }
 
             h2{
                 font-family: 'Dela Gothic One';
@@ -177,13 +188,20 @@
                     font-size: 70px;
                     line-height: 70px;
                     letter-spacing: 2.59375px;
-                    margin-bottom: 9px;
+                    margin-bottom: 15px;
                     
                 }
-
-                &.t-3{
-                    margin-bottom: 141px;
+                @media (max-width: 425px) {
+                    font-size: 45px;
+                    line-height: 42px;
+                    margin-bottom: 15px;
                 }
+                @media (max-width: 320px) {
+                    font-size: 40px;
+                    margin-bottom: 10px;
+                }
+
+                
 
                 &.t-1::after {
                     content: "";
@@ -195,6 +213,11 @@
                     transform: translate(120px, -65px);
                     @media (max-width: 1024px) {
                         transform: translate(74px, -65px);
+                    }
+                    @media (max-width: 425px) {
+                        transform: translate(42px, -34px);
+                        width: 25px;
+                        height: 25px;
                     }
 
 
@@ -209,10 +232,24 @@
                     background-color: white;
                     transform: translate(175px, -65px);
                     @media (max-width: 1024px) {
-                        transform: translate(126px, -65px);
-                        
+                        transform: translate(126px, -65px);  
+                    }
+                    @media (max-width: 425px) {
+                        transform: translate(81px, -33px);
+                        width: 25px;
+                        height: 25px;
                     }
                 
+                }
+                &.t-3{
+                    margin-bottom: 141px;
+                    @media (max-width: 1024px) {
+                        margin-bottom: 77px;
+                        
+                    }
+                    @media (max-width: 425px) {
+                        margin-bottom: 67px;
+                    }
                 }
 
                 &.t-3::after{
@@ -225,6 +262,12 @@
                     transform: translate(120px, 25px);
                     @media (max-width: 1024px) {
                         transform: translate(77px, 10px);
+                        
+                    }
+                    @media (max-width: 425px) {
+                        transform: translate(48px, 5px);
+                        width: 25px;
+                        height: 25px;
                     }
 
                 }
@@ -240,8 +283,14 @@
                     @media (max-width: 1024px) {
                         transform: translate(86px, -60px);
                     }
+                    @media (max-width: 425px) {
+                        transform: translate(48px, -39px);
+                        width: 25px;
+                        height: 25px;
+                    }
 
                 }
+                
                 &.t-5::after{
                     content: "";
                     position: absolute;
@@ -254,15 +303,41 @@
                         transform: translate(345px, -135px);
                         
                     }
+                    @media (max-width: 425px) {
+                        transform: translate(-31px, -35px);
+                        width: 25px;
+                        height: 25px;
+                    }
 
                 }
+                
 
-                &.t-4 span{
-                    font-size: 60px;
+                &.t-4 {
+                    @media (max-width: 425px) {
+                        margin-bottom: 45px ;   
+                    }
+                    @media (max-width: 320px) {
+                        margin-bottom: 30px ;   
+                    }
+                    span{
+                        font-size: 60px;
+                        @media (max-width: 425px) {
+                            font-size: 35px;
+                        }
+                        @media (max-width: 320px) {
+                            font-size: 28px;
+                        }
+                    }
                 }
 
                 &.t-5 span{
                     font-size: 47px;
+                    @media (max-width: 425px) {
+                        font-size: 30px;
+                    }
+                    @media (max-width: 320px) {
+                        font-size: 25px;
+                    }
                 }
 
                 
@@ -280,7 +355,99 @@
                     @media (max-width: 1024px){
                         font-size: 18px;
                     }
+                    @media (max-width: 425px) {
+                        font-size: 13px;
+                        padding-bottom: 10px;
+                        line-height: 15px;
+                    }
                     
+                    
+                }
+                span{
+                    padding-bottom: 15px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 24px;
+                    letter-spacing: 0.625px;
+                    font-weight: 300;
+                    @media (max-width: 425px) {
+                        font-size: 13px;
+                        line-height: 15px;
+                    }
+                }
+            }
+
+        }
+        .card-back {
+            width: 558px;
+            height: 602px;
+            background-color: black;
+            border-radius: 44px;
+            color: white;
+            padding: 58px 63px 42px 62px;
+            @media (max-width: 1180px){
+                width: 500px;
+                height: 560px;
+            }
+            @media (max-width: 1024px){
+                width: 480px;
+                height: 540px;
+                padding: 30px 63px 42px 49px;
+            }
+            @media (max-width: 768px) {
+                margin: 0 auto 30px;
+                
+            }
+            @media (max-width: 425px) {
+                width: 300px;
+                height: 340px; 
+                padding: 20px 25px;   
+            }
+            @media (max-width: 320px) {
+                width: 280px; 
+                height: 320px;
+                padding: 20px 15px 20px 20px;
+            }
+            
+            h2{
+                font-family: 'Dela Gothic One';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 75px;
+                line-height: 83px;
+                letter-spacing: 2.59375px;
+                margin-bottom: 58px;
+                @media (max-width: 1024px) {
+                    margin-bottom: 30px;
+                    font-size: 65px;
+                    margin-bottom: 30px;
+                }
+                @media (max-width: 425px) {
+                    font-size: 40px;
+                    line-height: 40px;
+                    margin-bottom: 15px;
+                }
+                @media (max-width: 320px){
+                    font-size: 35px;
+                }
+            }
+            p {
+                padding-bottom: 15px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                letter-spacing: 0.625px;
+                @media (max-width: 1024px){
+                    font-size: 18px;
+                }
+                @media (max-width: 425px) {
+                    font-size: 14px;
+                    padding-bottom: 10px;
+                    line-height: 14px;
                 }
                 span{
                     padding-bottom: 15px;
@@ -290,10 +457,21 @@
                 font-size: 20px;
                 line-height: 24px;
                 letter-spacing: 0.625px;
-                    font-weight: 300;
+                font-weight: 300;
+                    @media (max-width: 1024px){
+                        font-size: 18px;
+                    }
+                    @media (max-width: 425px) {
+                        padding-bottom: 10px;
+                        font-size: 14px;
+                        line-height: 16px;
+                    }
                 }
+                
             }
-
+            .cards__content {
+            }
         }
+
     }
 }
