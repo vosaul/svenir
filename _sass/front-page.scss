@@ -14,14 +14,14 @@
         position: relative;
         .frontpage__arrow{
             position: relative;
-        width: 96%;
-        margin-top: -95px;
+            width: 94%;
+            margin-top: -70px;
+            margin-left: 10px;
         }
         .frontpage__content {
             position: absolute;
-            padding-left: 30px;
             z-index: 100;
-            margin-top: -27px;
+            margin-top: -96px;
         }
 
             h1{
@@ -83,6 +83,7 @@
             transform: translate(-275px, -228px);
             z-index: -1000;
             margin-top: 3%;
+            width: 120%;
             
             @media (max-width: 1024px) {
 
@@ -102,7 +103,7 @@
         text-align: center;
 
         .card__row{
-            margin-top: -721px;
+            margin-top: -613px;
 
             .card__img {
                 position: relative;
