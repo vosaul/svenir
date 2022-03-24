@@ -1,5 +1,6 @@
 {%- assign wh = site.data.frontpage-section -%}
 <div class="wehomies__container">
+  <div class="wehomies__row">
 
     <div class="wehomies__content">
 
@@ -21,7 +22,7 @@
       </div>
       <div class="wehomies__sublist">
         {%- for i in wh.list2 -%}
-        <p class="wehomies__point">{{i}}</p>
+        <p>{{i}}</p>
         {%- endfor -%}
       </div>
       <div class="wehomies__else">
@@ -32,5 +33,15 @@
     <div class="wehomies__img">
       <img src="/assets/images/Rectangle.png" alt="image">
     </div>
-
   </div>
+  <div class="wehomies__join">
+    <div class="join__title">{{wh.title1}}</div>
+    <div class="join__text">{{wh.text4}}</div>
+    {%- for i in wh.list3 -%}
+    <div class="join__list">
+      <p class="join__point">{{i}}</p>
+    </div>
+    {%- endfor -%}
+    <div class="join__quetion">{{wh.quetion}}</div>
+  </div>
+</div>

@@ -16,11 +16,10 @@
     .roadmap__title {
         width: 384px;
         font-family: 'Lobster';
-        font-style: normal;
         font-weight: 400;
         font-size: 69px;
         line-height: 78px;
-        letter-spacing: 2.15625px;
+        letter-spacing: 2.15px;
         @media (max-width: 768px) {
             width: 100%;
             font-size: 50px; 
@@ -68,7 +67,7 @@
         font-weight: 300;
         font-size: 25px;
         line-height: 30px;
-        letter-spacing: 0.78125px;
+        letter-spacing: 0.78px;
         margin-top: 37px;
         @media (max-width: 768px) {
             width: 458px;
@@ -170,7 +169,7 @@
             font-weight: 300;
             font-size: 25px;
             line-height: 50px;
-            letter-spacing: 0.78125px;
+            letter-spacing: 0.78px;
             @media (max-width: 768px) {
                 font-size: 20px;
                 line-height: 30px; 

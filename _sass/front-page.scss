@@ -62,16 +62,15 @@
             h2{
                 margin-top: 3%;
                 font-family: 'Montserrat';
-                font-style: normal;
+
                 font-weight: 900;
                 font-size: 35px;
                 line-height: 47px;
-                letter-spacing: 1.09375px;
+                letter-spacing: 1.09px;
                 margin-bottom: 3%;
             }
             p{
                 font-family: 'Montserrat';
-                font-style: normal;
                 font-weight: 300;
                 font-size: 20px;
                 line-height: 24px;
@@ -147,79 +146,158 @@
         }
     }
 
-    .wehomies__container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 27px;
-
-        .wehomies__content {
-        }
-        .wehomies__title {
-            font-family: 'Dela Gothic One';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 35px;
-            line-height: 47px;
-
-        }
-        .wehomies__text {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 300;
-            font-size: 20px;
-            line-height: 24px;
-            padding: 20px 0;
-        }
-        .wehomies__list {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 22px;
-            line-height: 27px;;
-        }
-        .wehomies__subtitle {
-            font-family: 'Dela Gothic One';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 23px;
-            line-height: 33px;
-            margin: 80px 0 20px;
-        }
-        .wehomies__subtext {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 300;
-            font-size: 20px;
-            line-height: 24px;
-            span{
-                font-weight: 700;
-                margin-bottom: 20px;
-                display: inline-block;
+    .wehomies__container{
+        .wehomies__row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 36px;
+            &>* {
+                position: relative;
+                z-index: 10;
+              }
+            
+    
+            .wehomies__content {
+                
+            
+                .wehomies__title {
+                    font-family: 'Dela Gothic One';
+                    font-weight: 400;
+                    font-size: 35px;
+                    line-height: 47px;
+        
+                }
+                .wehomies__text {
+                    font-family: 'Montserrat';
+                    font-weight: 300;
+                    font-size: 20px;
+                    line-height: 24px;
+                    padding: 20px 0;
+                }
+                .wehomies__list {
+                    font-family: 'Montserrat';
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 27px;;
+                }
+                .wehomies__subtitle {
+                    font-family: 'Dela Gothic One';
+                    font-weight: 400;
+                    font-size: 23px;
+                    line-height: 33px;
+                    margin: 80px 0 20px;
+                }
+                .wehomies__subtext {
+                    font-family: 'Montserrat';
+                    font-weight: 300;
+                    font-size: 20px;
+                    line-height: 24px;
+                    span{
+                        font-weight: 700;
+                        margin-bottom: 20px;
+                        display: inline-block;
+                    }
+                }
+                .wehomies__sublist {
+                    font-family: 'Montserrat';
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 27px;
+                    margin: 20px 0;
+                    p{
+                        padding-left: 20px;
+                        &::before{
+                            content: "";
+                            position: absolute;
+                            background-image: url(/assets/images/list-decoration.png);
+                            background-repeat: no-repeat;
+                            background-size: 100%;
+                            width: 10px;
+                            height: 10px;
+                            margin: 10px 0 0 -20px;
+                        }
+                    }
+                }
+                .wehomies__else {
+                    font-family: 'Montserrat';
+                    font-weight: 300;
+                    font-size: 20px;
+                    line-height: 24px;
+                }
+            }
+            .wehomies__img {
+                padding-top: 10px;
             }
         }
-        .wehomies__sublist {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 22px;
-            line-height: 27px;
-            margin: 20px 0;
+
+        .wehomies__join {
+            margin-top: 180px;
+            text-align: center;
+            &>* {
+                position: relative;
+                z-index: 2;
+              }
+              
+            .join__title {
+                font-family: 'Dela Gothic One';
+                font-weight: 400;
+                font-size: 35px;
+                line-height: 47px;
+                &>* {
+                    position: relative;
+                    z-index: 2;
+                  }
+                &::after{
+                    content: "";
+                    background-image: url(/assets/images/bg_circle.png);
+                    background-repeat: no-repeat;
+                    background-size: 95%;
+                    width: 900px;
+                    height: 1000px;
+                    position: absolute;
+                    transform: translate(-637px, -612px);
+                    z-index: -1;
+                }
+            }
+            .join__text {
+                font-family: 'Montserrat';
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 24px;
+                margin: 20px 0;
+
+                span{
+                    font-family: 'Montserrat';
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 27px;
+                    
+                }
+            }
+            .join__list {
+                p{
+                    font-family: 'Montserrat';
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 27px;
+                    letter-spacing: 0.625px;
+                }
+            }
+            .join__quetion {
+                font-family: 'Montserrat';
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 24px;
+                letter-spacing: 0.625px;
+                margin-top: 20px;
+            }
         }
-        .wehomies__else {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 300;
-            font-size: 20px;
-            line-height: 24px;
-        }
-        .wehomies__img {
-            padding-top: 10px;
-        }
+        
     }
 
     .frontpage__button{
         text-align: center;
-        margin-top: 250px;
+        margin-top: 100px;
         position: relative;
         @media (max-width: 1024px) {
 
@@ -250,12 +328,11 @@
         
         a.btn {
             font-family: 'Montserrat';
-            font-style: normal;
             font-weight: 600;
             font-size: 29px;
             line-height: 35px;
             text-align: center;
-            letter-spacing: 0.90625px;
+            letter-spacing: 0.9px;
             background-color: rgba(255, 102, 0, 0.6);
             box-shadow: (3px 0px 4px rgba(0, 0, 0, 0.2));;
             border-radius: 12px;
@@ -275,7 +352,7 @@
             font-weight: 300;
             font-size: 10px;
             line-height: 12px;
-            letter-spacing: 0.3125px;
+            letter-spacing: 0.3px;
             margin-left: 145px;
             margin-top: 17px;
             text-align: left;

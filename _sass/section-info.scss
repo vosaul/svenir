@@ -44,13 +44,12 @@
         }
 
         .subtitle{
-            font-family: 'Montserrat';
-            font-style: normal;
+            font-family: 'Montserrat';            
             font-weight: 700;
             font-size: 15px;
             line-height: 18px;
             text-align: left;
-            letter-spacing: 0.46875px;
+            letter-spacing: 0.46px;
             @media (max-width: 768px) {
                 font-size: 10px;
                 line-height: 12px
@@ -178,12 +177,11 @@
         
 
         h2{
-            font-family: 'DelaGothicOne';
-            font-style: normal;
+            font-family: 'DelaGothicOne';    
             font-weight: 400;
             font-size: 50px;
             line-height: 63px;
-            letter-spacing: 1.5625px;
+            letter-spacing: 1.5px;
             margin: 20px 0 50px 0;
             @media (max-width: 768px) {
                 font-size: 40px;
@@ -296,12 +294,11 @@
     .text {
         
         font-family: 'Montserrat';
-        font-style: normal;
         font-weight: 300;
         font-size: 15px;
         line-height: 18px;
         text-align: left;
-        letter-spacing: 0.46875px;
+        letter-spacing: 0.46px;
         p{
             margin-bottom: 20px;
         }
@@ -380,7 +377,32 @@
         }
         @media (max-width: 425px) {
             padding: 0;
-            
+            &>* {
+                position: relative;
+                z-index: 2;
+              }
+            &::after{
+                content:"";
+                position: absolute;
+                background-image: url(/assets/images/bg_decoration.png);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                width: 410px;
+                height: 400px;
+                transform: translate(-19px, -208px);
+                @media (max-width: 375px) {
+                    width: 350px;
+                    height: 330px;
+                    transform: translate(-14px, -177px);
+                    
+                }
+                @media (max-width: 320px) {
+                    width: 300px;
+                    height: 280px;
+                    transform: translate(-14px, -152px);
+                    
+                }
+            } 
         }
         &::before{
             content: "";
@@ -398,6 +420,8 @@
                 display: none;
                 
             }
+            
+            
         }
     }
     .image.img-1{
@@ -412,6 +436,10 @@
         }
         @media (max-width: 425px) {
             transform: none;
+            &>* {
+                position: relative;
+                z-index: 2;
+              }
             
         }
     }
@@ -487,11 +515,10 @@
         grid-column: 2 / 2;
         grid-row: 2 /  2;
         font-family: 'Montserrat';
-        font-style: normal;
         font-weight: 500;
         font-size: 21px;
         line-height: 26px;
-        letter-spacing: 0.65625px;
+        letter-spacing: 0.65px;
         background-color: black;
         color: white;
         text-align: center;

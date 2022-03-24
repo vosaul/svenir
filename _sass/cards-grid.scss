@@ -66,11 +66,11 @@
                 height: 108px;
                 position: absolute;
                 font-family: 'Montserrat';
-                font-style: normal;
+                
                 font-weight: 700;
                 font-size: 34px;
                 line-height: 41px;
-                letter-spacing: 1.0625px;
+                letter-spacing: 1.06px;
                 color: #FF6600;
                 padding:  33px 36px;
                 background-color: rgba(0, 0, 0, 0.52);
@@ -178,16 +178,14 @@
 
             h2{
                 font-family: 'Dela Gothic One';
-                font-style: normal;
                 font-weight: 400;
                 font-size: 75px;
                 line-height: 83px;
-                letter-spacing: 2.59375px;
+                letter-spacing: 2.6px;
                 margin-bottom: 58px;
                 @media (max-width: 1024px) {
                     font-size: 70px;
                     line-height: 70px;
-                    letter-spacing: 2.59375px;
                     margin-bottom: 15px;
                     
                 }
@@ -347,7 +345,6 @@
                 p {
                     padding-bottom: 15px;
                     font-family: 'Montserrat';
-                    font-style: normal;
                     font-weight: 500;
                     font-size: 20px;
                     line-height: 24px;
@@ -366,7 +363,6 @@
                 span{
                     padding-bottom: 15px;
                     font-family: 'Montserrat';
-                    font-style: normal;
                     font-weight: 500;
                     font-size: 20px;
                     line-height: 24px;
@@ -413,11 +409,10 @@
             
             h2{
                 font-family: 'Dela Gothic One';
-                font-style: normal;
                 font-weight: 400;
                 font-size: 75px;
                 line-height: 83px;
-                letter-spacing: 2.59375px;
+                letter-spacing: 2.6px;
                 margin-bottom: 58px;
                 @media (max-width: 1024px) {
                     margin-bottom: 30px;
@@ -436,7 +431,6 @@
             p {
                 padding-bottom: 15px;
                 font-family: 'Montserrat';
-                font-style: normal;
                 font-weight: 500;
                 font-size: 20px;
                 line-height: 24px;
@@ -451,8 +445,7 @@
                 }
                 span{
                     padding-bottom: 15px;
-                font-family: 'Montserrat';
-                font-style: normal;
+                font-family: 'Montserrat';   
                 font-weight: 500;
                 font-size: 20px;
                 line-height: 24px;
