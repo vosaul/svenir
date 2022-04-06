@@ -284,11 +284,16 @@
                     line-height: 24px;
                 }
             }
-            .wehomies__img {
+            .wehomies__img-illust {
+                padding-top: 10px;
+                transform: translate(-100px, 83px);
+            }
+            .wehomies__img-planet {
                 padding-top: 10px;
                 transform: translate(-100px, 83px);
             }
         }
+        
 
         .wehomies__join {
             margin-top: 180px;
