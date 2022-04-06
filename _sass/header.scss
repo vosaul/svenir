@@ -28,9 +28,18 @@ header{
             margin-top: 35px;
             width: 202px;
             height: 58px;
-            border: 1px solid #000;
+            opacity: 0.45;
+            background: #000000;
+            border: 2px solid #000000;
+            box-sizing: border-box;
+            box-shadow: 6px 4px 13px rgba(0, 0, 0, 0.5);
             border-radius: 62px;
-            text-transform: uppercase; 
+            position: relative;
+            img{
+                width: 189px;
+                height: 51px;
+                position: absolute;
+            }
             
             @media (max-width: 768px) {
                 margin-top: 18px;

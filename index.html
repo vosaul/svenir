@@ -2,9 +2,8 @@
 layout: default
 title: Svenir, <br> the first <span> NFT <br> souvenir </span> DAO <br>in the earth. 
 subtitle: Are you ready to be blown <br> off course ?
-descr: Join the WeHomies in unique and <br> unforgetable adventures around the globe.
-card_subtitle: The Homies are getting ready.       
-card_text: Watch the trailer here on April 20th!  
+descr: Join the WeHomies in unique and <br> unforgetable adventures around the globe.      
+card_text: The honorary members are getting ready. Watch the trailer here on April 20th!    
 card_image: /assets/images/angel_video.png
 cta_text: DIVE INTO THE SVENIR DAO
 cta_link: /dive/
@@ -25,28 +24,47 @@ cta_description: and BE PART OF THE SOUVENIR REVOLUTION!
       </div>
       <img class="frontpage__circle" src="/assets/images/circle.png" alt="circle decoration">
     </div>
-    <div class="frontpage__card">
-      <div class="card__row">
-        <img class="card__img" src="{{page.card_image}}" alt="angel">
-        <div class="card__text">
-          <p>{{page.card_subtitle}}</p>
-          {{page.card_text}}
-          <div class="card__line"></div>
-        </div>
+    <div class="frontpage__video">
+      <div class="video__row">
+        <img class="video__item" src="{{page.card_image}}" alt="angel">
+      </div>
+    </div>
+    <div class="join__now">
+      <div class="join__text">
+        <p>{{page.card_text}}</p>
+      </div>
+      <div class="join__btn">
+        <a href="#"><img src="/assets/images/join__now.png" alt=""></a>
+      </div>
+      <div class="join__form">
+        <input class="email" tabindex="1" type="text" placeholder="Email adress">
+        <a class="form__btn" href="#"> 
+          <p>Get on the list</p>
+        </a>
       </div>
     </div>
 
     {%- include frontpage-wehomies.html -%}
 
     <div class="frontpage__button">
+      <div class="btn__body">
+        <div class="btn__content">
+        <div class="btn__action">
+          <p>Are you ready to be blown off course ? </p>
+        </div>
+        <a class="btn" href="{{page.cta_link}}">
+          <img src="/assets/images/dive_into.png" alt="">
+        </a>
+        <div class="btn__description">
+          * {{page.cta_description}}
+        </div>
+        </div>
+      </div>
       <div class="btn__decoration">
         <img src="/assets/images/piramid.png" alt="">
       </div>
-      <a class="btn" href="{{page.cta_link}}">{{page.cta_text}}</a>
-      <div class="btn__description">
-        * {{page.cta_description}}
-      </div>
     </div>
+    
 
   </div>
   {%- include footer.html -%}
