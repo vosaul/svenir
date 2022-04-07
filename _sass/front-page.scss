@@ -2,6 +2,7 @@
     background: url(/assets/images/background.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0 auto;
 }
 
 .frontpage__wrapper {
@@ -112,13 +113,24 @@
             }
         }
     }
+    
     .join__now{
-        width: 835px;
-        background: rgba(134, 134, 134, 0.25);
-        border-radius: 10px;
-        margin: 80px auto 131px;
+        margin: 80px auto -80px;
         padding: 20px 0 41px;
-        position: relative;
+
+        .join__bg{
+            width: 835px;
+            height: 283px;
+            left: 302px;
+            top: 1469px;
+            background: rgba(134, 134, 134, 0.45);
+            mix-blend-mode: color-dodge;
+            opacity: 0.8;
+            border-radius: 10px;
+            transform: translate(-10px, -232px);
+            margin: 0 auto;
+            z-index: -1;
+        }
         &::before{
             content: "";
             position: absolute;
@@ -127,7 +139,8 @@
             width: 50px;
             height: 57px;
             opacity: 60%;
-            transform: translate(-34px, 164px);
+            transform: translate(20px, 164px);
+            z-index: 10;
         }
         &::after{
             content: "";
@@ -136,7 +149,7 @@
             background-size: 100%;
             width: 100px;
             height: 100px;
-            transform: translate(824px, 77px);
+            transform: translate(874px, -184px);
 
         }
         .join__text {
@@ -204,34 +217,82 @@
     }
             
     .wehomies__container{
-        .wehomies__row {
+        margin-top: -125px;
+        position: relative;
+        &::before{
+            content:"";
+            position: absolute;
+            background-image: url(/assets/images/bg_circle.png);
+            background-size: 100%;
+            width: 860px;
+            height: 949px;
+            transform: translate(-31px, 250px);
+        }
+        
+        .wehomies__row1,.wehomies__row2 {
             display: grid;
-            grid-template-columns: 497px 1fr;
+            grid-template-columns: 475px 1fr;
             &>* {
                 position: relative;
                 z-index: 10;
-              }
-            
+            }
+        }
+        .wehomies__row1::before{
+            content: "";
+            position: absolute;
+            width: 1012px;
+            height: 551px;
+            background: rgba(134, 134, 134, 0.45);
+            mix-blend-mode: color-dodge;
+            opacity: 0.8;
+            border-radius: 10px;
+            right: -10px;
+        }
+        .wehomies__row2{
+            margin-top: 185px;
+            margin-left: 20px;
+        }
+        .wehomies__row2::before{
+            content: "";
+            position: absolute;
+            width: 1012px;
+            height: 606px;
+            background: rgba(134, 134, 134, 0.45);
+            mix-blend-mode: color-dodge;
+            opacity: 0.8;
+            border-radius: 10px;
+            right: -10px;
+        }
     
-            .wehomies__content {
-                
+            .wehomies__content {               
             
                 .wehomies__title {
                     font-family: 'Dela Gothic One';
                     font-weight: 400;
                     font-size: 35px;
                     line-height: 47px;
+                    padding-top: 30px;
         
                 }
                 .wehomies__text {
                     font-family: 'Montserrat';
                     font-weight: 300;
-                    font-size: 20px;
+                    font-size: 15px;
                     line-height: 24px;
                     padding: 20px 0;
+                    position: relative;
                     span{
                         font-weight: 600;
 
+                    }
+                    &:nth-child(2)::after{
+                        content: "";
+                        position: absolute;
+                        background-image: url(/assets/images/grey__cube.png);
+                        background-size: 100%;
+                        width: 60px;
+                        height: 60px;
+                        transform: translate(-227px, 314px);
                     }
                 }
                 .wehomies__list {
@@ -243,9 +304,9 @@
                 .wehomies__subtitle {
                     font-family: 'Dela Gothic One';
                     font-weight: 400;
-                    font-size: 23px;
+                    font-size: 22px;
                     line-height: 33px;
-                    margin: 80px 0 20px;
+                    margin: 30px 0 20px;
                 }
                 .wehomies__subtext {
                     font-family: 'Montserrat';
@@ -256,6 +317,7 @@
                         font-weight: 700;
                         margin-bottom: 20px;
                         display: inline-block;
+                        font-size: 22px;
                     }
                 }
                 .wehomies__sublist {
@@ -282,15 +344,47 @@
                     font-weight: 300;
                     font-size: 20px;
                     line-height: 24px;
+                    position: relative;
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        background-image: url(/assets/images/star.png);
+                        background-size: 100%;
+                        width: 70px;
+                        height: 70px;
+                        transform: translate(190px, 144px);
+                    }
                 }
+            
+        }
+        .wehomies__img-illust {
+            padding-top: 10px;
+            transform: translate(-100px, 83px);
+            position: relative;
+            &::after{
+                content: "";
+                position: absolute;
+                background-image: url(/assets/images/sv_comingsoon.png);
+                background-size: 100%;
+                width: 501px;
+                height: 33px;
+                transform: translate(-525px, 242px);
             }
-            .wehomies__img-illust {
-                padding-top: 10px;
-                transform: translate(-100px, 83px);
-            }
-            .wehomies__img-planet {
-                padding-top: 10px;
-                transform: translate(-100px, 83px);
+        }
+        .wehomies__img-planet {
+            width: 749px;
+            height: 689px;
+            padding-top: 10px;
+            transform: translate(-155px, -73px);
+            position: relative;
+            &::after{
+                content: "";
+                position: absolute;
+                background-image: url(/assets/images/sv_comingsoon2.png);
+                background-size: 100%;
+                width: 501px;
+                height: 33px;
+                transform: translate(-665px, 361px);
             }
         }
         
@@ -362,7 +456,16 @@
 
     .frontpage__button{
         text-align: center;
-        margin-top: 100px;
+        margin: 100px 0 154px;
+        &::before{
+            content: "";
+            position: absolute;
+            background-image: url(/assets/images/grey_p.png);
+            background-size: 100%;
+            width: 65px;
+            height: 65px;
+            transform: translate(221px, -172px);
+        }
         .btn__action{
             font-family: 'Montserrat';
             font-weight: 700;
@@ -372,19 +475,19 @@
             padding: 41px 0 21px;
         }
         .btn__body{
-            margin-top: 100px;
-            background: rgba(134, 134, 134, 0.1);
-            opacity: 0.8;
-            box-shadow: 3px 2px 9px rgba(0, 0, 0, 0.3);
-            border-radius: 10px;
-        
-            @media (max-width: 1024px) {
-
-                
-            }
-            @media (max-width:768px) {
-
-                
+            &::after{
+                content:"";
+                position: absolute;
+                width: 1012px;
+                height: 212px;
+                left: 213px;
+                top: 3349px;
+                background: rgba(134, 134, 134, 0.45);
+                mix-blend-mode: color-dodge;
+                opacity: 0.8;
+                box-shadow: 10px 2px 9px rgba(0, 0, 0, 0.6);
+                border-radius: 10px;
+                transform: translate(-232px, -243px);
             }
             .btn__content{
 
@@ -399,7 +502,6 @@
                 line-height: 35px;
                 text-align: center;
                 background: #000000;
-                mix-blend-mode: multiply;
                 border: 1px solid #000000;
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                 border-radius: 25px;
@@ -442,7 +544,7 @@
         }
         .btn__decoration{
             text-align: left;
-            margin-left: 10px;
+            transform: translate(-65px, 109px);
             opacity: 70%;
             @media (max-width: 1024px) {
 
