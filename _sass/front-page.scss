@@ -38,8 +38,8 @@
                 span{
                     color: #0EA7A5;
                 }
-                @media (max-width: 768px) {
-
+                @media (max-width: 1024px) {
+                    
                     
                 }
                 &::after{
@@ -52,7 +52,7 @@
                     height: 80px;
                     transform: translate(253px, -185px);
                     @media (max-width: 1024px) {
-
+                        transform: translate(243px, -185px);
                         
                     }
                     @media (max-width: 768px){
@@ -63,12 +63,15 @@
             h2{
                 margin-top: 3%;
                 font-family: 'Montserrat';
-
                 font-weight: 900;
                 font-size: 35px;
                 line-height: 47px;
                 letter-spacing: 1.09px;
                 margin-bottom: 3%;
+                @media (max-width: 1024px) {
+                    margin-top: 5%;
+                    font-size: 30px;
+                }
             }
             p{
                 font-family: 'Montserrat';
@@ -86,7 +89,8 @@
             width: 120%;
             
             @media (max-width: 1024px) {
-
+                transform: translate(-203px, -227px);
+                width: 110%;
                 
             }
             @media (max-width: 768px) {
@@ -104,6 +108,10 @@
 
         .video__row{
             margin-top: -645px;
+            @media (max-width: 1024px) {
+                margin-top: -545px;
+                
+            }
 
             .video__item {
                 position: relative;
@@ -117,6 +125,10 @@
     .join__now{
         margin: 80px auto -80px;
         padding: 20px 0 41px;
+        @media (max-width: 1024px) {
+            margin: 30px auto -80px;
+            
+        }
 
         .join__bg{
             width: 835px;
@@ -247,10 +259,17 @@
             opacity: 0.8;
             border-radius: 10px;
             right: -10px;
+            @media (max-width: 1024px) {
+                right: -26px;
+                
+            }
         }
         .wehomies__row2{
             margin-top: 185px;
             margin-left: 20px;
+            @media (max-width: 1024px) {
+                margin-top: 110px; 
+            }
         }
         .wehomies__row2::before{
             content: "";
@@ -262,6 +281,10 @@
             opacity: 0.8;
             border-radius: 10px;
             right: -10px;
+            @media (max-width: 1024px) {
+                right: -26px;
+                
+            }
         }
     
             .wehomies__content {               
@@ -361,6 +384,7 @@
             padding-top: 10px;
             transform: translate(-100px, 83px);
             position: relative;
+            
             &::after{
                 content: "";
                 position: absolute;
@@ -370,13 +394,21 @@
                 height: 33px;
                 transform: translate(-525px, 242px);
             }
+            
         }
         .wehomies__img-planet {
-            width: 749px;
-            height: 689px;
-            padding-top: 10px;
-            transform: translate(-155px, -73px);
-            position: relative;
+            img{
+                max-width: 749px;
+                height: auto;
+                padding-top: 10px;
+                transform: translate(-155px, -73px);
+                position: relative;
+            }
+            @media (max-width: 1024px) {
+
+                
+                
+            }
             &::after{
                 content: "";
                 position: absolute;
@@ -384,11 +416,13 @@
                 background-size: 100%;
                 width: 501px;
                 height: 33px;
-                transform: translate(-665px, 361px);
+                transform: translate(-819px, 298px);
+                @media (max-width: 1024px) {
+                    transform: translate(-593px, 290px);  
+                }
             }
         }
         
-
         .wehomies__join {
             margin-top: 180px;
             text-align: center;

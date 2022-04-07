@@ -10,6 +10,9 @@ header{
         line-height: 15px;
         text-align: right;
         margin-right: 75px;
+        @media (max-width: 1024px) {
+            margin-right: 50px;
+        }
     }
 
 
@@ -39,14 +42,15 @@ header{
                 width: 189px;
                 height: 51px;
                 position: absolute;
+                @media (max-width: 1024px) {
+                    width: 90%;
+                    height: auto;
+                    transform: translate(10px, 5px);
+                    
+                }
             }
             
-            @media (max-width: 768px) {
-                margin-top: 18px;
-                width: 269px;
-                height: 46px;
-                
-            }
+            
 
         }
 
