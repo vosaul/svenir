@@ -241,9 +241,23 @@
             transform: translate(-31px, 250px);
         }
         
-        .wehomies__row1,.wehomies__row2 {
+        .wehomies__row1 {
             display: grid;
-            grid-template-columns: 475px 1fr;
+            grid-template-columns: 450px 600px;
+            @media (max-width: 1024px) {
+
+            }
+            &>* {
+                position: relative;
+                z-index: 10;
+            }
+        }
+        .wehomies__row2{
+            display: grid;
+            grid-template-columns: 400px 600px;
+            @media (max-width: 1024px) {
+
+            }
             &>* {
                 position: relative;
                 z-index: 10;
@@ -416,7 +430,7 @@
                 background-size: 100%;
                 width: 501px;
                 height: 33px;
-                transform: translate(-819px, 298px);
+                transform: translate(-36px, -457px);
                 @media (max-width: 1024px) {
                     transform: translate(-593px, 290px);  
                 }
@@ -490,7 +504,7 @@
 
     .frontpage__button{
         text-align: center;
-        margin: 100px 0 154px;
+        margin: 50px 0 154px;
         &::before{
             content: "";
             position: absolute;
@@ -498,7 +512,7 @@
             background-size: 100%;
             width: 65px;
             height: 65px;
-            transform: translate(221px, -172px);
+            transform: translate(221px, -185px);
         }
         .btn__action{
             font-family: 'Montserrat';
