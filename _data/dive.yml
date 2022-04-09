@@ -4,30 +4,31 @@ menu:
   name: VISION
   link: "#"
 -
-  descr: Get to nkow the WeHomies
-  name: TEAM
+  descr: Get to know more about our
+  name: MISSION
   link: "#"
 -
-  descr: Follow this amazing adventure in our
-  name: CRISPY GALLERY
+  descr: Click to know the members of the
+  name: BIBC
   link: "#"
 menu_cta:
-  label: LAUNCH APP
+  image: "/assets/images/LAUNCH_APP.png"
   link: "#"
+
 
 sections:   
 -
-  intro: |
-    Travel with The WeHomies, collect
-    Svenir NFTs, earn $SVNR and join
-    the global innovation souvenir
-    revolution club.
   title: |
     Geolocated
     collectibles in
     the real world
     and in the
     metaverse
+  text: |
+    Travel with The WeHomies, collect
+    Svenir NFTs, earn $SVNR and join
+    the global innovation souvenir
+    revolution club.
   cta:
     label: READ WHITE PAPER 
     link: "#"
@@ -54,24 +55,16 @@ sections:
   intro: TAKE A LOOK TO OUR
   title: Mission
   text: |
-    "With SVNR, a game changer in the
-    souvenir market, **you can travel the
-    world, learn about history, awake your
-    consciousness and meet your fellow
-    animals and plants that are sharing
-    this awesome planet with you.**
+    By following The Honorary BIBC Members adventures, you can collect good looking and happy NFTs.Think 
+    of SVRN as a new ecosystem with features from Wikipedia, OpenSea, Travel Advisor, Instagram, Airbnb, 
+    Bored Ape Yacht Club and Bitcoin that come together In the fundamental goal of creating knowledge 
+    spillovers that help saving humanity and mother nature."
 
-    By following The We homies adventures,
-    you can collect good looking and happy
-    NFTs.
+    "With SVNR,  a game changer in the souvenir market,  you can travel the world, 
+    learn about history, awake your consciousness and meet your fellow animals and 
+    plants that are sharing this awesome planet with you. 
 
-    **Think of SVRN as a new ecosystem** with
-    features from Wikipedia, OpenSea,
-    Travel Advisor, Instagram, Airbnb, Bored
-    Ape Yacht Club and Bitcoin that come
-    together **with the fundamental goal of
-    creating knowledge spillovers that help
-    saving humanity and mother nature.**"
+
   image: "/assets/images/boy.png"  
 
 cards:
@@ -130,8 +123,7 @@ cards:
 
     <span>She is a woman T-Rex. She is very adventurous and gentle. She 
     loves adrenaline and sports.  She usually wears: sun glasses, 
-    shorts, flip flops, funny hats and she is into the funniest gadgets.</span>
-     
+    shorts, flip flops, funny hats and she is into the funniest gadgets.</span>     
 - 
   title: WE HOMIES.
   text: |

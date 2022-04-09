@@ -1,6 +1,6 @@
 ---
 layout: default
-title: EVERLASTING MEMORIES BUILT WITH PEACE AND WONDER
+images: "/assets/images/Dive__h1.png"
 ---
 
 {%- assign d = site.data.dive -%}
@@ -15,15 +15,12 @@ title: EVERLASTING MEMORIES BUILT WITH PEACE AND WONDER
           <a href="{{i.link}}">{{i.name}}</a>
         </div>
       {%- endfor -%}
-      <a href="{{d.menu_cta.link}}" class="cta">{{d.menu_cta.label}}</a>
+      <a href="{{d.menu_cta.link}}" class="cta"><img src="{{d.menu_cta.image}}" alt="btn"></a>
     </div>
 
     <div class="dive__svenir-img">
       <img src="/assets/images/transparent_text_svenir.png" alt="svenir">
     </div>
-    
-    <h1>{{page.title}}</h1>
-    
     {%- for s in d.sections -%}
       <div class="section-info b-{{forloop.index}}">
         <div class="info i-{{forloop.index}}">
