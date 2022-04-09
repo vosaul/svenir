@@ -24,13 +24,16 @@
             }
             @media (max-width: 768px) {
                 width: 84%;
-                margin-top: -56px;
+                margin-top: -96px;
             }
         }
         .frontpage__content {
             position: absolute;
             z-index: 100;
             margin-top: -96px;
+            @media (max-width: 768px) {
+                margin-top: -75px;
+            }
         }
 
             h1{
@@ -49,6 +52,7 @@
                 @media (max-width: 768px) {
                     font-size: 65px;
                     line-height: 65px;
+                    margin-top: -136px;
                 }
                 &::after{
                     content: "";
@@ -91,7 +95,7 @@
                 letter-spacing: 0.625px;
                 margin-top: 180px;
                 @media (max-width: 768px) {
-                    margin-top: 137px;
+                    margin-top: 160px;
                 }
             }
         }
@@ -107,9 +111,7 @@
                 
             }
             @media (max-width: 768px) {
-                transform: translate(-95px, -194px);
-
-                
+                transform: translate(-96px, -172px); 
             }
         }
 
@@ -126,7 +128,7 @@
                 margin-top: -470px;  
             }
             @media (max-width: 768px) {
-                margin-top: -308px;
+                margin-top: -280px;
             }
 
             .video__item {
@@ -268,6 +270,10 @@
             width: 860px;
             height: 949px;
             transform: translate(-31px, 250px);
+            @media (max-width: 768px) {
+                display: none;
+
+            }
         }
         
         .wehomies__row1 {
@@ -315,7 +321,7 @@
             @media (max-width: 768px) {
                 right: 0;
                 width: 727px;
-                height: 813px;
+                height: 800px;
             }
         }
         .wehomies__row2{
@@ -323,6 +329,9 @@
             margin-left: 20px;
             @media (max-width: 1024px) {
                 margin-top: 110px; 
+            }
+            @media (max-width: 768px) {
+                margin-top: -35px;
             }
         }
         .wehomies__row2::before{
@@ -338,6 +347,11 @@
             @media (max-width: 1024px) {
                 right: -26px;
                 
+            }
+            @media (max-width: 768px) {
+                right: 0;
+                width: 727px;
+                height: 915px;
             }
         }
     
@@ -374,6 +388,9 @@
                         width: 60px;
                         height: 60px;
                         transform: translate(-227px, 314px);
+                        @media (max-width: 768px) {
+                            display: none;                        
+                        }
                     }
                 }
                 .wehomies__list {
@@ -385,9 +402,12 @@
                 .wehomies__subtitle {
                     font-family: 'Dela Gothic One';
                     font-weight: 400;
-                    font-size: 22px;
+                    font-size: 30px;
                     line-height: 33px;
                     margin: 30px 0 20px;
+                    @media (max-width: 768px) {
+                        padding-top: 30px;
+                    }
                 }
                 .wehomies__subtext {
                     font-family: 'Montserrat';
@@ -437,6 +457,9 @@
                         @media (max-width: 1024px) {
                             transform: translate(190px, 115px);
                         }
+                        @media (max-width: 768px) {
+                            transform: translate(107px, 577px);
+                        }
                     }
                 }
             
@@ -448,6 +471,8 @@
             @media (max-width: 768px) {
                 padding: 0;
                 transform: translate(74px, -58px);
+                max-width: 90%;
+               
             }
             
             &::after{
@@ -462,7 +487,7 @@
                     transform: translate(63px, -175px);
                 }
                 @media (max-width: 768px) {
-                    transform: translate(-536px, 239px);
+                    transform: translate(-534px, 234px);
                 }
             }
             
@@ -476,9 +501,10 @@
                 position: relative;
                 @media (max-width: 1024px) {
                     max-width: 570px;
-                    transform: translate(-43px, 8px);
-                    
-                    
+                    transform: translate(-43px, 8px); 
+                }
+                @media (max-width: 768px) {
+                    transform: translate(104px, -72px);
                 }
             }
 
@@ -492,6 +518,9 @@
                 transform: translate(-36px, -457px);
                 @media (max-width: 1024px) {
                     transform: translate(-27px, -310px);
+                }
+                @media (max-width: 768px) {
+                    transform: translate(-443px, 185px);
                 }
             }
         }
@@ -567,6 +596,9 @@
         @media (max-width: 1024px) {
             margin: 170px 0 154px;
         }
+        @media (max-width:768px) {
+            margin: 90px 0 127px; 
+        }
         &::before{
             content: "";
             position: absolute;
@@ -577,6 +609,9 @@
             transform: translate(150px, -185px);
             @media (max-width: 1024px) {
                 transform: translate(170px, -144px);
+            }
+            @media (max-width: 768px) {
+                
             }
         }
         .btn__action{
@@ -605,13 +640,15 @@
                     width: 956px;
                     transform: translate(-190px, -393px);
                 }
+                @media (max-width:768px) {
+                    width: 727px;
+                    transform: translate(-191px, 76px);              
+                }
             }
             .btn__content{
 
             }
 
-
-            
             a.btn {
                 font-family: 'Montserrat';
                 font-weight: 600;
@@ -625,15 +662,14 @@
                 padding: 2px 135px;
                 margin-top: 100px;
                 position: relative;
+                @media (max-width:768px) {
+                   padding: 2px 65px; 
+                }
                 img{
                     padding-top: 3px;
                     mix-blend-mode: normal;
                 }
-                @media (max-width:768px) {
 
-
-                    
-                }
 
             }
             .btn__description{
