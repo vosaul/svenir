@@ -49,7 +49,7 @@
 
             }
             .cta {
-                max-width: 202.24px;
+                max-width: 202px;
                 height: 58px;
                 font-size: 25px;
                 background: #000000;
@@ -64,8 +64,9 @@
                     margin-left: 190px;
 
                 }
+
                 @media (max-width: 768px) {
-                    margin-left: 130px;
+                    margin-left: 90px;
                     font-size: 16px;
                     
                     
@@ -92,6 +93,9 @@
                     width: 592px;
                     height: 249px;
                     transform: translate(-834px, 335px);
+                    @media (max-width: 768px) {
+                        transform: translate(-674px, 169px);
+                    }
                 }
 
             }
@@ -116,6 +120,7 @@
 
 
             .join-channel__container {
+                margin-top: 285px;
                 .join-channel__img {
                     text-align: center;
                     img{
@@ -129,24 +134,40 @@
                             
                         }
                     }
-                    
                 }
-                .join-channel__btn {
-                    margin: 0 auto;
-                    width: 703px;
-                    height: 98px;
+                .join-channel__act{
                     font-family: 'Dela Gothic One';
-                    font-weight: 900;
-                    font-size: 30px;
-                    line-height: 43px;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 18px;
                     text-align: center;
-                    letter-spacing: 2.625px;
-                    padding: 31px 53px;
-                    border: 1px solid rgba(163, 255, 248, 0.45);
-                    background-color: rgba(163, 255, 248, 0.45);
-                    box-shadow: 6px 4px 13px rgba(0, 0, 0, 0.2);
+                    letter-spacing: 1.1px;
+                    margin-bottom: 46px;
+                }
+                .join-channel__btn1{
+                    margin: 0 auto 40px;
+                    max-width: 202px;
+                    height: 58px;
+                    font-size: 25px;
+                    background: #000000;
+                    opacity: 0.45;
+                    border: 2px solid #000000;
+                    box-sizing: border-box;
+                    box-shadow: 6px 4px 13px rgba(0, 0, 0, 0.5);
                     border-radius: 62px;
-                    transform: translate(0px, 506px);
+                    text-align: center;
+                }
+                .join-channel__btn2 {
+                    margin: 0 auto;
+                    width: 616px;
+                    height: 43px;
+                    background: #000000;
+                    border-radius: 50px;
+                    position: relative;
+                    img{
+                        position: absolute;
+                        transform: translate(34px, -19px);
+                    }
                     @media (max-width: 1024px) {
                         width: 615px;
                         height: 75px;
@@ -175,79 +196,7 @@
 
     }
     .dive__footer {
-        background: #000000;
-        margin: 0 auto;
-        .footer__container {
-            text-align: center;
-            padding: 64px 0;
-            .footer__text {
-                width: 753px;
-                font-family: 'Montserrat';
-                font-style: italic;
-                font-weight: 500;
-                font-size: 20px;
-                line-height: 24px;
-                text-align: center;
-                letter-spacing: 0.625px; 
-                color: white;
-                margin: 0 auto;
-                @media (max-width: 768px) {
-                    width: 500px;
-                    font-size: 14px;
-                    
-                }
-                @media (max-width: 425px) {
-                    width: 300px;
-                    font-size: 10px;
-                    line-height: 15px;
-                }
-            }
-            img{
-                margin-right: 15px;
-                margin-top: 20px;
-                @media (max-width: 768px) {
-                    margin-right: 10px;
-                    
-                }
-            }
-        
-            .like {
-                width: 31px;
-                height: auto;
-                @media (max-width: 768px) {
-                    width: 25px;
-                    
-                }
-                @media (max-width: 768px) {
-                    width: 15px;
-                    
-                }
-            }
-            .instagram {
-                width: 29px;
-                height: auto;
-                @media (max-width: 768px) {
-                    width: 25px;
-                    
-                }
-                @media (max-width: 768px) {
-                    width: 15px;
-                    
-                }
-            }
-            .youtube {
-                width: 29px;
-                height: auto;
-                @media (max-width: 768px) {
-                    width: 25px;
-                    
-                }
-                @media (max-width: 768px) {
-                    width: 15px;
-                    
-                }
-            }
-        }
-    
+        margin-top: -270px;
+
     }
 }

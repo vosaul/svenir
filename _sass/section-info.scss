@@ -36,6 +36,11 @@
         z-index: 100;
         
     }
+    &.b-4{
+        display: block;
+        width: 810px;
+        transform: translate(116px, 102px);
+    }
     
 
     .info {
@@ -74,7 +79,7 @@
                     border-bottom: 1px solid rgba(136, 204, 252, 1);
                     width: 76px;
                     height: 1px;
-                    transform: translate(372px, 102px);
+                    transform: translate(373px, 137px);
                     @media (max-width: 768px) {
                         transform: translate(306px, 52px);  
                         width: 56px;
@@ -95,7 +100,7 @@
             &.s-3{
                 font-size: 10px;
                 margin-bottom: 55px;
-                padding-left: 60px;
+                padding-left: 62px;
                 @media (max-width:768px) {
                     margin-bottom: 20px;   
                 }
@@ -182,7 +187,7 @@
         h2{
             font-family: 'DelaGothicOne';    
             font-weight: 400;
-            font-size: 50px;
+            font-size: 69px;
             line-height: 63px;
             letter-spacing: 1.5px;
             margin: 20px 0 50px 0;
@@ -196,6 +201,10 @@
                 font-size: 30px;
                 line-height: 30px;
                 
+            }
+            &.h-1{
+                font-size: 50px;
+                width: 460px;
             }
             
             &.h-2{
@@ -223,7 +232,6 @@
                 }
             }
             &.h-2 {
-                font-size: 69px;
                 @media (max-width: 768px){
                     font-size: 50px;
                 }
@@ -233,7 +241,6 @@
                 }
             }
             &.h-3 {
-                font-size: 69px;
                 padding-left: 60px;
                 @media (max-width: 768px){
                     font-size: 50px;
@@ -303,6 +310,9 @@
                 height: 53px;
                 position: absolute;
                 transform: translate(60px, 63px);
+                @media (max-width: 1024px) {
+                    transform: translate(77px, 63px);
+                }
             }
         }
         &.t-2{
@@ -367,8 +377,9 @@
             }
         }
         &.t-3{
-            padding: 0 145px 0 78px;
+            width: 320px;
             direction: ltr;
+            transform: translate(-158px, 0px);
             @media (max-width:1024px) {
                 padding: 0 100px 0 47px;   
             }
@@ -424,6 +435,10 @@
                 
                 
             }
+        }
+
+        &.t-4{
+            width: 360px;
         }
 
     }
@@ -554,7 +569,7 @@
 .background__decoration{
     text-align: center;
     z-index: 10;
-    margin-top: -902px;
+    margin-top: -883px;
     margin-left: 173px;
     @media (max-width: 1024px) {
         img{
