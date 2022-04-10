@@ -63,9 +63,17 @@ sections:
     "With SVNR,  a game changer in the souvenir market,  you can travel the world, 
     learn about history, awake your consciousness and meet your fellow animals and 
     plants that are sharing this awesome planet with you. 
-
-
   image: "/assets/images/boy.png"  
+-
+  title: BIBC.<br> Honorary Members 
+  text: |
+    The honorary members are the <span>five animated friends that will showcase 
+    how awesome Mother Nature and Hummanity are</span> through the SVNR NFTs collections.
+
+    <span>When you collect the SVNR NFTs you become a BIBC member too.
+    A club for people that travel while pursuing knowledge, fun, business and adventure.</span>
+-
+
 
 cards:
 - name: BIG ZEUS 

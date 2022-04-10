@@ -35,9 +35,11 @@ images: "/assets/images/Dive__h1.png"
             <a class="cta__info" href="{{s.cta.link}}">{{s.cta.label}}</a>
           {%- endif -%}
         </div>
+        {%- if s.image -%}
         <div class="image img-{{forloop.index}}">
           <img src="{{s.image}}" style="max-width:100%" alt="{{s.title}}">
         </div>
+        {%- endif -%}
         {%- if s.img-desc -%}
         <div class="img-desc">
           {{s.img-desc | markdownify }}
