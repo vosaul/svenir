@@ -120,7 +120,7 @@
 
 
             .join-channel__container {
-                margin-top: 285px;
+                margin-top: 330px;
                 .join-channel__img {
                     text-align: center;
                     img{
@@ -143,6 +143,31 @@
                     text-align: center;
                     letter-spacing: 1.1px;
                     margin-bottom: 46px;
+                    &>*{
+                        position: relative;
+                        z-index: 10;
+                    }
+                    &::after{
+                        content: "";
+                        background-image: url(/assets/images/flower.png);
+                        background-repeat: no-repeat;
+                        background-size: 100%;
+                        width: 171px;
+                        height: 158px;
+                        position: absolute;
+                        transform: translate(202px, -49px);
+                    }
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        width: 616px;
+                        height: 377px;
+                        background: rgba(134, 134, 134, 0.45);
+                        mix-blend-mode: color-dodge;
+                        opacity: 0.8;
+                        border-radius: 10px;
+                        transform: translate(-308px, -74px);
+                    }
                 }
                 .join-channel__btn1{
                     margin: 0 auto 40px;
@@ -156,17 +181,38 @@
                     box-shadow: 6px 4px 13px rgba(0, 0, 0, 0.5);
                     border-radius: 62px;
                     text-align: center;
+
                 }
                 .join-channel__btn2 {
                     margin: 0 auto;
-                    width: 616px;
+                    width: 563px;
                     height: 43px;
                     background: #000000;
                     border-radius: 50px;
                     position: relative;
                     img{
                         position: absolute;
-                        transform: translate(34px, -19px);
+                        transform: translate(0px, -19px);
+                    }
+                    &::before{
+                        content: "";
+                        background-image: url(/assets/images/grey__cube.png);
+                        background-repeat: no-repeat;
+                        background-size: 100%;
+                        width: 46px;
+                        height: 46px;
+                        position: absolute;
+                        transform: translate(-12px, -279px);
+                    }
+                    &::after{
+                        content: "";
+                        background-image: url(/assets/images/Oval1.png);
+                        background-repeat: no-repeat;
+                        background-size: 100%;
+                        width: 200px;
+                        height: 68px;
+                        position: absolute;
+                        transform: translate(-281px, -200px);
                     }
                     @media (max-width: 1024px) {
                         width: 615px;

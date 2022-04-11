@@ -37,7 +37,7 @@ images: "/assets/images/Dive__h1.png"
         </div>
         {%- if s.image -%}
         <div class="image img-{{forloop.index}}">
-          <img src="{{s.image}}" style="max-width:100%" alt="{{s.title}}">
+          <img src="{{s.image}}" alt="{{s.title}}">
         </div>
         {%- endif -%}
         {%- if s.img-desc -%}
@@ -52,7 +52,7 @@ images: "/assets/images/Dive__h1.png"
     </div>
 
     <div class="dive__spesial-text">
-      <img src="/assets/images/special_text.png" alt="special text">
+      <img src="/assets/images/BIBC.png" alt="special text">
     </div>
 
     <div class="cards__grid">
@@ -98,12 +98,6 @@ images: "/assets/images/Dive__h1.png"
           <h2 class="roadmap__title">{{d.roadmap.title}}</h2>
           <div class="roadmap__description">
             {{d.roadmap.description | markdownify }}
-          </div>
-          <div class="roadmap__arrow">
-            <img src="/assets/images/roadmap_arrow.png" alt="arrow">
-          </div>
-          <div class="roadmap__arrow-mobile">
-            <img src="/assets/images/arrow_mobile.png" alt="arrow">
           </div>
         </div>
         <div class="roadmap__img">
