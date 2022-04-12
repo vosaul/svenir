@@ -1,6 +1,12 @@
 .cards__grid{
-    max-width: 940px;
+    width: 940px;
     margin: 0 auto;
+    @media (max-width: 1024px) {
+        width: 963px;
+    }
+    @media (max-width: 768px) {
+        width: 500px;
+    }
 
     .flip-card {
         display: grid;
@@ -92,11 +98,9 @@
                         line-height: 28px;
                     }
                 }
-                @media (max-width: 1180px){
-                    width: 550px;
-                }
+
                 @media (max-width: 1024px){
-                    width: 480px;
+                    width: 470px;
                 }
 
                 @media (max-width: 425px) {
@@ -390,15 +394,8 @@
             border-radius: 44px;
             color: white;
             padding: 52px 61px 42px 30px;
-            @media (max-width: 1180px){
-                width: 500px;
-                height: 560px;
-            }
-            @media (max-width: 1024px){
-                width: 480px;
-                height: 540px;
-                padding: 30px 63px 42px 49px;
-            }
+
+
             @media (max-width: 768px) {
                 margin: 0 auto 30px;
                 

@@ -213,13 +213,15 @@
                         height: 68px;
                         position: absolute;
                         transform: translate(-281px, -200px);
+                        @media (max-width:1024px) {
+                            transform: translate(-209px, -200px);
+                        }
                     }
                     @media (max-width: 1024px) {
-                        width: 615px;
-                        height: 75px;
-                        font-size: 25px;
-                        padding: 12px 53px;
-                        transform: translate(0px, 344px);
+                        width: 561px;
+                        height: 65px;
+                        padding: 12px 6px;
+                        transform: translate(0px, 4px);
                         
                     }
                     @media (max-width: 425px) {

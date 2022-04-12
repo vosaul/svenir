@@ -1,8 +1,8 @@
 .roadmap__container {
     margin-top: 500px;
 
-    @media (max-width: 425px) {
-        margin-top: 175px;
+    @media (max-width: 768px) {
+        margin-top: 260px;
         
     }
     .roadmap__grid{
@@ -25,6 +25,14 @@
             opacity: 0.8;
             border-radius: 10px;
             transform: translate(-90px, -50px);
+            @media (max-width: 1024px) {
+                width: 998px;
+                transform: translate(-87px, -50px);
+            }
+            @media (max-width: 768px) {
+                width: 739px;
+                transform: translate(-87px, -50px);
+            }
         }
     }
     .roadmap__title {
@@ -61,7 +69,7 @@
             transform: translate(-332px, 297px);
             @media (max-width: 768px) {
                 background-size: 80%;
-                transform: translate(96px, 52px);
+                transform: translate(179px, 101px);
             }
             @media (max-width:425px) {
                 transform: translate(48px, -27px);
@@ -105,8 +113,11 @@
             border-radius: 50%;
             position: absolute;
             transform: translate(793px, -500px);
+            @media (max-width: 1024px) {
+                transform: translate(718px, -500px);
+            }
             @media (max-width: 768px) {
-                transform: translate(600px, 180px);
+                transform: translate(533px, -396px);
                 height: 80px;
                 width: 80px;
             }
@@ -122,6 +133,8 @@
     }
 
     .roadmap__img{
+        max-width: 100%;
+        transform: translate(-141px, 216px);
         &::before{
             content:"";
             background-image: url(/assets/images/grey_p.png);
@@ -129,12 +142,16 @@
             height: 65px;
             position: absolute;
             transform: translate(340px, 173px);
+            @media (max-width: 1180px) {
+                transform: translate(320px, 173px);
+                
+            }
             @media (max-width:1024px) {
-                transform: translate(349px, 117px);
+                transform: translate(317px, -84px);
                 
             }
             @media (max-width: 768px) {
-                transform: translate(491px, -151px);
+                transform: translate(606px, -151px);
                 
             }
             @media (max-width: 425px) {
@@ -142,15 +159,14 @@
             }
         }
         img{
-            max-width: 120%;
-            transform: translate(-100px, 206px);
+            
             @media (max-width: 1024px) {
-                max-width: 100%;
-                transform: translate(-5px, 143px);     
+                max-width: 150%;
             }
             @media (max-width: 768px) {
-                transform: translate(-5px, -85px);
-                
+                transform: translate(162px, -211px);
+                width: 437px;
+
             }
             @media (max-width: 425px) {
                 margin-top: 60px;
