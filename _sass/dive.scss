@@ -243,6 +243,11 @@
     }
     .dive__footer {
         margin-top: -270px;
+        z-index: 100;
+        transform: translate( 0px, 0px);
+        footer{
+            padding-bottom: 60px;
+        }
 
     }
 }

@@ -106,7 +106,7 @@ images: "/assets/images/Dive__h1.png"
       </div>
       <div class="roadmap__catalog">
         {%- for c in d.roadmap.content -%}
-          <ul class="roadmap__list">
+          <ul class="roadmap__list l-{{forloop.index}}">
             <li>{{c}}</li>
           </ul>
         {%- endfor -%}

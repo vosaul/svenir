@@ -19,7 +19,7 @@
             content: "";
             position: absolute;
             width: 1050px;
-            height: 1569px;
+            height: 1440px;
             background: rgba(134, 134, 134, 0.45);
             mix-blend-mode: color-dodge;
             opacity: 0.8;
@@ -187,7 +187,89 @@
                     margin-left: 50px;   
                 }
             }
-            li::before{
+            &.l-1, &.l-2, &.l-3, &.l-4, &.l-5, &.l-6{
+                span{
+                    color: rgba(10, 255, 19, 1);
+                }
+            }
+            &.l-1::before, &.l-2::before, &.l-3::before, &.l-4::before, &.l-5::before, &.l-6::before{
+                content: "";
+                background-image: url(/assets/images/list-decoration-green.png);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                transform: translate(30px, 10px);
+            }
+            &.l-7, &.l-8{
+                span{
+                    color: rgba(246, 139, 62, 1);
+                }
+            }
+            &.l-7::before, &.l-8::before{
+                content: "";
+                background-image: url(/assets/images/list-decoration-orange.png);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                transform: translate(30px, 10px);
+            }
+
+            &.l-9, &.l-10, &.l-11, &.l-13{
+                span{
+                    color: rgba(78, 188, 181, 1);
+                }
+            }
+            &.l-9::before, &.l-10::before, &.l-11::before, &.l-13::before{
+                content: "";
+                background-image: url(/assets/images/list-decoration-swamp.png);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                transform: translate(30px, 10px);
+            }
+            &.l-8{
+                line-height: 28px;
+            }
+            &.l-12{
+                color: rgba(50, 70, 255, 1);
+                line-height: 28px;
+            }
+            &.l-12::before{
+                content: "";
+                background-image: url(/assets/images/list-decoration-blue.png);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                transform: translate(30px, 10px);
+            }
+
+            &.l-14{
+                color: white;
+                line-height: 28px;
+            }
+            &.l-14::before{
+                content: "";
+                background-image: url(/assets/images/list-decoration.png);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                transform: translate(30px, 10px);
+            }
+
+
+
+
+            /*li::before{
                 content: "";
                 background-image: url(/assets/images/list-decoration.png);
                 background-repeat: no-repeat;
@@ -202,7 +284,7 @@
                 
                     
                 }
-            }
+            }*/
         }
     }
 }
