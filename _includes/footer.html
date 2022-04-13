@@ -1,26 +1,19 @@
+{%- assign data = site.data.footer -%}
 <footer>
     <div class="footer__wrapper">
         <div class="footer__decoration"></div>
         <div class="footer__text">
-            <p>SVENIR is the first souvenir DAO in the world; <br>
-                Become a BIBC member by collecting the SVNR NFTs from the adventures of the members around the world & in the Metaverse</p>
+            <p>{{data.description}}</p>
         </div>
         <div class="footer__social">
-            <a href="#">
-                <img src="/assets/images/tik-tok.png" alt="tik-tok" class="tik-tok">
+            {%- for s in data.social -%}
+            <a href="{{s.link}}">
+                <img src="{{s.image}}" alt="{{s.alt}}" class="{{s.alt}}">
             </a>
-            <a href="#">
-                <img src="/assets/images/discord.png" alt="discord" class="discord">
-            </a>
-            <a href="#">
-                <img class="instagram" src="/assets/images/instagram_black.png" class="instagram" alt="instagram">
-            </a>
-            <a href="#">
-                <img src="/assets/images/twitter_black.png" alt="twitter" class="twitter">
-            </a>
+            {%- endfor -%}
         </div>
         <div class="footer__terms">
-            <a href="#">SVENIR TERMS & CONDITIONS</a>
+            <a href="{{data.terms_link}}">{{data.terms_title}}</a>
             <p>©2022 SVENIR LABS LLC</p>
         </div>
     </div>
