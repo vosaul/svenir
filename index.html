@@ -31,22 +31,21 @@ cta_description: and BE PART OF THE SOUVENIR REVOLUTION!
     </div>
     
     <div class="join__now">
-      
-      <div class="join__text">
-        <p>{{page.card_text}}</p>
+            <div class="join__bg"></div>
+
+      <div class="join__top">
+        <div class="join__text">
+          <p>{{page.card_text}}</p>
+        </div>
+        <div class="join__btn">
+          <a href="#">
+            <img src="/assets/images/join__now.png" alt="btn">
+          </a>
+        </div>
       </div>
-      <div class="join__btn">
-        <a href="#">
-          <img src="/assets/images/join__now.png" alt="btn">
-        </a>
+      <div class="join__form_outer">
+        {%- include mailchimp.html -%}
       </div>
-      <div class="join__form">
-        <input class="email" tabindex="1" type="email" placeholder="Email adress">
-        <a class="form__btn" href="#"> 
-          <p>Get on the list</p>
-        </a>
-      </div>
-      <div class="join__bg"></div>
     </div>
 
     {%- include frontpage-wehomies.html -%}
