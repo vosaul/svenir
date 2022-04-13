@@ -161,13 +161,12 @@
             opacity: 0.8;
             border-radius: 10px;
             position: absolute;
-            top: 0;
+            top: 10%;
             left: 50%;
             transform: translateX(-50%);
             margin: 0 auto;
             @media (max-width: 768px) {
                 width: 700px;
-                transform: translate(0px, -232px);
             }
         }
         &::before{
@@ -193,7 +192,7 @@
             height: 100px;
             transform: translate(874px, 101px);
             @media (max-width: 768px) {
-                transform: translate(625px, -184px);
+                transform: translate(625px, 101px);
                 
             }
         }
@@ -270,8 +269,11 @@
     }
             
     .wehomies__container{
-        margin-top: -125px;
+        margin-top: -121px;
         position: relative;
+        @media (max-width: 1024px) {
+            margin-top: 240px;
+        }
         &::before{
             content:"";
             position: absolute;
@@ -323,9 +325,10 @@
             mix-blend-mode: color-dodge;
             opacity: 0.8;
             border-radius: 10px;
-            right: -10px;
+            right: -20px;
             @media (max-width: 1024px) {
-                right: -26px;
+                right: -19px;
+                width: 998px;
                 
             }
             @media (max-width: 768px) {
@@ -353,9 +356,10 @@
             mix-blend-mode: color-dodge;
             opacity: 0.8;
             border-radius: 10px;
-            right: -10px;
+            right: -20px;
             @media (max-width: 1024px) {
-                right: -26px;
+                right: -19px;
+                width: 998px;
                 
             }
             @media (max-width: 768px) {
