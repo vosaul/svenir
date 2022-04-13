@@ -85,6 +85,9 @@
                         margin-top: 45px;
                     }
                 }
+                @media (max-width: 768px){
+                    margin-bottom: 60px;
+                }
                 &::after{
                     content: "";
                     position: absolute;
@@ -125,15 +128,11 @@
                     text-align: center;
                     img{
                         max-width: 100%;
-                        @media (max-width: 1024px) {
-                            max-width: 80%;
-                            
-                        }
-                        @media (max-width: 425px) {
-                            max-width: 100%;
-                            
-                        }
+
                     }
+                }
+                @media (max-width: 768px) {
+                    margin-top: 285px;
                 }
                 .join-channel__act{
                     font-family: 'Dela Gothic One';
@@ -216,6 +215,9 @@
                         @media (max-width:1024px) {
                             transform: translate(-209px, -200px);
                         }
+                        @media (max-width: 768px) {
+                            display: none;
+                        }
                     }
                     @media (max-width: 1024px) {
                         width: 561px;
@@ -247,6 +249,12 @@
         margin-top: -270px;
         z-index: 100;
         transform: translate( 0px, 0px);
+        @media (max-width: 1024px) {
+            margin-top: -220px;
+        }
+        @media (max-width: 768px) {
+            margin-top: -190px;
+        }
         footer{
             padding-bottom: 60px;
         }

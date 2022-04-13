@@ -2,7 +2,7 @@
     margin-top: 500px;
 
     @media (max-width: 768px) {
-        margin-top: 260px;
+        margin-top: 325px;
         
     }
     .roadmap__grid{
@@ -27,10 +27,12 @@
             transform: translate(-90px, -50px);
             @media (max-width: 1024px) {
                 width: 998px;
+                height: 1375px;
                 transform: translate(-87px, -50px);
             }
             @media (max-width: 768px) {
                 width: 739px;
+                height: 1500px;
                 transform: translate(-87px, -50px);
             }
         }
@@ -141,13 +143,13 @@
             width: 65px;
             height: 65px;
             position: absolute;
-            transform: translate(340px, 173px);
+            transform: translate(491px, -75px);
             @media (max-width: 1180px) {
                 transform: translate(320px, 173px);
                 
             }
             @media (max-width:1024px) {
-                transform: translate(317px, -84px);
+                transform: translate(345px, -84px);
                 
             }
             @media (max-width: 768px) {
@@ -164,9 +166,8 @@
                 max-width: 150%;
             }
             @media (max-width: 768px) {
-                transform: translate(162px, -211px);
-                width: 437px;
-
+                transform: translate(163px, -211px);
+                width: 350px;
             }
             @media (max-width: 425px) {
                 margin-top: 60px;
@@ -179,8 +180,8 @@
         margin-top: 110px;
         width: 840px;
         @media (max-width: 768px) {
-            margin-top: -70px;
-            
+            margin-top: 20px;
+            width: 685px;
         }
         .roadmap__list {
             font-family: 'Montserrat';
@@ -192,16 +193,13 @@
             
             @media (max-width: 768px) {
                 font-size: 20px;
-                line-height: 30px; 
             }
             @media (max-width: 425px) {
                 font-size: 16px;
             }
             li{
                 margin-left: 84px;
-                @media (max-width: 768px) {
-                    margin-left: 50px;   
-                }
+                
             }
             &.l-1, &.l-2, &.l-3, &.l-4, &.l-5, &.l-6{
                 span{
@@ -251,6 +249,9 @@
             }
             &.l-8{
                 line-height: 28px;
+                @media (max-width: 768px) {
+                    line-height: 25px; 
+                }
             }
             &.l-12{
                 color: rgba(50, 70, 255, 1);
@@ -266,10 +267,18 @@
                 position: absolute;
                 transform: translate(30px, 10px);
             }
+            &.l-13{
+                @media (max-width: 768px) {
+                    line-height: 25px; 
+                }
+            }
 
             &.l-14{
                 color: white;
                 line-height: 28px;
+                @media (max-width: 768px) {
+                    line-height: 25px; 
+                }
             }
             &.l-14::before{
                 content: "";
