@@ -1,6 +1,12 @@
 ---
 layout: default
 images: "/assets/images/Dive__h1.png"
+title_image-mobile: /assets/images/svenir-hero_black.png
+subtitle: Are you ready to be blown <br> off course ?
+subtitle-mobile: Are you ready to be <br>blown <br> off course ?
+descr: Join the <b>BEFORE IT BREAKS Club</b> in unique <br>and unforgetable adventures in the cities you love. 
+cta_launch: /assets/images/LAUNCH_APP.png
+cta_link: /dive/
 ---
 
 {%- assign d = site.data.dive -%}
@@ -20,6 +26,18 @@ images: "/assets/images/Dive__h1.png"
 
     <div class="dive__svenir-img">
       <img src="/assets/images/transparent_text_svenir.png" alt="svenir">
+    </div>
+    <div class="dive__row-mobile">
+      <div class="dive__content-mobile">
+        <h2>{{page.subtitle-mobile}}</h2>
+        <img class="title-image" src="{{page.title_image-mobile}}" alt="svenir">
+        <h1>{{page.title-mobile}}</h1>
+        <a class="btn__launch" href="{{page.cta_link}}">
+          <img src="{{page.cta_launch}}" alt="dive">
+        </a>
+        <p>{{page.descr}}</p>
+      </div>
+      <img class="dive__circle-mobile" src="/assets/images/bg_circle-mobile.png" alt="circle decoration">
     </div>
     {%- for s in d.sections -%}
       <div class="section-info b-{{forloop.index}}">
