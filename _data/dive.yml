@@ -29,7 +29,8 @@ sections:
   cta:
     label: READ WHITE PAPER 
     link: "#"
-    text: 
+  text-mobile: |
+    Travel with The BIB Members, collect Svenir NFTs, and with $SVNR join the global innovation souvenir revolution club.
   image: "/assets/images/svenir_black.png"
 -
   intro: GET TO KNOW OUR UNIQUE AND HUMAN
