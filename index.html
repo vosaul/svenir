@@ -1,9 +1,13 @@
 ---
 layout: default
 title: Svenir, <br> the first <span> NFT <br> souvenir </span> DAO <br>in the earth. 
+title_image-mobile: /assets/images/svenir-hero_black.png
+title-mobile: The first <span> NFT <br> souvenir </span> DAO <br>in the earth.
 subtitle: Are you ready to be blown <br> off course ?
+subtitle-mobile: Are you ready to be <br>blown <br> off course ?
 descr: Join the <b>BEFORE IT BREAKS Club</b> in unique <br>and unforgetable adventures in the cities you love.         
-card_text: The honorary members are getting ready. Watch the trailer here on April 20th!    
+card_text: The honorary members are getting ready. Watch the trailer here on April 20th!
+form_text-mobile: Join our comunity and get to know more.    
 card_image: /assets/images/angel_video.png
 cta_image: /assets/images/dive_into.png
 cta_link: /dive/
@@ -24,6 +28,23 @@ cta_description: and BE PART OF THE SOUVENIR REVOLUTION!
       </div>
       <img class="frontpage__circle" src="/assets/images/circle.png" alt="circle decoration">
     </div>
+    <div class="frontpage__row-mobile">
+      <div class="frontpage__content-mobile">
+        <h2>{{page.subtitle-mobile}}</h2>
+        <img class="title-image" src="{{page.title_image-mobile}}" alt="svenir">
+        <h1>{{page.title-mobile}}</h1>
+        <a class="btn" href="{{page.cta_link}}">
+          <img src="{{page.cta_image}}" alt="dive">
+        </a>
+        <p>{{page.descr}}</p>
+      </div>
+      <img class="frontpage__circle-mobile" src="/assets/images/bg_circle-mobile.png" alt="circle decoration">
+    </div>
+    <div class="frontpage__launch-btn">
+      <a href="#">
+        <img src="/assets/images/LAUNCH_APP.png" alt="btn">
+      </a>
+    </div>
     <div class="frontpage__video">
       <div class="video__row">
         <img class="video__item" src="{{page.card_image}}" alt="angel">
@@ -31,11 +52,13 @@ cta_description: and BE PART OF THE SOUVENIR REVOLUTION!
     </div>
     
     <div class="join__now">
-            <div class="join__bg"></div>
-
+      <div class="join__bg"></div>
       <div class="join__top">
         <div class="join__text">
           <p>{{page.card_text}}</p>
+        </div>
+        <div class="join__text-mobile">
+          <p>{{page.form_text-mobile}}</p>
         </div>
         <div class="join__btn">
           <a href="#">
@@ -45,6 +68,11 @@ cta_description: and BE PART OF THE SOUVENIR REVOLUTION!
       </div>
       <div class="join__form_outer">
         {%- include mailchimp.html -%}
+      </div>
+      <div class="join__btn-mobile">
+        <a href="#">
+          <img src="/assets/images/join__now.png" alt="btn">
+        </a>
       </div>
     </div>
 
@@ -68,8 +96,7 @@ cta_description: and BE PART OF THE SOUVENIR REVOLUTION!
         <img src="/assets/images/piramid.png" alt="">
       </div>
     </div>
-    
-
   </div>
+
   {%- include footer.html -%}
 </div>
