@@ -63,7 +63,7 @@ sections:
     plants that are sharing this awesome planet with you. 
   image: "/assets/images/boy.png"  
 -
-  title: BIBC.<br> Honorary Members 
+  title: BIBC.<br> <span>Honorary Members </span>
   text: |
     The honorary members are the <span>five animated friends that will showcase 
     how awesome Mother Nature and Hummanity are</span> through the SVNR NFTs collections.
@@ -151,6 +151,8 @@ roadmap:
     friendly cities in the world.</span> These cities 
     deserve to be the first to showcase their local 
     culture, biodiversity and innovation
+  description-mobile: Here you will find our Roadmap, click to now more.
+  link_desc: "#"
   content: 
   - Svenir NFT protocol smart contract - <span> DONE </span>
   - Svenir Website - <span> DONE </span>

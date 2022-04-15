@@ -120,6 +120,9 @@ cta_link: /dive/
           <div class="roadmap__description">
             {{d.roadmap.description | markdownify }}
           </div>
+          <div class="roadmap__description-mobile">
+            <a href="{{d.link}}">{{d.roadmap.description-mobile | markdownify }}</a>
+          </div>
         </div>
         <div class="roadmap__img">
           <img src="/assets/images/molecule.png" alt="molecule">
@@ -134,9 +137,34 @@ cta_link: /dive/
       </div>
     </div>
 
+    <div class="join__now-mobile">
+      <div class="join__bg-mobile"></div>
+      <div class="join__top-mobile">
+        <div class="join__text-mobile">
+          <p>
+            Join our community and<br> get to know more.
+          </p>
+        </div>
+      </div>
+      <div class="join__form_outer">
+        {%- include mailchimp.html -%}
+      </div>
+      <div class="join__btn-mobile">
+        <a href="#">
+          <img src="/assets/images/join__now.png" alt="btn">
+        </a>
+      </div>
+    </div>
+
     <div class="join-channel__container">
       <div class="join-channel__act">
-        <p>Join our community and get to know more.
+        <p>
+          Join our community and get to know more.
+        </p>
+      </div>
+      <div class="join-channel__act-mobile">
+        <p>
+          Are you ready to be <br> blown off course?
         </p>
       </div>
       <div class="join-channel__btn1">
