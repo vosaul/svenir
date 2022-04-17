@@ -1,0 +1,23 @@
+---
+title: ACQUIRE<br> NEW<br> PACKGES!<br> NOW! 
+layout: default
+---
+<header>
+  {%- include social.html -%}
+</header>
+<main class="app_content">
+  <div class="app_title">
+    <h1>{{page.title}}</h1>
+  </div>
+  <div class="app_grid">
+    {%- for app in site.data.app -%}
+      <div class="app_card">
+        <img src="{{app.image}}" alt="{{app.title}}" class="app_image">
+        <div class="app_text">
+          <h2>{{app.title}}</h2>
+          {{ app.text | markdownify }}
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</main>
