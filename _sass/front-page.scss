@@ -968,23 +968,29 @@
             
         }
         .wehomies__img-planet {
-            width: 70%;
+            width: 80%;
             display: grid;
             justify-content: center;
             align-content: center;
             background-repeat: no-repeat;
             background-size: 100% auto;
-            height: 221px;
+            height: 255px;
             margin-left: auto;
             margin-right: auto;
             img {
-                width: 90%;
+                width: 100%;
+                margin: 0 auto;
             }
             @media (min-width: 375px) {
-                height: 260px;
+                height: 280px;
+                
             }
-            @media (min-width: 375px) {
+            @media (min-width: 425px) {
                 height: 330px;
+                img {
+                    width: 80%;
+                    
+                }
             }
             @media (min-width: 480px) {
                 height: 338px;

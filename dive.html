@@ -52,10 +52,11 @@ cta_link: /dive/
           {%- if s.cta -%}
             <a class="cta__info" href="{{s.cta.link}}">{{s.cta.label}}</a>
           {%- endif -%}
+          <div class="text-mobile">
+            {{s.text-mobile | markdownify }}
+          </div>
         </div>
-        <div class="text-mobile">
-          {{s.text-mobile | markdownify }}
-        </div>
+
         {%- if s.image -%}
         <div class="image img-{{forloop.index}}">
           <img src="{{s.image}}" alt="{{s.title}}">
