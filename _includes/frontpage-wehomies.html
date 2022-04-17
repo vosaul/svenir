@@ -12,10 +12,10 @@
         {%- for i in wh.list1 -%}
           <p class="wehomies__item">{{i}}</p>
         {%- endfor -%}
-        <div class="wehomies__text">
-          {{wh.text2}}
-        </div>
-      </div>      
+      </div>  
+      <div class="wehomies__text">
+        {{wh.text2}}
+      </div>    
     </div>
     <div class="wehomies__img-illust" style="background-image: url(/assets/images/land-illustration.png)">
       <img src="/assets/images/sv_comingsoon.png" alt="land-illustration">
@@ -26,7 +26,7 @@
     <div class="wehomies__content">
       <h3 class="wehomies__subtitle">{{wh.subtitle}}</h3>
       <div class="wehomies__subtext"> 
-        {{wh.text3}}
+        <p>{{wh.text3}}</p>
       </div>
       <div class="wehomies__sublist">
         {%- for i in wh.list2 -%}
@@ -37,7 +37,7 @@
         {{wh.little}}    
       </div>
     </div>
-    <div class="wehomies__img-planet" style="background-image: url(/assets/images/earth.png); top: -62px;">
+    <div class="wehomies__img-planet" style="background-image: url(/assets/images/earth.png); top: -50px;">
       <img src="/assets/images/sv_comingsoon2.png" alt="earth">
     </div>
   </div>
