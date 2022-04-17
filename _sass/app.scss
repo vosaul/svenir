@@ -1,3 +1,11 @@
+.app_header {
+  display: flex;
+  justify-content: space-between;
+}
+.app_links {
+  display: flex;
+  justify-content: space-between;
+}
 .app_grid {
   display: grid;
   max-width: 1196px;
