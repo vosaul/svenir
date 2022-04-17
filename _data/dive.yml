@@ -13,7 +13,7 @@ menu:
   link: "#"
 menu_cta:
   image: "/assets/images/LAUNCH_APP.png"
-  link: "#"
+  link: "/app"
 
 
 sections:   
