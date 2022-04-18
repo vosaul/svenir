@@ -41,7 +41,7 @@ descr: Join the <b>BEFORE IT BREAKS Club</b> in unique <br>and unforgetable adve
       <div class="section-info b-{{forloop.index}}">
         <div class="info i-{{forloop.index}}">
           <div class="subtitle s-{{forloop.index}}">{{s.intro}}</div>
-          <h2 class="h-{{forloop.index}}">{{s.title}}</h2>
+          <h2 class="h-{{forloop.index}}" id="{{s.title | slugify}}">{{s.title}}</h2>
           {%- if s.text -%}
           <div class="text t-{{forloop.index}}">
             {{s.text | markdownify }}
@@ -67,6 +67,7 @@ descr: Join the <b>BEFORE IT BREAKS Club</b> in unique <br>and unforgetable adve
         {%- endif -%}
       </div>
     {%- endfor -%}
+    
     <div class="background__decoration">
       <img src="/assets/images/bg_decoration.png" alt="decoration">
     </div>

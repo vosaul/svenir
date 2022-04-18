@@ -2,19 +2,18 @@ menu:
 -
   descr: Take a look to our
   name: VISION
-  link: "#"
+  link: "#vision"
 -
   descr: Get to know more about our
   name: MISSION
-  link: "#"
+  link: "#mission"
 -
   descr: Click to know the members of the
   name: BIBC
-  link: "#"
+  link: "#bibc-br-span-honorary-members-span"
 menu_cta:
   image: "/assets/images/LAUNCH_APP.png"
   link: "/app"
-
 
 sections:   
 -
@@ -62,6 +61,7 @@ sections:
     learn about history, awake your consciousness and meet your fellow animals and 
     plants that are sharing this awesome planet with you. 
   image: "/assets/images/boy.png"  
+
 -
   title: BIBC.<br> <span>Honorary Members </span>
   text: |
@@ -70,8 +70,6 @@ sections:
 
     <span>When you collect the SVNR NFTs you become a BIBC member too.
     A club for people that travel while pursuing knowledge, fun, business and adventure.</span>
-
-
 
 cards:
 - name: BIG ZEUS 
