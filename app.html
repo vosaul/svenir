@@ -6,7 +6,7 @@ layout: default
     <header class="app_header">
       <img class="logo" src="/assets/images/svegnir_app.png" alt="">
       <div class="app_links">
-        {%- include social.html -%}
+        <div class="app_socials">{%- include social.html -%}</div>
         <a href="#" class="login"><img src="/assets/images/app_man.png" alt=""></a>
       </div>
     </header>
@@ -24,6 +24,9 @@ layout: default
             </div>
           </div>
         {%- endfor -%}
+      </div>
+      <div class="app_links-mobile">
+        {%- include social.html -%}
       </div>
     </main>
 </div>
