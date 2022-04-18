@@ -74,11 +74,17 @@ descr: Join the <b>BEFORE IT BREAKS Club</b> in unique <br>and unforgetable adve
       <img src="/assets/images/bg_decoration.png" alt="decoration">
     </div>
 
-    <div class="dive__spesial-text">
-      <img src="/assets/images/BIBC.png" alt="special text">
-    </div>
-
+    
     <div class="cards__grid">
+      <div class="card_bib">
+        <h2 id="{{d.bibs.title | slugify}}">{{d.bibs.title}}</h2>
+        <div class="text t-{{forloop.index}}">
+          {{d.bibs.text | markdownify }}
+        </div>
+      </div>
+      <div class="dive__spesial-text">
+        <img src="/assets/images/BIBC.png" alt="special text">
+      </div>
       <div class="flip-card">
         {%- for c in d.cards  -%}
         {%- if forloop.last == true -%}
