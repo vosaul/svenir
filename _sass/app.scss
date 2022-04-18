@@ -62,12 +62,15 @@
   gap: 10px;
   color: #fff;
   background: rgba(0,0,0,0.3);
+  border-radius: 20px;
+  padding: 30px;
+  width: 90%;
   @media (min-width: 1440px) {
+    width: 100%;
     padding: 60px;
     width: 1196px;
     height: 1770px;
     mix-blend-mode: multiply;
-    border-radius: 20px;
     z-index: 0;
   }
 }
