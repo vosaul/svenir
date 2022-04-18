@@ -4,36 +4,32 @@
 
     @media (min-width: 768px) {
         margin-top: 325px;
-        
     }
     @media (min-width: 1024px) {
         margin-top: 500px;
-        
     }
-    .roadmap__grid{
+    .roadmap__grid {
         display: block;
         @media (min-width: 1024px) {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            
         }
     }
-    .roadmap__header{
+    .roadmap__header {
         margin-left: 40px;
         @media (min-width: 425px) {
             margin-left: 60px;
         }
         @media (min-width: 768px) {
             margin-left: 80px;
-            
         }
 
-        &>*{
+        & > * {
             position: relative;
             z-index: 10;
         }
-       
-        &::before{
+
+        &::before {
             content: "";
             position: absolute;
             width: 90%;
@@ -51,12 +47,11 @@
             @media (min-width: 768px) {
                 width: 739px;
                 height: 1480px;
-
             }
             @media (min-width: 1024px) {
                 width: 998px;
                 height: 1375px;
-             //   transform: translate(-560px, -50px);
+                //   transform: translate(-560px, -50px);
             }
             @media (min-width: 1440px) {
                 width: 1100px;
@@ -65,14 +60,14 @@
         }
     }
     .roadmap__title {
-        font-family: 'Dela Gothic One';
+        font-family: "Dela Gothic One";
         width: 150px;
         font-size: 20px;
         line-height: 25px;
         font-weight: 400;
         letter-spacing: 2.15px;
         @media (min-width: 580px) {
-            &::before{
+            &::before {
                 content: "";
                 background-image: url(/assets/images/small__cube.png);
                 width: 60px;
@@ -80,7 +75,7 @@
                 position: absolute;
                 transform: translate(19px, -172px);
             }
-            &::after{
+            &::after {
                 content: "";
                 background-image: url(/assets/images/star.png);
                 background-repeat: no-repeat;
@@ -93,45 +88,42 @@
                     background-size: 80%;
                     transform: translate(179px, 101px);
                 }
-    
             }
         }
         @media (min-width: 768px) {
             width: 350px;
-            font-size: 50px; 
-            line-height: 50px;  
+            font-size: 50px;
+            line-height: 50px;
         }
         @media (min-width: 1024px) {
             width: 653px;
             font-size: 69px;
             line-height: 78px;
         }
-        
     }
     .roadmap__description {
         display: none;
 
-
         @media (min-width: 768px) {
             display: block;
-            font-family: 'Montserrat';
+            font-family: "Montserrat";
             font-style: italic;
             font-weight: 300;
             line-height: 30px;
             letter-spacing: 0.78px;
             margin-top: 37px;
             width: 458px;
-            font-size: 20px;   
-            span{
+            font-size: 20px;
+            span {
                 font-weight: 500;
             }
         }
         @media (min-width: 1440px) {
-            width: 558px;  
+            width: 558px;
             font-size: 22px;
         }
 
-        &::after{
+        &::after {
             content: "";
             height: 128px;
             width: 128px;
@@ -148,12 +140,12 @@
                 width: 80px;
             }
             @media (max-width: 425px) {
-                display: none; 
+                display: none;
             }
         }
     }
-    .roadmap__description-mobile{
-        font-family: 'Montserrat';
+    .roadmap__description-mobile {
+        font-family: "Montserrat";
         font-weight: 700;
         font-size: 10px;
         line-height: 12px;
@@ -164,12 +156,12 @@
         }
     }
 
-    .roadmap__img{
+    .roadmap__img {
         max-width: 100%;
         transform: translate(-141px, 216px);
-        @media(min-width: 580px) {
-            &::before{
-                content:"";
+        @media (min-width: 580px) {
+            &::before {
+                content: "";
                 background-image: url(/assets/images/grey_p.png);
                 width: 65px;
                 height: 65px;
@@ -177,23 +169,20 @@
                 transform: translate(491px, -75px);
                 @media (max-width: 1180px) {
                     transform: translate(320px, 173px);
-                    
                 }
-                @media (max-width:1024px) {
+                @media (max-width: 1024px) {
                     transform: translate(345px, -84px);
-                    
                 }
                 @media (max-width: 768px) {
                     transform: translate(606px, -151px);
-                    
                 }
             }
         }
 
-        img{
+        img {
             display: none;
             @media (min-width: 580px) {
-                display: block; 
+                display: block;
             }
             @media (min-width: 768px) {
                 transform: translate(163px, -211px);
@@ -202,16 +191,13 @@
             @media (min-width: 1024px) {
                 max-width: 150%;
             }
-            
-            
-        
         }
     }
-    .roadmap__catalog{
+    .roadmap__catalog {
         margin-top: 20px;
         max-width: 95%;
 
-        &>*{
+        & > * {
             position: relative;
             z-index: 10;
         }
@@ -224,13 +210,13 @@
             width: 840px;
         }
         .roadmap__list {
-            font-family: 'Montserrat';
+            font-family: "Montserrat";
             font-style: normal;
             font-weight: 500;
             letter-spacing: 0.78px;
             font-size: 10px;
             line-height: 25px;
-            
+
             @media (min-width: 768px) {
                 font-size: 20px;
                 line-height: 48px;
@@ -239,182 +225,126 @@
                 font-size: 22px;
                 line-height: 48px;
             }
-            li{
-                margin-left: 40px; 
+            li {
+                margin-bottom: 8px;
+                position: relative;
+                margin-left: 40px;
+                line-height: 1.2;
                 @media (min-width: 375px) {
                     margin-left: 55px;
                 }
                 @media (min-width: 768px) {
                     margin-left: 84px;
-                }               
+                }
+                &::before {
+                    width: 12px;
+                    height: 12px;
+                    position: absolute;
+                    left: -20px;
+                    top: 5px;
+                }
             }
-            &.l-1, &.l-2, &.l-3, &.l-4, &.l-5, &.l-6{
-                span{
+            .l-1,
+            .l-2,
+            .l-3,
+            .l-4,
+            .l-5,
+            .l-6 {
+                span {
                     color: rgba(10, 255, 19, 1);
                 }
             }
-            &.l-1::before, &.l-2::before, &.l-3::before, &.l-4::before, &.l-5::before, &.l-6::before{
+            .l-1::before,
+            .l-2::before,
+            .l-3::before,
+            .l-4::before,
+            .l-5::before,
+            .l-6::before {
                 content: "";
                 background-image: url(/assets/images/list-decoration-green.png);
                 background-repeat: no-repeat;
                 background-size: 100%;
-                transform: translate(21px, 6px);
+                /*    transform: translate(21px, 6px);
                 width: 12px;
                 height: 12px;
-                position: absolute;
-                @media (min-width: 375px) {
-                    transform: translate(30px, 7px);
-                }
-                @media (min-width: 580px) {
-                    width: 30px;
-                    height: 30px;
-                    transform: translate(60px, 4px);
-                }
-                @media (min-width: 768px) {
-                    transform: translate(27px, 14px);
-                }
+                position: absolute; */
             }
-            &.l-7, &.l-8{
-                span{
+            .l-7,
+            .l-8 {
+                span {
                     color: rgba(246, 139, 62, 1);
                 }
             }
-            &.l-7::before, &.l-8::before{
+            .l-7::before,
+            .l-8::before {
                 content: "";
                 background-image: url(/assets/images/list-decoration-orange.png);
                 background-repeat: no-repeat;
                 background-size: 100%;
                 position: absolute;
-                transform: translate(21px, 6px);
+                /*      transform: translate(21px, 6px);
                 width: 12px;
-                height: 12px;
-                @media (min-width: 375px) {
-                    transform: translate(30px, 7px);
-                }
-                @media (min-width: 580px) {
-                    width: 30px;
-                    height: 30px;
-                    transform: translate(60px, 4px);
-                }
-                @media (min-width: 768px) {
-                    transform: translate(27px, 14px);
-                }
+                height: 12px; */
             }
 
-            &.l-9, &.l-10, &.l-11, &.l-13{
-                span{
+            .l-9,
+            .l-10,
+            .l-11,
+            .l-13 {
+                span {
                     color: rgba(78, 188, 181, 1);
                 }
             }
-            &.l-10{
-                line-height: 10px;
+            .l-10 {
                 @media (min-width: 425px) {
-                    line-height: 25px; 
                 }
                 @media (min-width: 425px) {
-                    line-height: 48px; 
                 }
             }
-            &.l-9::before, &.l-10::before, &.l-11::before, &.l-13::before{
+            .l-9::before,
+            .l-10::before,
+            .l-11::before,
+            .l-13::before {
                 content: "";
                 background-image: url(/assets/images/list-decoration-swamp.png);
-                background-repeat: no-repeat;
-                background-size: 100%;
-                transform: translate(21px, 6px);
-                width: 12px;
-                height: 12px;
-                position: absolute;
-                @media (min-width: 375px) {
-                    transform: translate(30px, 7px);
-                }
-                @media (min-width: 580px) {
-                    width: 30px;
-                    height: 30px;
-                    transform: translate(60px, 4px);
-                }
-                @media (min-width: 768px) {
-                    transform: translate(27px, 14px);
-                }
             }
-            &.l-8{
-                line-height: 10px;
+            .l-8 {
                 @media (min-width: 768px) {
-                    line-height: 25px; 
                 }
                 @media (min-width: 1024px) {
-                    line-height: 28px; 
                 }
             }
-            &.l-12{
+            .l-12 {
                 color: rgba(50, 70, 255, 1);
-                line-height: 10px;
-                padding-bottom: 7px; 
+                padding-bottom: 7px;
 
                 @media (min-width: 425px) {
-                    line-height: 28px;
                 }
-
             }
-            &.l-12::before{
+            .l-12::before {
                 content: "";
                 background-image: url(/assets/images/list-decoration-blue.png);
                 background-repeat: no-repeat;
                 background-size: 100%;
-                transform: translate(21px, 6px);
-                width: 12px;
-                height: 12px;
-                position: absolute;
-                @media (min-width: 375px) {
-                    transform: translate(30px, 7px);
-                }
-                @media (min-width: 580px) {
-                    width: 30px;
-                    height: 30px;
-                    transform: translate(60px, 4px);
-                }
-                @media (min-width: 768px) {
-                    transform: translate(27px, 14px);
-                }
             }
-            &.l-13{
-                    line-height: 10px; 
-                    padding-bottom: 7px;
+            .l-13 {
+                padding-bottom: 7px;
                 @media (min-width: 768px) {
-                    line-height: 25px; 
                 }
             }
 
-            &.l-14{
+            .l-14 {
                 color: white;
-                line-height: 10px;
                 @media (min-width: 768px) {
-                    line-height: 25px; 
                 }
                 @media (min-width: 1024px) {
-                    line-height: 28px; 
-                    
                 }
             }
-            &.l-14::before{
+            .l-14::before {
                 content: "";
                 background-image: url(/assets/images/list-decoration.png);
                 background-repeat: no-repeat;
                 background-size: 100%;
-                transform: translate(21px, 6px);
-                width: 12px;
-                height: 12px;
-                position: absolute;
-                @media (min-width: 375px) {
-                    transform: translate(30px, 7px);
-                }
-                @media (min-width: 580px) {
-                    width: 30px;
-                    height:30px;
-                    transform: translate(60px, 4px);
-                }
-                @media (min-width: 768px) {
-                    transform: translate(27px, 14px);
-                }
             }
         }
     }

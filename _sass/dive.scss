@@ -12,7 +12,6 @@
             margin: 0 auto;
             padding: 20px 20px 0 20px;
         }
-
         
         .menu {
             display: none;
@@ -32,12 +31,10 @@
                     padding-top: 86px;
                 }
             }
-
             
             .menu_item {
                 p{
                     font-size: 20px;
-
                 }
                 a{
                     font-size: 20px;
@@ -48,7 +45,6 @@
                         font-size: 16px;
                     }
                 }
-
             }
             .cta {
                 max-width: 202px;
@@ -70,8 +66,6 @@
                 @media (max-width: 768px) {
                     margin-left: 90px;
                     font-size: 16px;
-                    
-                    
                 }
             }
         }

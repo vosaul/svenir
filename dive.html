@@ -129,11 +129,11 @@ descr: Join the <b>BEFORE IT BREAKS Club</b> in unique <br>and unforgetable adve
         </div>
       </div>
       <div class="roadmap__catalog">
+        <ul class="roadmap__list">
         {%- for c in d.roadmap.content -%}
-          <ul class="roadmap__list l-{{forloop.index}}">
-            <li>{{c}}</li>
+            <li class="l-{{forloop.index}}">{{c}}</li>
+            {%- endfor -%}
           </ul>
-        {%- endfor -%}
       </div>
     </div>
 
