@@ -4,6 +4,8 @@ images: "/assets/images/Dive__h1.png"
 title_image-mobile: /assets/images/svenir-hero_black.png
 subtitle: Are you ready to be blown <br> off course ?
 subtitle-mobile: Are you ready to be <br>blown <br> off course ?
+cta-launch: "/assets/images/LAUNCH_APP.png"
+cta-link: "#"
 descr: Join the <b>BEFORE IT BREAKS Club</b> in unique <br>and unforgetable adventures in the cities you love. 
 ---
 
@@ -30,8 +32,8 @@ descr: Join the <b>BEFORE IT BREAKS Club</b> in unique <br>and unforgetable adve
         <h2>{{page.subtitle-mobile}}</h2>
         <img class="title-image" src="{{page.title_image-mobile}}" alt="svenir">
         <h1>{{page.title-mobile}}</h1>
-        <a class="btn__launch" href="{{page.cta_link}}">
-          <img src="{{page.cta_launch}}" alt="dive">
+        <a class="btn__launch" href="{{cta_link}}">
+          <img src="{{cta_launch}}" alt="dive">
         </a>
         <p>{{page.descr}}</p>
       </div>
@@ -72,11 +74,17 @@ descr: Join the <b>BEFORE IT BREAKS Club</b> in unique <br>and unforgetable adve
       <img src="/assets/images/bg_decoration.png" alt="decoration">
     </div>
 
-    <div class="dive__spesial-text">
-      <img src="/assets/images/BIBC.png" alt="special text">
-    </div>
-
+    
     <div class="cards__grid">
+      <div class="card_bib">
+        <h2 id="{{d.bibs.title | slugify}}">{{d.bibs.title}}</h2>
+        <div class="text t-{{forloop.index}}">
+          {{d.bibs.text | markdownify }}
+        </div>
+      </div>
+      <div class="dive__spesial-text">
+        <img src="/assets/images/BIBC.png" alt="special text">
+      </div>
       <div class="flip-card">
         {%- for c in d.cards  -%}
         {%- if forloop.last == true -%}
