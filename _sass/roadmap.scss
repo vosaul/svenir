@@ -338,6 +338,8 @@
             .l-13::before {
                 content: "";
                 background-image: url(/assets/images/list-decoration-swamp.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
             }
             .l-8 {
                 @media (min-width: 768px) {
