@@ -1,7 +1,7 @@
 footer{
-    @media (min-width: 580px) {
+    @media (min-width: 768px) {
         margin-top: 7%;
-        padding-bottom: 80px;
+        padding-bottom: 50px;
     }
 
 
@@ -16,9 +16,10 @@ footer{
             width: 168px;
             margin: 20px 0 30px;
             border-top: 1px solid #161616;
+            display: block;
 
             @media (min-width: 580px) {
-                width: 100%;
+                width: 80%;
                 margin-bottom: 30px;
                 margin: 20px auto 30px;
                 
@@ -46,7 +47,7 @@ footer{
         }
         .footer__social {
             margin-top: 20px;
-            @media (min-width: 580px) {
+            @media (min-width: 768px) {
                 max-width: 204px;
                 margin: 0 auto;
                 text-align: center;
@@ -61,7 +62,7 @@ footer{
 
             .tik-tok, .discord, .instagram, .twitter{
                 width: 20px;
-                @media (min-width: 580px) {
+                @media (min-width: 768px) {
                     width: 30px;
                 }
             }
