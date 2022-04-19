@@ -14,6 +14,34 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
         }
+        &::before {
+            content: "";
+            position: absolute;
+            width: 90%;
+            height: 100%;
+            background: rgba(134, 134, 134, 0.45);
+            mix-blend-mode: color-dodge;
+            opacity: 0.8;
+            border-radius: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -5%;
+            @media (min-width: 478px) {
+
+            }
+            @media (min-width: 768px) {
+                width: 95%;
+                height: 115%;
+                transform: translateX(-55%);
+                margin: 0 20px;
+            }
+            @media (min-width: 1024px) {
+
+            }
+            @media (min-width: 1440px) {
+
+            }
+        }
     }
     .roadmap__header {
         margin-left: 40px;
@@ -27,36 +55,6 @@
         & > * {
             position: relative;
             z-index: 10;
-        }
-
-        &::before {
-            content: "";
-            position: absolute;
-            width: 90%;
-            height: 535px;
-            background: rgba(134, 134, 134, 0.45);
-            mix-blend-mode: color-dodge;
-            opacity: 0.8;
-            border-radius: 10px;
-            left: 50%;
-            transform: translateX(-50%);
-            top: -5%;
-            @media (min-width: 478px) {
-                height: 500px;
-            }
-            @media (min-width: 768px) {
-                width: 739px;
-                height: 1480px;
-            }
-            @media (min-width: 1024px) {
-                width: 998px;
-                height: 1375px;
-                //   transform: translate(-560px, -50px);
-            }
-            @media (min-width: 1440px) {
-                width: 1100px;
-                height: 1322px;
-            }
         }
     }
     .roadmap__title {
@@ -86,7 +84,7 @@
                 transform: translate(-332px, 297px);
                 @media (max-width: 768px) {
                     background-size: 80%;
-                    transform: translate(179px, 101px);
+                    transform: translate(-329px, 318px);
                 }
             }
         }
@@ -158,8 +156,6 @@
 
     .roadmap__img {
         max-width: 100%;
-        transform: translate(-141px, 216px);
-        @media (min-width: 580px) {
             &::before {
                 content: "";
                 background-image: url(/assets/images/grey_p.png);
@@ -167,29 +163,25 @@
                 height: 65px;
                 position: absolute;
                 transform: translate(491px, -75px);
-                @media (max-width: 1180px) {
-                    transform: translate(320px, 173px);
+                @media (min-width: 1024px) {
+                    transform: translate(381px, -75px);
                 }
-                @media (max-width: 1024px) {
-                    transform: translate(345px, -84px);
-                }
-                @media (max-width: 768px) {
-                    transform: translate(606px, -151px);
+                @media (min-width: 1100px) {
+                    transform: translate(435px, -75px);
                 }
             }
+        @media (min-width: 1024px) {
+            transform: translate(-240px, 144px);
+        }
+
+        @media (min-width: 1100px) {
+            transform: translate(-212px, 145px);
         }
 
         img {
             display: none;
             @media (min-width: 580px) {
                 display: block;
-            }
-            @media (min-width: 768px) {
-                transform: translate(163px, -211px);
-                width: 350px;
-            }
-            @media (min-width: 1024px) {
-                max-width: 150%;
             }
         }
     }
@@ -206,7 +198,7 @@
             width: 685px;
         }
         @media (min-width: 1024px) {
-            margin-top: 110px;
+            margin-top: 65px;
             width: 840px;
         }
         .roadmap__list {
@@ -226,7 +218,7 @@
                 line-height: 48px;
             }
             li {
-                margin-bottom: 8px;
+                margin-bottom: 25px;
                 position: relative;
                 margin-left: 40px;
                 line-height: 1.2;
@@ -242,6 +234,11 @@
                     position: absolute;
                     left: -20px;
                     top: 5px;
+                    @media (min-width: 768px) {
+                        width: 30px;
+                        height: 30px;
+                        margin-left: -41px;
+                    }
                 }
             }
             .l-1,
@@ -264,10 +261,7 @@
                 background-image: url(/assets/images/list-decoration-green.png);
                 background-repeat: no-repeat;
                 background-size: 100%;
-                /*    transform: translate(21px, 6px);
-                width: 12px;
-                height: 12px;
-                position: absolute; */
+
             }
             .l-7,
             .l-8 {
@@ -281,10 +275,6 @@
                 background-image: url(/assets/images/list-decoration-orange.png);
                 background-repeat: no-repeat;
                 background-size: 100%;
-                position: absolute;
-                /*      transform: translate(21px, 6px);
-                width: 12px;
-                height: 12px; */
             }
 
             .l-9,

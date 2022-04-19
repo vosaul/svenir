@@ -7,8 +7,7 @@
     .dive__wrapper{
         padding: 0;
         @media (min-width: 580px) {
-            padding: 0;
-            max-width: 1140px;
+            max-width: 1146px;
             margin: 0 auto;
             padding: 20px 20px 0 20px;
         }
@@ -17,32 +16,46 @@
             display: none;
             @media (min-width: 768px) {
                 display: grid;
-                grid-template-columns: 100px 100px 150px 290px;
+                grid-template-columns: 100px 120px 133px 280px;
                 column-gap: 30px;  
-                padding-top: 15px;           
+                padding-top: 15px; 
+                justify-content: center;          
                 @media (min-width: 1024px) {
                     column-gap: 45px;
-                    grid-template-columns: 100px 130px 200px 410px;
+                    grid-template-columns: 93px 133px 150px 400px;
                     padding-top: 32px;
                 }
-                @media (min-width: 1440px) {
-                    grid-template-columns: 100px 130px 200px 610px;
-                    column-gap: 85px;
+                @media (min-width: 1140px) {
+                    grid-template-columns: 121px 167px 186px 445px;
+                    column-gap: 70px;
                     padding-top: 86px;
                 }
             }
             
             .menu_item {
-                p{
-                    font-size: 20px;
-                }
-                a{
-                    font-size: 20px;
-                    font-weight: 900;
-                }
-                @media (max-width: 768px){
-                    a, p{
+
+                font-family: 'Montserrat';
+                letter-spacing: 0.5px;
+                @media (min-width: 768px) {
+                    p{
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                    a{
                         font-size: 16px;
+                        font-weight: 900;
+                    }
+                }
+                @media (min-width: 1140px){
+                    p{
+                        font-size: 15px;
+                        line-height: 18px;
+                        font-size: 20px;
+                    }
+                    a{
+                        font-size: 20px;
+                        line-height: 24px;
+
                     }
                 }
             }
@@ -57,16 +70,17 @@
                 box-shadow: 6px 4px 13px rgba(0, 0, 0, 0.5);
                 border-radius: 62px;
                 text-align: center;
-                margin-left: 220px;
-                @media (max-width: 1180px) {
+                margin-left: 90px;
+                @media (min-width: 1024px) {
                     margin-left: 190px;
-
-                }
-
-                @media (max-width: 768px) {
-                    margin-left: 90px;
                     font-size: 16px;
                 }
+                @media (min-width: 1180px) {
+                    margin-left: 220px;
+
+                }
+
+
             }
         }
         .dive__svenir-img{
