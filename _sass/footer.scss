@@ -16,7 +16,7 @@ footer{
             width: 168px;
             margin: 20px 0 30px;
             border-top: 1px solid #161616;
-            display: block;
+            position: relative;
 
             @media (min-width: 580px) {
                 width: 80%;
@@ -36,12 +36,17 @@ footer{
                 font-weight: 500;
                 line-height: 15px;
                 text-align: center;
-                margin-bottom: 20px;
+                width: 70%;
+                margin: 0 auto 20px;
 
 
             }
-            @media (max-width: 768px) {
+            @media (min-width: 768px) {
                 font-size: 12px;
+                
+            }
+            @media (min-width: 1024px) {
+                width: 100%;
             }
 
         }
