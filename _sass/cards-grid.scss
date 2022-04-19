@@ -4,7 +4,6 @@
     margin: 0 auto;
     margin-top: 286px;
     @media (min-width: 425px) {
-        margin-top: 0;
         width: 90%;
     }
     .card_bib {
@@ -25,7 +24,7 @@
             font-size: 22px;
             text-align: center;
             line-height: 25px;
-            padding-bottom: 70px;
+            padding-top: 70px;
             span{
                 font-size: 20px;
                 @media (min-width:768px) {
@@ -601,12 +600,13 @@
     &::before {
         content:"";
         position: absolute;
-        width: 90%;
-        height: 100%;
+        width: 100%;
+        height: 101%;
+        padding: 20px;
         background: rgba(134, 134, 134, 0.45);
         mix-blend-mode: color-dodge;
         opacity: 0.8;
-        top: -150px;
+        //top: -150px;
         left: 50%;
         transform: translateX(-50%);
         border-radius: 10px;
