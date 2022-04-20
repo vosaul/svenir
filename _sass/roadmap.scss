@@ -1,9 +1,14 @@
 .roadmap__container {
-    margin-top: 100px;
+    margin-top: 130px;
     position: relative;
+    padding: 0 20px;
+    @media (min-width: 500px) {
+        padding: 0 95px;
+    }
 
     @media (min-width: 768px) {
         margin-top: 325px;
+        padding: 0;
     }
     @media (min-width: 1024px) {
         margin-top: 370px;
@@ -22,7 +27,7 @@
             content: "";
             position: absolute;
             width: 90%;
-            height: 108%;
+            height: 114%;
             background: rgba(134, 134, 134, 0.45);
             mix-blend-mode: color-dodge;
             opacity: 0.8;
@@ -30,7 +35,7 @@
             left: 50%;
             transform: translateX(-50%);
             top: -5%;
-            @media (min-width: 478px) {
+            @media (min-width: 580px) {
 
             }
             @media (min-width: 768px) {
@@ -69,7 +74,38 @@
         line-height: 25px;
         font-weight: 400;
         letter-spacing: 2.15px;
+
+        @media (min-width: 500px) {
+            width: 200px;
+            font-size: 30px;
+            line-height: 40px;
+            margin-bottom: 35px;
+        }
         @media (min-width: 580px) {
+
+            &::after {
+                content: "";
+                background-image: url(/assets/images/star.png);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                width: 80px;
+                height: 80px;
+                position: absolute;
+                transform: translate(135px, -48px);
+                @media (min-width: 768px) {
+                    transform: translate(232px, 406px);
+                }
+                @media (min-width: 1024px) {
+                    width: 100px;
+                    height: 100px;
+                    transform: translate(-332px, 297px);
+                }
+            }
+        }
+        @media (min-width: 768px) {
+            width: 350px;
+            font-size: 50px;
+            line-height: 50px;
             &::before {
                 content: "";
                 background-image: url(/assets/images/small__cube.png);
@@ -78,25 +114,6 @@
                 position: absolute;
                 transform: translate(19px, -172px);
             }
-            &::after {
-                content: "";
-                background-image: url(/assets/images/star.png);
-                background-repeat: no-repeat;
-                background-size: 103%;
-                width: 100px;
-                height: 100px;
-                position: absolute;
-                transform: translate(-332px, 297px);
-                @media (max-width: 768px) {
-                    background-size: 80%;
-                    transform: translate(-329px, 318px);
-                }
-            }
-        }
-        @media (min-width: 768px) {
-            width: 350px;
-            font-size: 50px;
-            line-height: 50px;
         }
         @media (min-width: 1024px) {
             width: 653px;
@@ -128,23 +145,26 @@
 
         &::after {
             content: "";
-            height: 128px;
-            width: 128px;
+            height: 80px;
+            width: 80px;
+
             border: 1px solid black;
             border-radius: 50%;
             position: absolute;
             transform: translate(793px, -500px);
-            @media (max-width: 1024px) {
+            @media (min-width: 768px) {
+                transform: translate(533px, -396px);
+
+            }
+            @media (min-width: 1000px) {
+                transform: translate(688px, -396px);
+            }
+            @media (min-width: 1024px) {
+                height: 128px;
+                width: 128px;
                 transform: translate(718px, -500px);
             }
-            @media (max-width: 768px) {
-                transform: translate(533px, -396px);
-                height: 80px;
-                width: 80px;
-            }
-            @media (max-width: 425px) {
-                display: none;
-            }
+
         }
     }
     .roadmap__description-mobile {
@@ -154,42 +174,54 @@
         line-height: 12px;
         width: 217px;
         margin-top: 10px;
-        @media (min-width: 425px) {
+        @media (min-width: 768px) {
             display: none;
         }
     }
 
     .roadmap__img {
-        max-width: 100%;
+        display: none;
+        @media (min-width: 768px) {
+            display: block;
+            img{
+                width: 400px;
+                margin-left: 50px;
+            }
             &::before {
                 content: "";
                 background-image: url(/assets/images/grey_p.png);
                 width: 65px;
                 height: 65px;
                 position: absolute;
-                transform: translate(491px, -75px);
-                @media (min-width: 1024px){
+                transform: translate(589px, -135px);
+                @media (min-width: 1024px) {
                     transform: translate(381px, -75px);
                 }
-                @media (min-width: 1100px) {
-                    transform: translate(435px, -75px);
+                @media (min-width: 1100) {
+                    transform: translate(405px, -75px);
                 }
+                @media (min-width: 1180px) {
+                    transform: translate(472px, -75px);
+                }
+
             }
+        }
         @media (min-width: 1024px) {
-            transform: translate(-240px, 144px);
+            transform: translate(-231px, 97px);
         }
-
-        @media (min-width: 1100px) {
-            transform: translate(-142px, 195px);
-        }
-
-        img {
-            display: none;
-            @media (min-width: 580px) {
-                display: block;
-                margin: auto;
+        @media (min-width: 1086px) {
+            img{
+                width: 450px;
             }
         }
+
+        @media (min-width: 1180px) {
+            transform: translate(-128px, 145px);
+            img{
+                width: 480px;
+            }
+        }
+
     }
     .roadmap__catalog {
         margin-top: 20px;
@@ -204,7 +236,10 @@
             width: 685px;
         }
         @media (min-width: 1024px) {
-            margin-top: 65px;
+            margin-top: 110px;
+        }
+        @media (min-width: 1024px) {
+            margin-top: 20px;
             width: 840px;
         }
         .roadmap__list {
@@ -224,7 +259,7 @@
                 line-height: 48px;
             }
             li {
-                margin-bottom: 25px;
+                margin-bottom: 15px;
                 position: relative;
                 margin-left: 40px;
                 line-height: 1.2;
@@ -232,6 +267,7 @@
                     margin-left: 55px;
                 }
                 @media (min-width: 768px) {
+                    margin-bottom: 25px;
                     margin-left: 84px;
                 }
                 &::before {
@@ -303,6 +339,8 @@
             .l-13::before {
                 content: "";
                 background-image: url(/assets/images/list-decoration-swamp.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
             }
             .l-8 {
                 @media (min-width: 768px) {
