@@ -73,7 +73,8 @@ bibs:
 
 cards:
 - name: BIG ZEUS 
-  image: "/assets/images/cocky_little_boy.png"
+  image: /assets/images/coming_soon.jpg
+  # image: "/assets/images/cocky_little_boy.png"
   title: BIG ZEUS 
   text: | 
     He showcases Entrepreneurship, Innovation, Finance, 
@@ -85,7 +86,8 @@ cards:
     with one of his start ups. He grew up in a middle 
     class family besides being the famous God of the sky.</span> 
 - name: NICE GUY
-  image: "/assets/images/tiger.png"
+  image: /assets/images/coming_soon.jpg
+  # image: "/assets/images/tiger.png"
   title: NICE GUY
   text: | 
     He showcases nature, music and the local espiritual 
@@ -97,7 +99,8 @@ cards:
     real Don Juan. He is Zeus best friend and also good friends 
     with Cleo. </span>
 - name: CLEO 
-  image: "/assets/images/girl.png"
+  image: /assets/images/coming_soon.jpg
+  # image: "/assets/images/girl.png"
   title: CLEO
   text: | 
     She showcases culture, art, social needs and she is also 
@@ -108,7 +111,8 @@ cards:
     and the lover of Julius Caesar,  she is now a 
     big empowered girl. Concerned but not insecure about her beauty. </span>
 - name: TEKNOPUSH 
-  image: "/assets/images/boy_with_sunglasses.png"
+  image: /assets/images/coming_soon.jpg
+  # image: "/assets/images/boy_with_sunglasses.png"
   title: <span>TEKNO</span> <br>PUSH 
   text: |
     He showcases night life and entertainment of the 
@@ -118,7 +122,8 @@ cards:
 
     <span>There are no rules for him: just to live under his own terms. </span>
 - name: CHICA LA TYRANA 
-  image: "/assets/images/dinosaur.png"
+  image: /assets/images/coming_soon.jpg
+  # image: "/assets/images/dinosaur.png"
   title: <span>CHICA LA </span> <br> TYRANA
   text: |
     She showcases the local food, the local curiosity, the extreme 
