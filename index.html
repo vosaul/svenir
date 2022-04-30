@@ -1,15 +1,12 @@
 ---
 layout: default
-title: Svenir, <br> the first <span> NFT <br> souvenir </span> DAO <br>in the earth. 
+title: TRAVEL & COLLECT SVNR NFT
 title_image-mobile: /assets/images/svenir-hero_black.png
 title-mobile: The first <span> NFT <br> souvenir </span> DAO <br>in the earth.
-subtitle: Are you ready to be blown <br> off course ?
 subtitle-mobile: Are you ready to be <br>blown <br> off course ?
-descr: Join the <b>BEFORE IT BREAKS Club</b> in unique <br>and unforgetable adventures in the cities you love.         
-card_text: The honorary members are getting ready. Watch the trailer here on April 20th!
-form_text-mobile: Join our comunity and get to know more.    
-card_image: /assets/images/angel_video.png
-cta_image: /assets/images/dive_into.png
+descr: Join the <b> BEFORE IT BREAKS Club </b>in unique and <br> unforgetable adventures in the cities you love.
+image: /assets/images/GIFGRIAL.png     
+card_text: OUR COMMUNITY IS LIVE         
 cta_link: /dive/
 cta_description: and BE PART OF THE SOUVENIR REVOLUTION!
 
@@ -19,15 +16,14 @@ cta_description: and BE PART OF THE SOUVENIR REVOLUTION!
   <div class="frontpage__wrapper">
     <div class="frontpage__row"  >
       <div class="frontpage__content">
-        <h2>{{page.subtitle}}</h2>
-        <div class="frontpage__line">
-          <img class="frontpage__arrow" src="/assets/images/arrow_with_airplane.png" alt="arrow">
-        </div>
         <h1>{{page.title}}</h1>
         <p>{{page.descr}}</p>
       </div>
-      <div class="frontpage__bg-circle">
-        <img class="frontpage__circle" src="/assets/images/circle.png" alt="circle decoration">
+      <div class="frontpage__content">
+        <img src="{{page.image}}" alt="">
+      </div>
+      <div class="frontpage__line">
+        <img class="frontpage__arrow" src="/assets/images/arrow_with_airplane.png" alt="arrow">
       </div>
     </div>
     <div class="frontpage__row-mobile">
@@ -48,13 +44,7 @@ cta_description: and BE PART OF THE SOUVENIR REVOLUTION!
       <a href="#">
         <img src="/assets/images/LAUNCH_APP.png" alt="btn">
       </a>
-    </div>
-    <div class="frontpage__video">
-      <div class="video__row">
-        <img class="video__item" src="{{page.card_image}}" alt="angel">
-      </div>
-    </div>
-    
+    </div>    
     <div class="join__now">
       <div class="join__bg"></div>
       <div class="join__top">
@@ -64,40 +54,20 @@ cta_description: and BE PART OF THE SOUVENIR REVOLUTION!
         <div class="join__text-mobile">
           <p>{{page.form_text-mobile}}</p>
         </div>
+
+      </div>
+      <div class="join__form_outer">
         <div class="join__btn">
           <a href="#">
             <img src="/assets/images/join__now.png" alt="btn">
           </a>
         </div>
-      </div>
-      <div class="join__form_outer">
         {%- include mailchimp.html -%}
       </div>
       <div class="join__btn-mobile">
         <a href="#">
           <img src="/assets/images/join__now.png" alt="btn">
         </a>
-      </div>
-    </div>
-
-    {%- include frontpage-wehomies.html -%}
-
-    <div class="frontpage__button">
-      <div class="btn__body">
-        <div class="btn__content">
-        <div class="btn__action">
-          <p>Are you ready to be blown off course ? </p>
-        </div>
-        <a class="btn" href="{{page.cta_link}}">
-          <img src="{{page.cta_image}}" alt="dive">
-        </a>
-        <div class="btn__description">
-          * {{page.cta_description}}
-        </div>
-        </div>
-      </div>
-      <div class="btn__decoration">
-        <img src="/assets/images/piramid.png" alt="">
       </div>
     </div>
   </div>

@@ -1,3 +1,6 @@
+- alt: youtube 
+  image: /assets/images/youtube.png
+  link: 
 - alt: tik-tok 
   image: /assets/images/tik-tok.png
   link: www.tiktok.com/@svenir.io
@@ -9,4 +12,7 @@
   link: 
 - alt: twitter 
   image: /assets/images/twitter_black.png
+  link: 
+- alt: quora
+  image: /assets/images/quora.png
   link: 
