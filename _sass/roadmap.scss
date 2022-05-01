@@ -41,14 +41,15 @@
             @media (min-width: 768px) {
                 width: 95%;
                 height: 115%;
-                transform: translateX(-55%);
+                transform: translateX(-53%);
                 margin: 0 20px;
             }
             @media (min-width: 1024px) {
-
+                transform: translateX(-52%);
             }
             @media (min-width: 1440px) {
-
+                width: 105%;
+                transform: translateX(-51.5%);
             }
         }
     }
