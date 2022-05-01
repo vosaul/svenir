@@ -7,7 +7,7 @@ header {
 
     .header__wrapper {
         display: grid;
-        grid-template-columns: 626px 1fr;
+        grid-template-columns: 540px 1fr;
         justify-items: end;
         align-items: center;
 
@@ -16,12 +16,14 @@ header {
             z-index: 10;
         }
 
-        @media (min-width: 1920px) {}
+        @media (min-width: 1920px) {
+            grid-template-columns: 626px 1fr;
+        }
 
         &:after {
             content: "";
             position: absolute;
-            width: 83%;
+            width: 87%;
             height: 118px;
             background: rgba(255, 255, 255, 0.6);
             mix-blend-mode: color-dodge;
@@ -29,10 +31,13 @@ header {
             left: 50%;
             transform: translate(-50%);
             z-index: 5;
+            @media (min-width: 1920px) {
+                width: 83%;
+            }
         }
 
         .header__logo {
-            width: 626px;
+            width: 450px;
             display: flex;
             justify-content: end;
             align-items: center;
@@ -44,7 +49,9 @@ header {
                 z-index: 4;
             }
 
-            @media (min-width: 1920px) {}
+            @media (min-width: 1920px) {
+                width: 626px;
+            }
 
             img {
                 max-width: 119px;
