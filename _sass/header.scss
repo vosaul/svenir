@@ -16,20 +16,20 @@ header {
             z-index: 10;
         }
 
-        @media (min-width: 1920px) {
+        @media (min-width: 1440px) {
             grid-template-columns: 626px 1fr;
         }
 
         &:after {
             content: "";
             position: absolute;
-            width: 87%;
+            width: 85%;
             height: 118px;
             background: rgba(255, 255, 255, 0.6);
             mix-blend-mode: color-dodge;
             border-radius: 0 10px 10px 0;
             left: 50%;
-            transform: translate(-50%);
+            transform: translate(-49%);
             z-index: 5;
             @media (min-width: 1920px) {
                 width: 83%;
@@ -49,8 +49,8 @@ header {
                 z-index: 4;
             }
 
-            @media (min-width: 1920px) {
-                width: 626px;
+            @media (min-width: 1440px) {
+                width: 100%;
             }
 
             img {
