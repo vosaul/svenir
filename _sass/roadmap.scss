@@ -28,8 +28,7 @@
             position: absolute;
             width: 90%;
             height: 114%;
-            background: rgba(134, 134, 134, 0.45);
-            mix-blend-mode: color-dodge;
+            background-image: url(/assets/images/bg__roadmap.png);
             opacity: 0.8;
             border-radius: 10px;
             left: 50%;
@@ -68,12 +67,13 @@
         }
     }
     .roadmap__title {
-        font-family: "Dela Gothic One";
+        font-family: 'Kaifiya';
         width: 150px;
         font-size: 20px;
         line-height: 25px;
         font-weight: 400;
         letter-spacing: 2.15px;
+        color: white;
 
         @media (min-width: 500px) {
             width: 200px;
@@ -116,55 +116,9 @@
             }
         }
         @media (min-width: 1024px) {
-            width: 653px;
-            font-size: 69px;
-            line-height: 78px;
-        }
-    }
-    .roadmap__description {
-        display: none;
-
-        @media (min-width: 768px) {
-            display: block;
-            font-family: "Montserrat";
-            font-style: italic;
-            font-weight: 300;
-            line-height: 30px;
-            letter-spacing: 0.78px;
-            margin-top: 37px;
-            width: 458px;
-            font-size: 20px;
-            span {
-                font-weight: 500;
-            }
-        }
-        @media (min-width: 1440px) {
-            width: 558px;
-            font-size: 22px;
-        }
-
-        &::after {
-            content: "";
-            height: 80px;
-            width: 80px;
-
-            border: 1px solid black;
-            border-radius: 50%;
-            position: absolute;
-            transform: translate(793px, -500px);
-            @media (min-width: 768px) {
-                transform: translate(533px, -396px);
-
-            }
-            @media (min-width: 1000px) {
-                transform: translate(688px, -396px);
-            }
-            @media (min-width: 1024px) {
-                height: 128px;
-                width: 128px;
-                transform: translate(718px, -500px);
-            }
-
+            width: 703px;
+            font-size: 150px;
+            line-height: 155px;
         }
     }
     .roadmap__description-mobile {
@@ -179,50 +133,6 @@
         }
     }
 
-    .roadmap__img {
-        display: none;
-        @media (min-width: 768px) {
-            display: block;
-            img{
-                width: 400px;
-                margin-left: 50px;
-            }
-            &::before {
-                content: "";
-                background-image: url(/assets/images/grey_p.png);
-                width: 65px;
-                height: 65px;
-                position: absolute;
-                transform: translate(589px, -135px);
-                @media (min-width: 1024px) {
-                    transform: translate(381px, -75px);
-                }
-                @media (min-width: 1100) {
-                    transform: translate(405px, -75px);
-                }
-                @media (min-width: 1180px) {
-                    transform: translate(472px, -75px);
-                }
-
-            }
-        }
-        @media (min-width: 1024px) {
-            transform: translate(-231px, 97px);
-        }
-        @media (min-width: 1086px) {
-            img{
-                width: 450px;
-            }
-        }
-
-        @media (min-width: 1180px) {
-            transform: translate(-128px, 145px);
-            img{
-                width: 480px;
-            }
-        }
-
-    }
     .roadmap__catalog {
         margin-top: 20px;
         max-width: 95%;

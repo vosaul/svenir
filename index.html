@@ -39,27 +39,7 @@ cta_description: and BE PART OF THE SOUVENIR REVOLUTION!
     <div class="frontpage__btn-click">
       <a href=""><img src="/assets/images/click.png" alt="button"></a>
     </div>
-    <div class="join__now">
-      <div class="join__bg"></div>
-      <div class="join__top">
-        <div class="join__text">
-          <p>{{page.card_text}}</p>
-        </div>
-      </div>
-      <div class="join__form_outer">
-        <div class="join__btn">
-          <a href="https://discord.gg/ChVqacyuSA">
-            <img src="/assets/images/join__now.png" alt="btn">
-          </a>
-        </div>
-        {%- include mailchimp.html -%}
-      </div>
-      <div class="join__btn-mobile">
-        <a href="#">
-          <img src="/assets/images/join__now.png" alt="btn">
-        </a>
-      </div>
-    </div>
+    {%- include join-now.html -%}
   </div>
 
   {%- include footer.html -%}

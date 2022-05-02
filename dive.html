@@ -37,21 +37,25 @@ descr: Join the <b>BEFORE IT BREAKS Club</b> in unique <br>and unforgetable adve
         </a>
         <p>{{page.descr}}</p>
       </div>
-      <img class="dive__circle-mobile" src="/assets/images/bg_circle-mobile.png" alt="circle decoration">
     </div>
     {%- for s in d.sections -%}
       <div class="section-info b-{{forloop.index}}">
         <div class="info i-{{forloop.index}}">
-          <div class="subtitle s-{{forloop.index}}">{{s.intro}}</div>
           <h2 class="h-{{forloop.index}}" id="{{s.title | slugify}}">{{s.title}}</h2>
+          <div class="section__content c-{{forloop.index}}">
+          {%- if s.intro -%}
+          <div class="subtitle s-{{forloop.index}}">{{s.intro}}</div>
+          {%- endif -%}
           {%- if s.text -%}
           <div class="text t-{{forloop.index}}">
             {{s.text | markdownify }}
           </div>
           {%- endif -%}
           {%- if s.cta -%}
-            <a class="cta__info" href="{{s.cta.link}}">{{s.cta.label}}</a>
-          {%- endif -%}
+          <a class="cta__info" href="{{s.cta.link}}">{{s.cta.label}}</a>
+        {%- endif -%}
+        </div>
+
           <div class="text-mobile">
             {{s.text-mobile | markdownify }}
           </div>
@@ -62,29 +66,27 @@ descr: Join the <b>BEFORE IT BREAKS Club</b> in unique <br>and unforgetable adve
           <img src="{{s.image}}" alt="{{s.title}}">
         </div>
         {%- endif -%}
-        {%- if s.img-desc -%}
-        <div class="img-desc">
-          {{s.img-desc | markdownify }}
-        </div>
-        {%- endif -%}
       </div>
     {%- endfor -%}
-    
-    <div class="background__decoration">
-      <img src="/assets/images/bg_decoration.png" alt="decoration">
-    </div>
 
-    
+    {%- include join-now.html -%}
+
     <div class="cards__grid">
       <div class="card_bib">
         <h2 id="{{d.bibs.title | slugify}}">{{d.bibs.title}}</h2>
-        <div class="text">
-          {{d.bibs.text | markdownify }}
+        <div class="dive__spesial-text">
+          <img src="/assets/images/GIFGRIAL.png" alt="gif">
+        </div>
+        <div class="bib__content">
+          <div class="subtitle">
+            {{d.bibs.subtitle}}
+          </div>
+          <div class="text">
+            {{d.bibs.text | markdownify }}
+          </div>
         </div>
       </div>
-      <div class="dive__spesial-text">
-        <img src="/assets/images/BIBC.png" alt="special text">
-      </div>
+
       <div class="flip-card">
         {%- for c in d.cards  -%}
         {%- if forloop.last == true -%}
@@ -119,25 +121,18 @@ descr: Join the <b>BEFORE IT BREAKS Club</b> in unique <br>and unforgetable adve
         {%- endfor -%}
       </div>
     </div>
-
     
     <div class="roadmap__container">
       <div class="roadmap__grid">
         <div class="roadmap__header">
-          <h2 class="roadmap__title">{{d.roadmap.title}}</h2>
-          <div class="roadmap__description">
-            {{d.roadmap.description | markdownify }}
-          </div>
+          <h2 class="roadmap__title">Svenir FAQS</h2>
           <div class="roadmap__description-mobile">
-            <a href="{{d.link}}">{{d.roadmap.description-mobile | markdownify }}</a>
+            <a href="">Here you will find our Roadmap, click to now more.</a>
           </div>
-        </div>
-        <div class="roadmap__img">
-          <img src="/assets/images/molecule.png" alt="molecule">
         </div>
       </div>
       <div class="roadmap__catalog">
-        <ul class="roadmap__list">
+        <ul class="roadmap__guetions">
         {%- for c in d.roadmap.content -%}
             <li class="l-{{forloop.index}}">{{c}}</li>
             {%- endfor -%}
@@ -145,44 +140,12 @@ descr: Join the <b>BEFORE IT BREAKS Club</b> in unique <br>and unforgetable adve
       </div>
     </div>
 
-    <div class="join__now-mobile">
-      <div class="join__bg-mobile"></div>
-      <div class="join__top-mobile">
-        <div class="join__text-mobile">
-          <p>
-            Join our community and<br> get to know more.
-          </p>
-        </div>
-      </div>
-      <div class="join__form_outer">
-        {%- include mailchimp.html -%}
-      </div>
-      <div class="join__btn-mobile">
-        <a href="https://discord.gg/ChVqacyuSA">
-          <img src="/assets/images/join__now.png" alt="btn">
-        </a>
-      </div>
-    </div>
-
-    <div class="join-channel__container">
-      <div class="join-channel__act">
-        <p>
-          Join our community and get to know more.
-        </p>
-      </div>
-      <div class="join-channel__act-mobile">
-        <p>
-          Are you ready to be <br> blown off course?
-        </p>
-      </div>
-      <div class="join-channel__btn1">
-          <a href="#"><img src="/assets/images/LAUNCH_APP.png" alt="LAUNCH_APP"></a>
-      </div>
-      <div class="join-channel__btn2">
-        <a href="https://discord.gg/ChVqacyuSA"><img src="/assets/images/join__now.png" alt="join now"></a>
-      </div>
-      <div class="join-channel__img">
-        <img src="/assets/images/group_of_images.png" alt="piramid with decorations">
+    <div class="dive__cta">
+      <div class="cta__row">
+        <h2>
+          THE FIRST NFT SOUVENIR DAO ON EARTH 
+        </h2>
+        <a href="{{d.menu_cta.link}}" class="cta__button"><img src="{{d.menu_cta.image}}" alt="btn"></a>
       </div>
     </div>
   </div>
