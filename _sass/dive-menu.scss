@@ -4,7 +4,6 @@
         display: grid;
         grid-template-columns: 86px 103px 122px 194px;
         column-gap: 9px;
-        padding-top: 25px;
         justify-content: center;
     }
     @media (min-width: 650px) {
@@ -18,12 +17,10 @@
         @media (min-width: 1024px) {
             column-gap: 45px;
             grid-template-columns: 93px 133px 150px 400px;
-            padding-top: 50px;
         }
         @media (min-width: 1140px) {
             grid-template-columns: 121px 167px 186px 445px;
             column-gap: 70px;
-            padding-top: 86px;
         }
     }
     

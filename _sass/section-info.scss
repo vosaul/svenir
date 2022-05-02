@@ -84,9 +84,20 @@
     &.b-3 {
         text-align: left;
         z-index: 100;
+        position: relative;
         @media (min-width: 580px) {
             direction: rtl;
             margin-bottom: 400px;
+        }
+        &::before{
+            content:"";
+            background-image: url(/assets/images/bg_decoration.png);
+            background-repeat: no-repeat;
+            position: absolute;
+            width: 100%;
+            height: 200%;
+            top: -405px;
+
         }
         
     }
@@ -386,7 +397,7 @@
                 
                 @media (min-width: 768px){ 
                     margin: 50px 0 30px 0;
-                    &.h-3::before{
+                    &::before{
                         content: "";
                         position: absolute;
                         background-image: url(/assets/images/ring.png);
@@ -407,9 +418,30 @@
 
 
                     }
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        background-image: url(/assets/images/black_oval.png);
+                        background-repeat: no-repeat; 
+                        width: 190px;
+                        height: 110px; 
+                        top: -50%;
+                        right: -5%;
+                        @media (min-width: 1024px) {
+                            width: 190px;
+                        }
+
+                        @media (min-width: 1110px) {
+                            top: 75%;
+                            width: 223px;
+                            height: 75px;
+                        }
+
+
+                    }
                 }
                 @media (min-width: 1024px) {
-                    margin: 115px 0 50px ;
+                    margin: 115px 0 -30px ;
                 }
             }
         }
