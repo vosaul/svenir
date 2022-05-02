@@ -1,93 +1,93 @@
-header{
+header {
     @media (min-width: 580px) {
-        max-width: 1140px;
+        max-width: 1596px;
         margin: 0 auto;
-        padding: 0 20px;
-        margin-bottom: 10%;
+        padding: 148px 0 118px;
     }
-    
-    .header__text{
-        display: none;
-
-        @media (min-width: 425px) {
-            font-family: 'Montserrat';   
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 15px;
-            text-align: right;
-            margin-right: 75px;
-        }
-        @media (min-width: 768px) {
-            margin-right: 25px;
-            font-size: 10px;
-        }
-        @media (min-width: 1024px) {
-            margin-right: 50px;
-        }
-        
-    }
-
 
     .header__wrapper {
-        display: none;
-        @media (min-width: 580px) {
-            display: flex;
-            justify-content: space-between;
-            align-content: center;
+        display: grid;
+        grid-template-columns: 540px 1fr;
+        justify-items: end;
+        align-items: center;
 
-            .header__logo {
-                img{
-                    max-width: 11%;
-                }
-            }
-            .header__btn {
-                margin-top: 20px;
-                width: 202px;
-                height: 100%;
-                opacity: 0.45;
-                background: #000000;
-                border: 2px solid #000000;
-                box-sizing: border-box;
-                box-shadow: 6px 4px 13px rgba(0, 0, 0, 0.5);
-                border-radius: 62px;
-                left: 50%;
-                transform: translateX(-50%);
-                @media (min-width: 768px){
-                }
-                @media (min-width: 1024px) {
-                    margin-top: 35px;
-                }
-                img{
-                    width: 100%;
-                    height: auto;
-                    @media (min-width: 768px) {
+        & > * {
+            position: relative;
+            z-index: 10;
+        }
 
-                    }
-                    @media (min-width: 1024px) {
+        @media (min-width: 1920px) {
+            grid-template-columns: 626px 1fr;
+        }
 
-                    }
-                }
-                
-                
-
-            }
-
-            .btn {
-                font-family: 'Montserrat';
-                font-weight: 300;
-                font-size: 20px;
-                line-height: 24px;
-                letter-spacing: 0.625px;
-                text-align: center;
-                padding-top: 15px;
-                @media (max-width: 768px){
-                    font-size: 16px;
-                    padding-top: 10px;
-                }
+        &:after {
+            content: "";
+            position: absolute;
+            width: 87%;
+            height: 118px;
+            background: rgba(255, 255, 255, 0.6);
+            mix-blend-mode: color-dodge;
+            border-radius: 0 10px 10px 0;
+            left: 50%;
+            transform: translate(-50%);
+            z-index: 5;
+            @media (min-width: 1920px) {
+                width: 83%;
             }
         }
-            
+
+        .header__logo {
+            width: 450px;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            background-color: black;
+            padding-right: 35px;
+
+            & > * {
+                position: relative;
+                z-index: 4;
+            }
+
+            @media (min-width: 1920px) {
+                width: 626px;
+            }
+
+            img {
+                max-width: 119px;
+            }
+
+            .header__desc {
+                font-family: "DelaGothicOne";
+                color: white;
+                margin-left: 51px;
+                line-height: 27px;
+                font-size: 20px;
+            }
+        }
+
+        .header__btn {
+            display: flex;
+            justify-content: center;
+            width: 450px;
+            height: 60px;
+            opacity: 0.7;
+            background: #000000;
+            border: 2px solid #000000;
+            box-sizing: border-box;
+            box-shadow: 6px 4px 13px rgba(0, 0, 0, 0.5);
+            border-radius: 62px;
+            margin-right: 120px;
+
+            & > * {
+                position: relative;
+                z-index: 20;
+            }
+
+            @media (min-width: 1920px) {
+                width: 506px;
+                margin-left: 60px;
+            }
+        }
     }
-        
-    
 }

@@ -1,13 +1,13 @@
 .page__dive{
-    background-image: url(/assets/images/background_origin.png);
+    background-image: url(/assets/images/bg__dive-page.png);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1000;
 
     .dive__wrapper{
         padding: 0;
-        @media (min-width: 768px) {
-            max-width: 1146px;
+        @media (min-width: 1596px) {
+            max-width: 1314px;
             margin: 0 auto;
             padding: 20px 20px 0 20px;
         }
@@ -314,6 +314,63 @@
                  
         } 
     }
+    .dive__cta{
+        margin-top: 192px;
+        width: 100%;
+        margin-bottom: 550px;
+        &::before{
+            content: "";
+            position: absolute;
+            width: 83%;
+            height: 30%;
+            background: rgba(134, 134, 134, 0.45);
+            mix-blend-mode: color-dodge;
+            opacity: 0.8;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 10px;
+
+        }
+        .cta__row {
+            padding: 50px 0;
+            h2{
+                font-family: 'Kaifiya';
+                font-size: 100px;
+                line-height: 104px;
+                position: relative;
+                &::after{
+                    content: "Check out our available NFT PACKAGES, and become a BIBC member.";
+                    position: absolute;
+                    font-family: 'Montserrat';
+                    font-weight: 700;
+                    font-size: 10px;
+                    line-height: 12px;
+                    letter-spacing: 0.5px;
+                    width: 200px;
+                    top: 56%;
+                    left: 35%;
+
+                }
+            }
+        }
+        .cta__button {
+            display: block;
+            text-align: right;
+            margin-right: 133px;
+            margin-top: -98px;
+            img{
+                width: 169px;
+                height: 48px;
+                background: #000000;
+                opacity: 0.45;
+                border: 2px solid #000000;
+                box-sizing: border-box;
+                box-shadow: 6px 4px 13px rgba(0, 0, 0, 0.5);
+                border-radius: 62px;
+            }
+        }
+    }
+
     .dive__footer {
         margin-top: -190px;
 
