@@ -18,11 +18,10 @@ menu_cta:
 sections:   
 -
   title: |
-    Geolocated
-    collectibles in
-    the real world
-    and in the
-    metaverse
+    Geolocated 
+    collectibles in 
+    the real world 
+    & metaverse.
   text: |
     Travel with The BIB Members, collect Svenir NFTs, and with $SVNR join the global innovation souvenir revolution club.
   cta:
@@ -32,38 +31,31 @@ sections:
     Travel with The BIB Members, collect Svenir NFTs, and with $SVNR join the global innovation souvenir revolution club.
   image: "/assets/images/svenir_black.png"
 -
-  intro: GET TO KNOW OUR UNIQUE AND HUMAN
+  intro: GET TO KNOW OUR UNIQUE <br> AND HUMAN VISION
   title: Vision
   text: |
-    Svenir has been created with the
-    fundamental goal of celebrating
-    ***humanity, the forests, the ocean
-    and life in general, trought the
-    artistic expression.***
+    Svenir supports a community of people urging for more life, 
+    for exciting experiences, for the development of self-powers, 
+    for developing the uniqueness of the individual creature, looking for a possibility for expansion.
 
-    **Svenir reminds us how
-    awesome humanity and
-    mother nature is, and how
-    important is to fight for its
-    permanence and wellbeing.**
+    **Svenir will never let us forget how awesome humanity and mother 
+    nature are, and how important is to fight for its permanence and wellbeing.**
   image: "/assets/images/woman.png"
   img-desc: THE FIRST NFT SOUVENIR DAO
 -
-  intro: TAKE A LOOK TO OUR
+  intro: SVENIR is a web 3.0 <br> innovation that serves <br> our world
   title: Mission
   text: |
-    By following The Honorary BIBC Members adventures, you can collect good looking and happy NFTs.Think 
-    of SVRN as a new ecosystem with features from Wikipedia, OpenSea, Travel Advisor, Instagram, Airbnb, 
-    Bored Ape Yacht Club and Bitcoin that come together In the fundamental goal of creating knowledge 
-    spillovers that help saving humanity and mother nature."
+    Svenir allows people that seek wisdom to travel and collect NFTs. 
 
-    "With SVNR,  a game changer in the souvenir market,  you can travel the world, 
-    learn about history, awake your consciousness and meet your fellow animals and 
-    plants that are sharing this awesome planet with you. 
+    **The NFT packages that people collect celebrate life,  culture, 
+    art, food, innovations, night life, animals, plants, people and 
+    anything that is part of the soul of the places, their nature and their communities.** 
   image: "/assets/images/boy.png"  
 
 bibs:
-  title: BIBC.<br> <span>Honorary Members </span>
+  title: <span>INTRODUCING </span> BIBC Honorary Members 
+  subtitle: Who are the Honorary <br> members ?
   text: |
     The honorary members are the <span>five animated friends that will showcase 
     how awesome Mother Nature and Hummanity are</span> through the SVNR NFTs collections.
@@ -134,40 +126,44 @@ cards:
     loves adrenaline and sports.  She usually wears: sun glasses, 
     shorts, flip flops, funny hats and she is into the funniest gadgets.</span>     
 - 
-  title: BIBC <span> HONORARY MEMBERS.</span>
+  title: The honorary members  <br> live in the present
   text: |
-    A group of friends joined together by their love for 
-    culture, society, art, humanity and mother earth. 
+    Every character is aware that time does not exist. There is only 
+    a small and infinite present, and it is only in this present that our life occurs. 
 
-    join us in their adventures trought the entire 
-    world; while they explore the beauty of every 
-    city and every beach…  
+    We have the ability to see the city through different 
+    lenses as every character has a different personality, interest and profession
 
-    buy **SVENIR PACKAGES** and get acces 
-    to exclusive WEHOMIES adventures & NFTs. 
+faq:
 
-roadmap:
-  title: Svenir Dao Roadmap
-  description: |
-    Svenir is just getting started. 
-    <span> We will launch in the top 10 most crypto 
-    friendly cities in the world.</span> These cities 
-    deserve to be the first to showcase their local 
-    culture, biodiversity and innovation
-  description-mobile: Here you will find our Roadmap, click to now more.
-  link_desc: "#"
-  content: 
-  - Svenir NFT protocol smart contract - <span> DONE </span>
-  - Svenir Website - <span> DONE </span>
-  - Gather Chore development team - <span> DONE </span>
-  - Svenir White Paper- <span> DONE </span>
-  - Svenir token and DAO creation (<span>DONE</span>)
-  - Svenir marketing kick off - <span> DONE </span>
-  - Svenir Discord Community - <span> STARTED </span>
-  - First Svenir NFTs collection of NYC, San Francisco and Toronto - <span> STARTED </span>
-  - Svenir Web App - <span> COMING SOON </span>
-  - Svenir second investment round - <span> COMING SOON </span>
-  - Svenir launchpad - <span> COMING SOON </span>
-  - <span> Svenir official launch in NYC, San Francisco and Toronto (JUNE 2022)</span>
-  - Svenir's network of high profile influencers - <span> COMING SOON </span>
-  - <span> More developments and milestones of the roadmap will be updated along the way (YES!) </span>
+- quetion: What is the relationship between Svenir and Before It Breaks Club?
+  answer: |
+    Svenir is the technology that allows geolocated minting of NFTs. 
+
+    Before It Breaks Club is an NFT project that leverages the Svenir technology 
+    so people can only mint the NFTs when they are in the location.
+- quetion: Does Svenir and Before It Breaks Club have a roadmap?
+  answer: |
+    Knowledge and wisdom is not a destination, it is a direction. The direction is to launch in every city of the world.
+
+    This journey will take us to places and situations we might have not considered yet. The applications of the Svenir 
+    technology and the BIBC project will be always aligned with our mission and vision. History will be kind to us for we intend to write it.
+- quetion: How do I collect the NFTs from Before it Breaks Club?
+  answer: |
+    We launch collections per city and you use the Svenir Web App to purchase 
+    the package(s) that you want from the city you are in.
+
+    It is mandatory that you are in the location to be able to purchase the 
+    BIBC NFTs. You will know what city we will launch in advance so you can prepare yourself accordingly.
+- quetion: How do I know what city will come next in the collections?
+  answer: |
+    We will launch where our community wants us to launch. We have chosen New York City as the first one as 
+    it is the GOAT of all the cities. The next cities will depend on where our community wants us to be.
+- quetion: How do I purchase the NFTs ?
+  answer: |
+    You can pay with credit card or with MATIC in case you already have a wallet, and MATIC tokens on it.
+- quetion: Is there a token in the Svenir ecosystem?
+  answer: |
+    Yes. There is a token with multiple purposes inside the Svenir ecosystem. We will let you know when time is right about its relationship with the 
+    Before It Breaks Club collections and its utility in general for voting, products and services inside the development of the Svenir ecosystem.
+

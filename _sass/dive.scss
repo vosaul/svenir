@@ -1,13 +1,13 @@
 .page__dive{
-    background-image: url(/assets/images/background_origin.png);
+    background-image: url(/assets/images/bg__dive-page.png);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1000;
 
     .dive__wrapper{
         padding: 0;
-        @media (min-width: 768px) {
-            max-width: 1146px;
+        @media (min-width: 1440px) {
+            width: 70%;
             margin: 0 auto;
             padding: 20px 20px 0 20px;
         }
@@ -19,16 +19,27 @@
                 position: relative;
                 margin-bottom: 60px;
                 img{
-                    margin-top: 45px;
+                    margin-top: 85px;
                     width: 100%;
                     text-align: left;
 
+                }
+                &::before{
+                    content: "";
+                    position: absolute;
+                    background-image: url(/assets/images/header_desor.png);
+                    background-repeat: no-repeat;
+                    width: 7%;
+                    height: 15%;
+                    top: -4%;
+                    left: -13%; 
                 }
 
                 &::after{
                     content: "";
                     position: absolute;
                     background-image: url(/assets/images/Dive__h1.png);
+                    background-repeat: no-repeat;
                     background-size: 100%;
                     width: 592px;
                     height: 249px;
@@ -36,7 +47,7 @@
                     transform: translateX(-50%);
                     top: 25%;
                     @media (min-width: 768px) {
-                        top: 35%;
+                        top: 45%;
                     }
                 }
             }
@@ -126,24 +137,6 @@
                         box-shadow: 6px 4px 13px rgba(0, 0, 0, 0.5);
                         border-radius: 62px;
                     }
-                }
-            }
-                    
-            .dive__circle-mobile{
-                width: 100%;
-                height: 130%;
-                position: absolute;
-                top: 0;
-                z-index: 1;
-                @media (min-width: 425px) {
-                    height: 120%;
-                    
-                }
-                @media (min-width: 768px ) {
-                    display: none;
-                }
-                @media (min-width: 768px ) {
-                    display: none;
                 }
             }
         }
@@ -239,81 +232,136 @@
                     }
                 }
                 
-                .join__form{
-                    width: 88%;
-                    margin: 0 auto;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
+            .join__form{
+                width: 88%;
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                z-index: 100;
+                gap: 15px;
+                @media (min-width: 768px) {
+                    column-gap: 68px;
+                    width: 560px;
+                }
+                .email{
                     z-index: 100;
-                    gap: 15px;
+                    width: 168px;
+                    height: 26px;
+                    background: #030303;
+                    opacity: 0.6;
+                    box-shadow: 3px 0px 4px rgba(0, 0, 0, 0.5);
+                    border-radius: 12px;
+                    @media (min-width: 375px) {
+                        width: 186px;
+                    }
                     @media (min-width: 768px) {
-                        column-gap: 68px;
-                        width: 560px;
-                    }
-                    .email{
-                        z-index: 100;
-                        width: 168px;
-                        height: 26px;
-                        background: #030303;
-                        opacity: 0.6;
-                        box-shadow: 3px 0px 4px rgba(0, 0, 0, 0.5);
+                        background: #A1F6F8;
+                        height: 30px;
                         border-radius: 12px;
-                        @media (min-width: 375px) {
-                            width: 186px;
-                        }
-                        @media (min-width: 768px) {
-                            background: #A1F6F8;
-                            height: 30px;
-                            border-radius: 12px;
-                            width: 280px;
-                            
-                        }
-                        &::placeholder{
-                            padding-left: 20px;
-                            font-family: 'Montserrat';
-                            font-style: italic;
-                            font-weight: 300;
-                            line-height: 18px;
-                            letter-spacing: 0.3125px;
-                            font-size: 10px;
-                            color: white;
-                            @media (min-width: 768px){
-                                font-size: 15px;
-                                color: black;
-                            }
-                        }
+                        width: 280px;
+                        
                     }
-                    .form__btn #mc-embedded-subscribe{
-                        height: 26px;
-                        background: #000000;
-                        opacity: 0.6;
-                        box-shadow: 3px 0px 4px rgba(0, 0, 0, 0.5);
-                        border-radius: 12px;
-                        color: white;
-                        font-weight: 500;
-                        font-size: 7px;
-                        z-index: 100;
+                    &::placeholder{
+                        padding-left: 20px;
                         font-family: 'Montserrat';
-                        text-align: center;
-                        letter-spacing: 0.9px;
-                        padding: 5px 10px;
-                        text-transform: uppercase;
-                        cursor: pointer;
-                        @media (min-width: 768px) {
-                            height: 30px;
-                            background: #A1F6F8;
-                            font-weight: 600;
+                        font-style: italic;
+                        font-weight: 300;
+                        line-height: 18px;
+                        letter-spacing: 0.3125px;
+                        font-size: 10px;
+                        color: white;
+                        @media (min-width: 768px){
                             font-size: 15px;
-                            line-height: 18px;
                             color: black;
                         }
                     }
-                
-            }
-                 
+                }
+                .form__btn #mc-embedded-subscribe{
+                    height: 26px;
+                    background: #000000;
+                    opacity: 0.6;
+                    box-shadow: 3px 0px 4px rgba(0, 0, 0, 0.5);
+                    border-radius: 12px;
+                    color: white;
+                    font-weight: 500;
+                    font-size: 7px;
+                    z-index: 100;
+                    font-family: 'Montserrat';
+                    text-align: center;
+                    letter-spacing: 0.9px;
+                    padding: 5px 10px;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                    @media (min-width: 768px) {
+                        height: 30px;
+                        background: #A1F6F8;
+                        font-weight: 600;
+                        font-size: 15px;
+                        line-height: 18px;
+                        color: black;
+                    }
+                }
+            }      
         } 
     }
+    .dive__cta{
+        margin-top: 370px;
+        width: 95%;
+        margin-bottom: 550px;
+        &::before{
+            content: "";
+            position: absolute;
+            width: 83%;
+            height: 30%;
+            background: rgba(134, 134, 134, 0.45);
+            mix-blend-mode: color-dodge;
+            opacity: 0.8;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 10px;
+
+        }
+        .cta__row {
+            padding: 50px 0;
+            h2{
+                font-family: 'Kaifiya';
+                font-size: 100px;
+                line-height: 104px;
+                position: relative;
+                &::after{
+                    content: "Check out our available NFT PACKAGES, and become a BIBC member.";
+                    position: absolute;
+                    font-family: 'Montserrat';
+                    font-weight: 700;
+                    font-size: 10px;
+                    line-height: 12px;
+                    letter-spacing: 0.5px;
+                    width: 200px;
+                    top: 56%;
+                    left: 35%;
+
+                }
+            }
+        }
+        .cta__button {
+            display: block;
+            text-align: right;
+            margin-right: 133px;
+            margin-top: -98px;
+            img{
+                width: 169px;
+                height: 48px;
+                background: #000000;
+                opacity: 0.45;
+                border: 2px solid #000000;
+                box-sizing: border-box;
+                box-shadow: 6px 4px 13px rgba(0, 0, 0, 0.5);
+                border-radius: 62px;
+            }
+        }
+    }
+
     .dive__footer {
         margin-top: -190px;
 

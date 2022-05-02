@@ -1,3 +1,6 @@
+- alt: youtube 
+  image: /assets/images/youtube.png
+  link: https://www.figma.com/exit?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCiQl4GCqSqe3eAGKUOSXnag
 - alt: tik-tok 
   image: /assets/images/tik-tok.png
   link: https://www.tiktok.com/@svenir.io
@@ -9,16 +12,7 @@
   link: https://www.instagram.com/svenir.io/
 - alt: twitter 
   image: /assets/images/twitter_black.png
-  link: https://twitter.com/Svenir_io
-
-# https://twitter.com/Svenir_io
-# 
-# https://www.youtube.com/channel/UCiQl4GCqSqe3eAGKUOSXnag
-# 
-# https://www.reddit.com/user/Svenir_io
-# 
-# http://www.tiktok.com/@svenir.io
-#
-# https://de.quora.com/profile/Svenir
-# 
-# https://www.instagram.com/svenir.io/
+  link: https://www.figma.com/exit?url=https%3A%2F%2Ftwitter.com%2FSvenir_io
+- alt: quora
+  image: /assets/images/quora.png
+  link: https://www.figma.com/exit?url=https%3A%2F%2Fde.quora.com%2Fprofile%2FSvenir
