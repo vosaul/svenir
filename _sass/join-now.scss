@@ -2,36 +2,11 @@
     display: block;
     position: relative;
     padding: 20px 0 41px;
-    margin: 15px auto 57px;
-    max-width: 1200px;
-    @media (min-width: 580px) {
-        margin: 15px auto 155px;
-        &::after{
-            content: "";
-            position: absolute;
-            background-image: url(/assets/images/star.png);
-            background-size: 100%;
-            width: 100px;
-            height: 100px;
-            transform: translate(458px, 100px);
-            z-index: 10;
-            @media (min-width: 660px) {
-                transform: translate(553px, 100px);
-            }
-            @media (min-width: 1024px) {
-                transform: translate(900px, -68px);
-            }
-            @media (min-width: 1920px) {
-                transform: translate(960px, -68px);
-            }
-        }
-        
-    }
-    @media (min-width: 1024px) {
-        margin: 100px auto 155px;
-    }
-    .join__bg{
-        width: 88%;
+    margin: 100px auto 57px;
+    width: 100%;
+    &::before{
+        content: "";
+        width: 100%;
         height: 100%;
         background: rgba(134, 134, 134, 0.45);
         mix-blend-mode: color-dodge;
@@ -42,29 +17,56 @@
         left: 50%;
         transform: translateX(-50%);
         z-index: 5;
-        @media (min-width: 1440px) {
+        @media (min-width: 768px) {
+            width: 110%;
+        }
+        @media (min-width: 1440px ) {
+            width: 110%;
+        }
+        @media (min-width: 1600px) {
             top: 10%;
-            width: 118%;
+            width: 123%;
+
         }
-        @media (min-width: 1920px) {
-            width: 133%;
-        }
+    }
+    @media (min-width: 1024px) {
+        margin: 100px auto 155px;
+    }
+    @media (min-width: 1600px) {
+        width: 84%;
     }
     
     .join__text {
+        font-size: 1.9rem;
+        text-align: center;
         font-family: 'Kaifiya';
-        font-size: 35px;
-        line-height: 32px;
+        line-height: 0.95;
         letter-spacing: 1.1px;
-        width: 284px;
         margin: 0 auto;
         padding: 0 10px;
         @media (min-width: 375px) {
             font-size: 40px;
             padding: 0;
         }
-        @media (min-width: 580px) {
+        @media (min-width: 768px) {
+            font-size: 2rem;
+            width: 284px;
             width: 100%;
+            margin-bottom: 34px;
+            font-size: 58px;
+            line-height: 70px;
+        }
+        @media (min-width: 900px) {
+            font-size: 70px;
+            line-height: 80px;
+        }
+        @media (min-width: 1140px) {
+            font-size: 80px;
+            line-height: 90px;
+
+
+        }
+        @media (min-width: 1440px) {
             margin: 50px 0 34px;
             font-size: 100px;
             line-height: 110px;
@@ -77,23 +79,28 @@
         margin-top: 20px;
         @media (min-width: 1024px) {
             display: flex;
-            width: 1200px;
+            width: 100%;
+
+        }
+        @media (min-width: 1600px) {
+            width: 100%;
             justify-content: space-between;
         }
-        @media (min-width: 1920px) {
+        @media (min-width: 1700px) {
             width: 1267px;
+
         }
     }
     .join__btn{
         display: none;
         
-        @media (min-width: 580px) {
+        @media (min-width: 1600px) {
             display: flex;
             justify-content: center;
             position: relative;
             z-index: 100;
             cursor: pointer;
-            width: 616px;
+            width: 500px;
             height: 45px;
             background: #000000;
             border-radius: 30px;
@@ -115,22 +122,28 @@
                 height: 14px;
                 right: -20%;
                 top: 40%;
-                @media (min-width: 1920px) {
+                @media (min-width: 1440px) {
                     right: -25%;
                 }
             }
+
+        }
+        @media (min-width: 1700px) {
+            width: 616px;
+            height: 45px;
         }
     }
     .join__btn-mobile{
         display: block;
-        width: 270px;
-        height: 30px;
+        width: 230px;
+        height: 25px;
         margin: 46px auto 0;
         background: #000000;
         border-radius: 30px;
         position: relative;
         @media (min-width: 375px) {
             width: 290px;
+            height: 30px;
         }
         &>*{
             position: relative;
@@ -155,7 +168,30 @@
             transform: translateX(-50%);
 
         }
-        @media (min-width: 580px) {
+        @media (min-width: 900px) {
+            width: 616px;
+            height: 45px;
+            img{
+                width: 100%;
+                top: -18px;
+                position: relative;
+            }
+            &::before{
+                content: "OR LEAVE YOUR";
+                position: absolute;
+                font-family: 'Montserrat';
+                font-style: italic;
+                font-weight: 300;
+                font-size: 10px;
+                line-height: 12px;
+                letter-spacing: 0.3px;
+                width: 111px;
+                height: 14px;
+                left: 50%;
+                top: -31px;
+            }
+        }
+        @media (min-width: 1600px) {
             display: none;
         }
     }
@@ -190,7 +226,7 @@
             @media (min-width: 375px) {
                 width: 186px;
             }
-            @media (min-width: 580px) {
+            @media (min-width: 768px) {
                 background: #A1F6F8;
                 height: 30px;
                 border-radius: 12px;
@@ -206,7 +242,7 @@
                 letter-spacing: 0.3125px;
                 font-size: 10px;
                 color: white;
-                @media (min-width: 580px){
+                @media (min-width: 768px){
                     font-size: 15px;
                     color: black;
                 }
@@ -228,7 +264,7 @@
             padding: 5px 10px;
             text-transform: uppercase;
             cursor: pointer;
-            @media (min-width: 580px) {
+            @media (min-width: 768px) {
                 height: 30px;
                 background: #A1F6F8;
                 font-weight: 600;
