@@ -12,6 +12,7 @@ descr: Join the <b>BEFORE IT BREAKS Club</b> in unique <br>and unforgetable adve
 {%- assign d = site.data.dive -%}
 
 <div class="page__dive">
+  {%- include header.html -%}
   <div class="dive__wrapper">
 
     <div class="menu">
@@ -122,21 +123,27 @@ descr: Join the <b>BEFORE IT BREAKS Club</b> in unique <br>and unforgetable adve
       </div>
     </div>
     
-    <div class="roadmap__container">
-      <div class="roadmap__grid">
-        <div class="roadmap__header">
-          <h2 class="roadmap__title">Svenir FAQS</h2>
-          <div class="roadmap__description-mobile">
-            <a href="">Here you will find our Roadmap, click to now more.</a>
+    <div class="faq__container">
+      <div class="faq__row">
+        <div class="faq_header">
+          <h2 class="faq__title">Svenir FAQS</h2>
+          <div class="faq__description-mobile">
+            <p>Here you will find our Roadmap, click to now more.</p>
           </div>
         </div>
-      </div>
-      <div class="roadmap__catalog">
-        <ul class="roadmap__guetions">
-        {%- for c in d.roadmap.content -%}
-            <li class="l-{{forloop.index}}">{{c}}</li>
-            {%- endfor -%}
-          </ul>
+  
+        <div class="faq__catalog">
+          {%- for s in d.faq -%}
+          <div class="faq__content">
+            <div class="faq__quetion">
+              {{s.quetion | markdownify }}
+            </div>
+            <div class="faq__answer">
+              {{s.answer | markdownify }}
+            </div>
+          </div>
+          {%- endfor -%}
+        </div>
       </div>
     </div>
 
@@ -145,7 +152,10 @@ descr: Join the <b>BEFORE IT BREAKS Club</b> in unique <br>and unforgetable adve
         <h2>
           THE FIRST NFT SOUVENIR DAO ON EARTH 
         </h2>
+        <div class="cta__desc">
+          <p>Check out our available NFT PACKAGES, and become a BIBC member.</p>
         <a href="{{d.menu_cta.link}}" class="cta__button"><img src="{{d.menu_cta.image}}" alt="btn"></a>
+        </div>
       </div>
     </div>
   </div>
