@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     margin: 0 auto;
-    margin-top: 55%;
+    margin-top: 250px;
     &::before {
         content:"";
         position: absolute;
@@ -552,7 +552,7 @@
         }
         .card-back {
             width: 255px; 
-            height: 320px;
+            //height: 320px;
             padding: 30px 15px 100px 57px;
             background: white;
             box-shadow: 6px 8px 20px rgba(0, 0, 0, 0.5);
@@ -576,17 +576,17 @@
 
             @media (min-width: 425px) {
                 width: 300px;
-                height: 220px;    
+                //height: 220px;    
             }
             @media (min-width: 1024px) {
                 width: 410px;
-                height: 328px;
+                //height: 328px;
 
             }
 
             @media (min-width: 1260px) {
                 width: 460px;
-                height: 328px;
+                //height: 328px;
 
             }
             
