@@ -55,13 +55,10 @@ header {
     }
 
     @media (min-width: 1920px) {
-        &::after {
-            height: 118px;
-        }
     }
 
-    .header__logo {
-        padding: 10px;
+    .header__logo {  
+        padding: 0 30px;
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 3fr;
@@ -69,6 +66,7 @@ header {
         align-items: center;
         background-color: black;
         @media (min-width: 768px) {
+            padding: 10px;
             grid-template-columns: 1fr 4fr;
             gap: 30px;
             img {
@@ -97,10 +95,13 @@ header {
 
         .header__desc {
             font-family: "DelaGothicOne";
-            color: white;
-            font-size: 1rem;
+            color: white;     
+            font-size: 0.8rem;
             margin-left: 20px;
             line-height: 1.35;
+            @media (min-width: 768px) {
+                font-size: 1rem;
+            }
             @media (min-width: 1440px){
                 margin-left: 51px;
                 font-size: 20px;}

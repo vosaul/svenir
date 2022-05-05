@@ -206,27 +206,28 @@
             position: relative;
             z-index: 20;
         }
-        &::after{
-            content: "";
-            position: absolute;
-            background-repeat: no-repeat;
-            background-size: 100%;
-            background-image: url(/assets//images//molecule.png);
-            width: 374px;
-            height: 381px;
-            z-index: 1;
-            top: 10%;
-            left: -5%;
-            @media (min-width: 1024px) {
-                width: 519px;
-                height: 548px;
-            }
-        }
+
         @media (min-width:768px) {
             display: grid;
             grid-template: 340px 340px 340px/320px 320px;
             column-gap: 5px;
             row-gap: 24px;
+            &::after{
+                content: "";
+                position: absolute;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-image: url(/assets/images/molecule.png);
+                width: 374px;
+                height: 381px;
+                z-index: 1;
+                top: 10%;
+                left: -5%;
+                @media (min-width: 1024px) {
+                    width: 519px;
+                    height: 548px;
+                }
+            }
 
         }
         @media (min-width: 1024px) {
