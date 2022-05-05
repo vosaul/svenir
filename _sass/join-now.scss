@@ -2,7 +2,7 @@
     display: block;
     position: relative;
     padding: 20px 0 41px;
-    margin: 100px auto 57px;
+    margin: 0 auto 57px;
     width: 100%;
     &::before{
         content: "";
@@ -18,10 +18,11 @@
         transform: translateX(-50%);
         z-index: 5;
         @media (min-width: 768px) {
-            width: 110%;
+            width: 100%;
+            margin: 100px auto 57px;
         }
         @media (min-width: 1440px ) {
-            width: 110%;
+            width: 100%;
         }
         @media (min-width: 1600px) {
             top: 10%;

@@ -65,20 +65,22 @@ bibs:
 
 cards:
 - name: BIG ZEUS 
-  image: /assets/images/coming_soon.jpg
+  image: /assets/images/coming-soon1.png
   # image: "/assets/images/cocky_little_boy.png"
   title: BIG ZEUS 
   text: | 
-    He showcases Entrepreneurship, Innovation, Finance, 
-    Economics, Luxury. He is looking after how the world 
-    will mobilise resources towards innovations that will make 
-    the world a more sustainable place.
+    He showcases Entrepreneurship, Innovation, Finance,
+     Economics and Luxury. He is looking after how the 
+     world will mobilise resources towards innovations 
+     that will make the world a more sustainable and happier 
+     place.
 
-    <span> He is an entrepreneur who made a BIG BIG fortune 
-    with one of his start ups. He grew up in a middle 
-    class family besides being the famous God of the sky.</span> 
+    <span> HHe is an entrepreneur who made a BIG BIG fortune 
+    with one of his start ups. He grew up in a middle class 
+    family besides being the famous God of the sky. </span> 
+    
 - name: NICE GUY
-  image: /assets/images/coming_soon.jpg
+  image: /assets/images/coming-soon1.png
   # image: "/assets/images/tiger.png"
   title: NICE GUY
   text: | 
@@ -86,45 +88,48 @@ cards:
     vibes. He is in the pursue of understanding the emotions 
     of the people and animals of the places he goes to.
 
-    <span> Noble polar bear with rastas.  He loves nature, adventure, 
-    and urban music. Really spiritual and moral guy. Also, a 
-    real Don Juan. He is Zeus best friend and also good friends 
-    with Cleo. </span>
+    <span> Noble polar bear with rastas.  He loves nature, 
+    adventure, and urban music. Really spiritual and moral 
+    guy. Also, a real Don Juan. He is Zeus best friend and 
+    also good friends with Cleo. </span>
 - name: CLEO 
-  image: /assets/images/coming_soon.jpg
+  image: /assets/images/coming-soon1.png
   # image: "/assets/images/girl.png"
   title: CLEO
   text: | 
-    She showcases culture, art, social needs and she is also 
-    looking everywhere to what is it that people are doing 
-    to stop human ageing.
+    She showcases culture, art, social needs 
+    and she is also looking everywhere to what 
+    is it that people are doing to stop human 
+    pain and suffering.
 
     <span> Besides being the famous Egyptian Queen 
-    and the lover of Julius Caesar,  she is now a 
-    big empowered girl. Concerned but not insecure about her beauty. </span>
+    and the lover of Julius Caesar,  she is an educated 
+    and well travelled woman with a dope sense of humour. </span>
 - name: TEKNOPUSH 
-  image: /assets/images/coming_soon.jpg
+  image: /assets/images/coming-soon1.png
   # image: "/assets/images/boy_with_sunglasses.png"
   title: <span>TEKNO</span> <br>PUSH 
   text: |
-    He showcases night life and entertainment of the 
-    places. He is looking to understand how music and fashion 
-    reflect the culture and the history of a society and how 
-    that helps people to be more motivated and happy in life.
+    He showcases night life and entertainment of 
+    the places. He is looking to understand how music 
+    and fashion reflect the culture and the history of 
+    a society and how that helps people to be more motivated 
+    and happy in life.
 
-    <span>There are no rules for him: just to live under his own terms. </span>
+    <span>There are no rules for him: just to live under his own terms.  </span>
 - name: CHICA LA TYRANA 
-  image: /assets/images/coming_soon.jpg
+  image: /assets/images/coming-soon1.png
   # image: "/assets/images/dinosaur.png"
   title: <span>CHICA LA </span> <br> TYRANA
   text: |
-    She showcases the local food, the local curiosity, the extreme 
-    sports and the adventure of the local places. As well as the 
-    tech industry and digitisation opportunities wherever you go.
+    She showcases the local food, the local curiosity, 
+    the extreme sports and the adventure of the local 
+    places. As well as the tech industry and digitisation 
+    opportunities wherever you go.
 
-    <span>She is a woman T-Rex. She is very adventurous and gentle. She 
-    loves adrenaline and sports.  She usually wears: sun glasses, 
-    shorts, flip flops, funny hats and she is into the funniest gadgets.</span>     
+    <span>She is a woman T-Rex. She is very adventurous 
+    and gentle. She loves adrenaline and sports. She usually wears: sun glasses, shorts, flip flops, 
+    funny hats and she is into the funniest gadgets. </span>     
 - 
   title: The honorary members  <br> live in the present
   text: |

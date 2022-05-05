@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     margin: 0 auto;
-    margin-top: 250px;
+    margin-top: 300px;
     &::before {
         content:"";
         position: absolute;
@@ -32,20 +32,14 @@
 
     }
 
-    @media (min-width: 375px) {
-
-    }
-    @media (min-width: 425px) {
-
-    }
     @media (min-width: 500px) {
-
+        margin-top: 350px;
     }
-    @media (min-width: 650px) {
-
+    @media (min-width: 1024px) {
+        margin-top: 500px;
     }
-    @media (min-width: 768px) {
-    
+    @media (min-width: 1200px) {
+     margin-top: 600px;
     }
     .card_bib {
         display: block;
@@ -66,11 +60,19 @@
             content: "";
             background-image: url(/assets/images/grey__cube.png);
             background-size: 100%;
-            width: 67px;
-            height: 67px;
+            width: 50px;
+            height: 50px;
             position: absolute;
-            top: -13%;
+            top: -5%;
             left: 30%;
+            @media (min-width: 768px) {
+                width: 67px;
+                height: 67px;
+                top: -7%;
+            }
+            @media (min-width: 1024px) {
+                top: -13%;
+            }
 
         }
         h2{
@@ -146,10 +148,14 @@
                     content: "";
                     position: absolute;
                     background: black;
-                    width: 81px;
-                    height: 38px;
+                    width: 51px;
+                    height: 28px;
                     top: 20px;
                     left: 0;
+                    @media (min-width: 1024px) {
+                        width: 38px;
+                        height: 81px;
+                    }
                 }
                 .subtitle{
                     font-family: 'Montserrat';
@@ -553,8 +559,8 @@
         .card-back {
             width: 255px; 
             //height: 320px;
-            padding: 30px 15px 100px 57px;
             background: white;
+            padding: 30px 15px 30px 57px;
             box-shadow: 6px 8px 20px rgba(0, 0, 0, 0.5);
             color: black;
             margin: 0 auto;
@@ -564,10 +570,14 @@
                 content: "";
                 position: absolute;
                 background: black;
-                width: 38px;
-                height: 81px;
-                left: 35px;
+                width: 28px;
+                height: 51px;
+                left: 28px;
                 top: 0;
+                @media (min-width: 1024px) {
+                    width: 38px;
+                    height: 81px;
+                }
             }
             &>*{
                 position: relative;
@@ -578,8 +588,11 @@
                 width: 300px;
                 //height: 220px;    
             }
+            @media (min-width: 768px) {
+            }
             @media (min-width: 1024px) {
                 width: 410px;
+                padding: 30px 15px 100px 57px;
                 //height: 328px;
 
             }
