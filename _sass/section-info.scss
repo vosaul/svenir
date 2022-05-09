@@ -709,6 +709,9 @@
             }
         }
         &.img-3 {
+            img {
+                border-radius: 100px;
+            }
             & > * {
                 position: relative;
                 z-index: 2;
