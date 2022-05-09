@@ -7,16 +7,18 @@ header {
     display: grid;
     gap: 30px;
     align-items: center;
-    width: 90%;
     margin: 0 auto;
+    max-width: 80%;
+    margin-bottom: 50px;
     @media (min-width: 768px) {
         grid-template-columns: 1fr 1fr;
         gap: 30px;
+        margin-bottom: 118px;
         &:after {
             content: "";
             position: absolute;
-            width: 88%;
-            height: 110px;
+            width: 78%;
+            height: 80px;
             background: rgba(255, 255, 255, 0.6);
             mix-blend-mode: color-dodge;
             border-radius: 0 10px 10px 0;
@@ -26,27 +28,31 @@ header {
         }
     }
     @media (min-width: 1024px) {
-       grid-template-columns: 540px 1fr;
+       grid-template-columns: 440px 1fr;
        justify-items: end;
-       margin-bottom: 118px;
+       &:after {
+            height: 110px;
+        }
     }
-        img {
-         width: 100%;
+
+    img {
+        width: 100%;
     }
     & > * {
         position: relative;
         z-index: 10;
     }
-
-     @media (min-width: 1440px) {
-        grid-template-columns: 626px 1fr;
-        &:after {
-            width: 88%;
-            height: 110px;
-        }
+    @media (min-width: 1200px) {
+        grid-template-columns: 540px 1fr;
     }
 
-    @media (min-width: 1920px) {
+
+     @media (min-width: 1660px) {
+        grid-template-columns: 626px 1fr;
+        max-width: 1596px;
+        &:after {
+            width: 1566px;
+        }
     }
 
     .header__logo {  
@@ -57,13 +63,22 @@ header {
         justify-content: end;
         align-items: center;
         background-color: black;
+        img {
+            width: 55px;
+            justify-self: end;
+        }
         @media (min-width: 768px) {
-            padding: 0 10px 0 90px;
+            padding: 0 10px 0 25px;
             grid-template-columns: 1fr 4fr;
             gap: 30px;
-            img {
+            img{
                 width: 80px;
-                justify-self: end;
+            }
+        }
+        @media (min-width: 1024px) {
+            padding: 0 10px 0 90px;
+            img{
+                width: 110px;
             }
         }
 
@@ -81,9 +96,6 @@ header {
             width: 100%;
         }
 
-        img {
-            width: 110px;
-        }
 
         .header__desc {
             font-family: "DelaGothicOne";
