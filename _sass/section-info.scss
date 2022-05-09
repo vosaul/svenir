@@ -94,11 +94,6 @@
         @media (min-width: 768px) {
             margin-bottom: 200px;
             grid-template-columns: 65% 35%;
-        }
-        @media (min-width: 1024px) {
-            margin-bottom: 350px;
-        }
-        @media (min-width: 768px) {
             &::before {
                 content: "";
                 background-image: url(/assets/images/bg_decoration.png);
@@ -117,6 +112,12 @@
                     left: 5%;
                 }
             }
+        }
+        @media (min-width: 1024px) {
+            margin-bottom: 350px;
+        }
+        @media (min-width: 1600px) {
+            margin-bottom: 500px;
         }
     }
 

@@ -21,11 +21,11 @@
             width: 100%;
         }
         @media (min-width: 1440px ) {
-            width: 125%;
+            width: 105%;
         }
         @media (min-width: 1600px) {
             top: 10%;
-            width: 142%;
+            width: 110%;
 
         }
     }
@@ -33,10 +33,9 @@
         margin: 100px auto 155px;
     }
     @media (min-width: 1440px) {
-        width: 80%;
+        width: 100%;
     }
     @media (min-width: 1600px) {
-        width: 70%;
     }
     
     .join__text {
@@ -68,11 +67,13 @@
             line-height: 90px;
 
 
+
         }
-        @media (min-width: 1440px) {
+        @media (min-width: 1600px) {
             margin: 50px 0 34px;
             font-size: 100px;
             line-height: 110px;
+            text-align: left;
         }
     }
     .join__form_outer{
@@ -131,7 +132,7 @@
             }
 
         }
-        @media (min-width: 1700px) {
+        @media (min-width: 1440px) {
             width: 616px;
             height: 45px;
         }
