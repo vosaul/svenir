@@ -40,7 +40,7 @@ sections:
 
     **Svenir will never let us forget how awesome humanity and mother 
     nature are, and how important is to fight for its permanence and wellbeing.**
-  image: "/assets/images/woman.png"
+  image: "/assets/images/Zeuspose2.png"
   img-desc: THE FIRST NFT SOUVENIR DAO
 -
   intro: SVENIR is a web 3.0 <br> innovation that serves <br> our world
@@ -51,7 +51,7 @@ sections:
     **The NFT packages that people collect celebrate life,  culture, 
     art, food, innovations, night life, animals, plants, people and 
     anything that is part of the soul of the places, their nature and their communities.** 
-  image: "/assets/images/boy.png"  
+  image: "/assets/images/Zeuspose.png"  
 
 bibs:
   title: <span>INTRODUCING </span> BIBC Honorary Members 
@@ -65,7 +65,7 @@ bibs:
 
 cards:
 - name: BIG ZEUS 
-  image: /assets/images/coming-soon1.png
+  image: /assets/images/man.png
   # image: "/assets/images/cocky_little_boy.png"
   title: BIG ZEUS 
   text: | 
