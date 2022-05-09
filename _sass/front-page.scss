@@ -5,7 +5,13 @@
     background-size: cover;
     margin: 0 auto;
     max-width: 1920px;
-}
+    padding-top: 40px;
+    max-width: 1596px;
+        @media (min-width: 580px) {
+            margin: 0 auto;
+            padding: 110px 0 118px;
+        }
+    }
 
 .frontpage__wrapper {
     padding: 0;
