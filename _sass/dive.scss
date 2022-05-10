@@ -3,16 +3,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1000;
-    padding-top: 110px;
+    padding-top: 50px;
+    @media (min-width: 768px) {
+        padding-top: 110px;   
+    }
 
     .dive__wrapper{
         padding: 0;
         width: 90%;
         margin: 0 auto;
         @media (min-width: 1600px) {
-            width: 80%;
-
-            padding: 20px 20px 0 20px;
+            width: 1596px;
         }
         
         .dive__svenir-img{
@@ -48,7 +49,7 @@
                     height: 249px;
                     left: 50%;
                     transform: translateX(-50%);
-                    top: 25%;
+                    top: 40%;
                     @media (min-width: 768px) {
                         top: 45%;
                     }
@@ -59,11 +60,6 @@
         .dive__row-mobile {   
             display: block;
             position: relative;
-            padding-top: 130px;
-            
-            @media (min-width: 425px) {
-                padding-top: 160px;
-            }
             @media (min-width: 580px) {
                 display: none;
             }
@@ -86,34 +82,13 @@
                     height: 100%;
                     left: 50%;
                     transform: translatex(-50%);
-                    top: 43%;
+                    top: 20%;
                     z-index: 10;
-                }
-                &::before{
-                    content: "";
-                    position: absolute;
-                    width: 89%;
-                    height: 90%;
-                    background: rgba(134, 134, 134, 0.45);
-                    mix-blend-mode: color-dodge;
-                    opacity: 0.8;
-                    border-radius: 10px;
-                    top: 18%;
-                    left: 50%;
-                    transform: translateX(-50%);
                 }
                 .title-image{
                     width: 100%;
                     text-align: center;
                     mix-blend-mode: darken;
-                }
-                h2{
-                    font-family: 'Dela Gothic One';
-                    font-weight: 400;
-                    font-size: 15px;
-                    line-height: 13px;
-                    letter-spacing: 1.1px;
-                    
                 }
                 p{
                    // width: 252px;
