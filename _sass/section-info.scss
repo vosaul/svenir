@@ -704,8 +704,9 @@
             }
             @media (min-width: 1024px) {
                 img {
-                    width: 110%;
+                    //width: 110%;
                     margin-left: -85px;
+                    border-radius: 20px;
                 }
             }
         }

@@ -27,8 +27,6 @@ sections:
   cta:
     label: READ WHITE PAPER 
     link: "https://cesar-1.gitbook.io/svenir/"
- # text-mobile: |
- #   Travel with The BIB Members, collect Svenir NFTs, and with $SVNR join the global innovation souvenir revolution club.
   image: "/assets/images/svenir_black.png"
 -
   intro: GET TO KNOW OUR UNIQUE <br> AND HUMAN VISION
@@ -40,7 +38,7 @@ sections:
 
     **Svenir will never let us forget how awesome humanity and mother 
     nature are, and how important is to fight for its permanence and wellbeing.**
-  image: "/assets/images/ZeusPose_Dos_Baja_1.png"
+  image: "/assets/images/CleoUno_Baja_vertical_1.png"
   img-desc: THE FIRST NFT SOUVENIR DAO
 -
   intro: SVENIR is a web 3.0 <br> innovation that serves <br> our world
@@ -80,8 +78,7 @@ cards:
     family besides being the famous God of the sky. </span> 
     
 - name: NICE GUY
-  image: /assets/images/coming-soon1.png
-  # image: "/assets/images/tiger.png"
+  image: /assets/images/TARJETA_WEB_1.png
   title: NICE GUY
   text: | 
     He showcases nature, music and the local espiritual 
@@ -93,8 +90,7 @@ cards:
     guy. Also, a real Don Juan. He is Zeus best friend and 
     also good friends with Cleo. </span>
 - name: CLEO 
-  image: /assets/images/coming-soon1.png
-  # image: "/assets/images/girl.png"
+  image: /assets/images/TARJETAWEBTEKNOPUSH_1.png
   title: CLEO
   text: | 
     She showcases culture, art, social needs 
@@ -106,8 +102,7 @@ cards:
     and the lover of Julius Caesar,  she is an educated 
     and well travelled woman with a dope sense of humour. </span>
 - name: TEKNOPUSH 
-  image: /assets/images/coming-soon1.png
-  # image: "/assets/images/boy_with_sunglasses.png"
+  image: /assets/images/TARJETAWEBNG_1.png
   title: <span>TEKNO</span> <br>PUSH 
   text: |
     He showcases night life and entertainment of 
@@ -118,8 +113,7 @@ cards:
 
     <span>There are no rules for him: just to live under his own terms.  </span>
 - name: CHICA LA TYRANA 
-  image: /assets/images/coming-soon1.png
-  # image: "/assets/images/dinosaur.png"
+  image: /assets/images/TYRRANNAWEB 1_png
   title: <span>CHICA LA </span> <br> TYRANA
   text: |
     She showcases the local food, the local curiosity, 
